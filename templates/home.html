@@ -3,11 +3,42 @@
 <html>
 <head>
     <title>Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to the Home Page</h1>
+    <h1>Welcome to the VNW Project Database</h1>
     <p>This is the homepage of the project.</p>
     <img src="{% static 'images/my_photo.jpg' %}" alt="My Photo">
-    <a href="{% url 'person_list' %}">View People</a>
+    <div>
+        <a href="{% url 'add_person' %}" class="button">Add Person</a>
+        <a href="{% url 'admin:index' %}" class="button">Admin Page</a>
+        <a href="http://vietnamwatch.net" class="button">Go to Project Website</a>
+    </div>
 </body>
 </html>
