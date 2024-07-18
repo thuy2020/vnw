@@ -5,10 +5,6 @@ import dj_database_url
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
-
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = "django-insecure-l^*om3e76$p$#1m=!=$!bf1b0r_3v)xc)#@!y9zg_+%p^%66wy"
 
@@ -16,7 +12,7 @@ SECRET_KEY = "django-insecure-l^*om3e76$p$#1m=!=$!bf1b0r_3v)xc)#@!y9zg_+%p^%66wy
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['vnw-24b9e0f3e38e.herokuapp.com']
+ALLOWED_HOSTS = ['vietnamwatch-2d7dc91a6fdb.herokuapp.com']
 
 #ALLOWED_HOSTS = []
 # Application definition
@@ -64,9 +60,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "vnw.wsgi.application"
 
-
-# Database
-# https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
     'default': dj_database_url.config(default=os.environ.get('DATABASE_URL'))
