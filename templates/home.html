@@ -1,0 +1,13 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>Welcome to the Home Page</h1>
+    <p>This is the homepage of the project.</p>
+    <img src="{% static 'images/my_photo.jpg' %}" alt="My Photo">
+    <a href="{% url 'person_list' %}">View People</a>
+</body>
+</html>
