@@ -15,10 +15,12 @@ SECRET_KEY = "django-insecure-l^*om3e76$p$#1m=!=$!bf1b0r_3v)xc)#@!y9zg_+%p^%66wy
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+
 ALLOWED_HOSTS = ['vnw-24b9e0f3e38e.herokuapp.com']
 
-
+#ALLOWED_HOSTS = []
 # Application definition
+
 
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -100,8 +102,6 @@ TIME_ZONE = "UTC"
 USE_I18N = True
 
 USE_TZ = True
-
-
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = "/static/"
