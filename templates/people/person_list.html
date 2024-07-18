@@ -1,16 +1,15 @@
-<!-- vnw/templates/people/person_list.html -->
 <!DOCTYPE html>
 <html>
 <head>
     <title>People List</title>
 </head>
 <body>
-    <h1>List of People</h1>
+    <h1>People List</h1>
     <ul>
         {% for person in persons %}
-            <li>{{ person.name }}</li>
+            <li>{{ person.name }} - {{ person.year_of_birth }} - {{ person.hometown }} - {{ person.current_workplace }} - {{ person.current_workposition }}</li>
         {% endfor %}
     </ul>
-    <a href="{% url 'home' %}">Home</a>
+    <a href="{% url 'add_person' %}">Add Person</a>
 </body>
 </html>
