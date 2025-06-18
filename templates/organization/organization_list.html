@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+  <h1>Organization Units</h1>
+  <a href="{% url 'add_organization_unit' %}">Add New Unit</a>
+  <ul>
+    {% for unit in units %}
+      <li>
+        {{ unit.name }} ({{ unit.type }})
+        {% if unit.parent %} - Parent: {{ unit.parent.name }} {% endif %}
+      </li>
+    {% empty %}
+      <li>No units available.</li>
+    {% endfor %}
+  </ul>
+{% endblock %}

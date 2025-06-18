@@ -7,7 +7,22 @@
     <h1>People List</h1>
     <ul>
         {% for person in persons %}
-            <li>{{ person.name }} - {{ person.year_of_birth }} - {{ person.hometown }} - {{ person.current_workplace }} - {{ person.current_workposition }}</li>
+            <li>
+                {{ person.name }} - 
+                {{ person.year_of_birth }} - 
+                {% if person.year_of_death %}{{ person.year_of_death }} - {% endif %}
+                {{ person.ethnicity }} - 
+                {{ person.date_entered_party }} - 
+                {{ person.date_entered_party_official }} - 
+                {{ person.expertise }} - 
+                {{ person.degree_education }} - 
+                {{ person.political_theory }} - 
+                {{ person.foreign_language }} - 
+                {{ person.position_held }} - 
+                {{ person.hometown }} - 
+                {{ person.current_workplace }} - 
+                {{ person.current_workposition }}
+            </li>
         {% endfor %}
     </ul>
     <a href="{% url 'add_person' %}">Add Person</a>

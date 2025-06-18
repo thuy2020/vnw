@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scraped Data</title>
+</head>
+<body>
+    <h1>Scraped Data</h1>
+    <ul>
+        {% for data in scraped_data %}
+            <li>
+                <strong>Person Name:</strong> {{ data.name }}<br>
+                <strong>URL:</strong> <a href="{{ data.url }}" target="_blank">{{ data.url }}</a><br>
+                <strong>Details:</strong> {{ data.details }}
+            </li>
+            <hr>
+        {% endfor %}
+    </ul>
+</body>
+</html>

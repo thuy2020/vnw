@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+  <h1>Add Organization Unit</h1>
+
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+
+    <p><small>Leave "Parent" blank to create a Level 1 (top-level) organization.</small></p>
+    <button type="submit">Save</button>
+  </form>
+
+  <a href="{% url 'organization_list' %}">Back to list</a>
+{% endblock %}
