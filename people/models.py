@@ -9,8 +9,12 @@ class Cabinet(models.Model):
     def __str__(self):
         return self.name
 
+    class Meta:
+        verbose_name = "Cabinet"
+        verbose_name_plural = "Cabinets"
+
 class Person(BaseEntity):
-    CUSTOM_ID_PREFIX = "IND"
+    CUSTOM_ID_PREFIX = "PER"
     name = models.CharField(max_length=200)
     hometown = models.CharField(max_length=200, blank=True, null=True)
     date_of_birth = models.CharField(max_length=20, blank=True, null=True)
@@ -41,6 +45,8 @@ class Person(BaseEntity):
     #ensure unique combination of these
     class Meta:
         unique_together = ("name", "hometown", "date_of_birth")
+        verbose_name = "Person"
+        verbose_name_plural = "People"
 
 
     def __str__(self):
@@ -48,7 +54,7 @@ class Person(BaseEntity):
 
     def save(self, *args, **kwargs):
         if not self.custom_id:
-            self.custom_id = self.generate_custom_id("IND")
+            self.custom_id = self.generate_custom_id("PER")
         super().save(*args, **kwargs)
 
 class PersonPosition(models.Model):
@@ -59,3 +65,7 @@ class PersonPosition(models.Model):
 
     def __str__(self):
         return f"{self.person.name} — {self.title} ({self.start or '...'} to {self.end or '...'} )"
+
+    class Meta:
+        verbose_name = "Person Position"
+        verbose_name_plural = "Person Positions"

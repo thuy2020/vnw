@@ -5,7 +5,7 @@ from people import views as people_views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('people/', include('people.urls')),
-    path('organization/', include('organization.urls')),
+    path('organizations/', include('organizations.urls')),
     path('scraper/', include('scraper.urls')),
     path('', people_views.home, name='home'),  # Home page view
 ]

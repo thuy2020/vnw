@@ -15,9 +15,10 @@ class PersonPositionInline(admin.TabularInline):
 @admin.register(Person)
 class PersonAdmin(admin.ModelAdmin):
     exclude = ('custom_id',)
-    list_display = ('custom_id', "name", "hometown", "date_of_birth", "date_of_death",
+    list_display = ("custom_id", "name", "hometown", "date_of_birth", "date_of_death",
                     "position")
     search_fields = (
+        "custom_id",
         "name",
         "hometown",
         "position",
