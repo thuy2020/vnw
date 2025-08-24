@@ -8,4 +8,4 @@ class PersonForm(forms.ModelForm):
                   'ethnicity', 'education', 'hometown',
                   'position', 'foreign_language', 'political_theory',
                   'date_entered_party', 'date_entered_party_official',
-                  'cabinet', 'cabinet_url', 'resume_url']
+                  'resume_url']

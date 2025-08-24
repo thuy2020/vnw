@@ -5,7 +5,7 @@ from .models import OrganizationUnit
 class OrganizationUnitForm(forms.ModelForm):
     class Meta:
         model = OrganizationUnit
-        fields = '__all__'
+        exclude = ('custom_id',)
 
     def __init__(self, *args, **kwargs):
         super(OrganizationUnitForm, self).__init__(*args, **kwargs)

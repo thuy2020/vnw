@@ -1,0 +1,6 @@
+<h1>Cabinets</h1>
+<ul>
+  {% for cabinet in cabinets %}
+    <li><a href="{% url 'cabinet_detail' cabinet.id %}">{{ cabinet.name }}</a></li>
+  {% endfor %}
+</ul>

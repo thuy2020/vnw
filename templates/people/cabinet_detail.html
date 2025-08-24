@@ -1,0 +1,11 @@
+<h2>Members of Cabinet: {{ cabinet.name }}</h2>
+
+{% if members %}
+  <ul>
+    {% for person in members %}
+      <li><a href="{% url 'person_detail' person.id %}">{{ person.name }}</a></li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>No members found in this cabinet.</p>
+{% endif %}

@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     "people",
     "scraper",
     "organization",
+    "core",
 ]
 
 MIDDLEWARE = [

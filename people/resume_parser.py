@@ -1,4 +1,5 @@
 import re
+from django.db import models
 
 def parse_resume_text(text):
     if not text or not isinstance(text, str):
@@ -34,7 +35,7 @@ def parse_resume_text(text):
             break
         positions.append(line)
 
-    data["positions"] = positions[:10]
+    data["positions"] = positions
 
     # -----------------------------
     # ✅ Extract other fields
@@ -51,9 +52,18 @@ def parse_resume_text(text):
     if hometown_match:
         data['hometown'] = hometown_match.group(1).strip()
 
-    data['education'] = extract(r"(Chuyên môn, nghiệp vụ|Trình độ chuyên môn|Học vị)\s*[:\-]?\s*(.+)")
-    data['foreign_language'] = extract(r"Ngoại\s*ngữ\s*[:\-]?\s*(.+)") or extract(r"Ngôn\s*ngữ\s*[:\-]?\s*(.+)")
-    data['political_theory'] = extract(r"Lý\s*luận\s*chính\s*trị\s*[:\-]?\s*(.+)")
+    # Extract only education title (e.g., Tiến sỹ, Cử nhân, etc.)
+    education_match = re.search(r"(Giáo sư|Phó Giáo sư|Tiến sỹ|Thạc sỹ|Cử nhân)", text, re.IGNORECASE)
+    if education_match:
+        data['education'] = education_match.group(1).strip().title()
+
+    # Attempt to extract school name separately (if exists in resume text)
+    school_match = re.search(r"(?:tại|ở)\s+(Trường\s+[^.,;]+)", text, re.IGNORECASE)
+    if school_match:
+        data['school_name'] = school_match.group(1).strip()
+
+    data['foreign_language'] = extract(r"(?:Ngoại\s*ngữ|Ngôn\s*ngữ)\s*[:\-]?\s*([^\n\-–\.;]+)")
+    data['political_theory'] = extract(r"Lý\s*luận\s*chính\s*trị\s*[:\-]?\s*([^\n\-–\.;]+)")
     data['date_entered_party'] = extract(r"Ngày\s*vào\s*Đảng\s*[:\-]?\s*([\d/]+)")
     data['date_entered_party_official'] = extract(r"Ngày\s*chính\s*thức\s*[:\-]?\s*([\d/]+)")
 
@@ -61,23 +71,53 @@ def parse_resume_text(text):
     # ✅ Extract position_process and structured position_history
     # -----------------------------
     position_history = []
-    process_match = re.search(r"TÓM TẮT QUÁ TRÌNH CÔNG TÁC(.*)", text, re.DOTALL | re.IGNORECASE)
+    process_match = re.search(r"(TÓM TẮT\s*)?QUÁ TRÌNH CÔNG TÁC.*?(?=\n|$)", text, re.IGNORECASE)
     if process_match:
-        process_text = process_match.group(1).strip()
+        process_text = process_match.group(0).strip()
         data["position_process"] = process_text
 
-        # Use re.findall to get all date ranges and following text
-        pattern = re.compile(r"(\d{1,2}/\d{4})\s*[-–]\s*(\d{1,2}/\d{4}|đến nay|hiện nay)[\s:]*([^\d]{5,}?)(?=\d{1,2}/\d{4}\s*[-–]|$)", re.IGNORECASE)
-        matches = pattern.findall(process_text)
+        # Extract clean date-range entries
+        pattern = re.compile(
+            r"(?P<start>\d{1,2}/\d{4})\s*[-–]\s*(?P<end>\d{1,2}/\d{4}|nay|n[aă]y|hiện nay)?[:\-]?\s*(?P<title>[^.]+?)(?=(?:\d{1,2}/\d{4}\s*[-–])|\Z)",
+            re.IGNORECASE
+        )
 
-        for start, end, title in matches:
-            clean_title = re.sub(r"\s+", " ", title).strip(" :.-;")
+        for match in pattern.finditer(process_text):
+            start = match.group("start")
+            end = match.group("end") or ""
+            end = "" if re.match(r"n[aă]y|hiện nay", end, re.IGNORECASE) else end
+            title = re.sub(r"\s+", " ", match.group("title")).strip(" :.-;")
+
             position_history.append({
                 "start": start,
                 "end": end,
-                "title": clean_title
+                "title": title
             })
 
-        data["position_history"] = position_history
+        # Deduplicate by title and overlapping dates
+        seen = set()
+        unique_history = []
+        for item in position_history:
+            start = item["start"].strip()
+            end = item["end"].strip()
+            title = re.sub(r"\s+", " ", item["title"].lower()).strip(" :.-;")
+            key = (start, end, title)
+
+            if key in seen:
+                continue
+
+            # Avoid overlaps with same title
+            overlap = False
+            for u in unique_history:
+                t2 = re.sub(r"\s+", " ", u["title"].lower()).strip(" :.-;")
+                if title == t2:
+                    if start == u["start"] or end == u["end"] or start == u["end"] or end == u["start"]:
+                        overlap = True
+                        break
+            if not overlap:
+                seen.add(key)
+                unique_history.append(item)
+
+        data["position_history"] = unique_history
 
     return data
