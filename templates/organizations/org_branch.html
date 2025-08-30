@@ -1,0 +1,10 @@
+<li>
+  {{ org.name }}
+  {% if org.children.exists %}
+    <ul>
+      {% for child in org.children.all %}
+        {% include "organizations/org_branch.html" with org=child %}
+      {% endfor %}
+    </ul>
+  {% endif %}
+</li>

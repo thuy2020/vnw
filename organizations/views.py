@@ -8,7 +8,7 @@ from django.core.files.storage import FileSystemStorage
 
 def organization_list(request):
     units = Organization.objects.all().order_by('type','name')
-    return render(request, "organization/organization_list.html", {'units':units})
+    return render(request, "organizations/organization_list.html", {'units':units})
 
 
 def add_organization_unit(request):
@@ -20,8 +20,8 @@ def add_organization_unit(request):
 
     else:
             form = OrganizationForm()
-    return render(request, "organization/add_organization_unit.html",
-                      {'form':form})
+    return render(request, "organizations/add_organization_unit.html",
+                  {'form':form})
 
 def edit_organization_unit(request, unit_id):
     unit = get_object_or_404(Organization, id=unit_id)
@@ -32,7 +32,7 @@ def edit_organization_unit(request, unit_id):
             return redirect('organization_list')
     else:
         form = OrganizationForm(instance=unit)
-    return render(request, 'organization/edit_organization_unit.html', {'form': form, 'unit': unit})
+    return render(request, 'organizations/edit_organization_unit.html', {'form': form, 'unit': unit})
 
 def import_organization_units(request):
     if request.method == 'POST' and request.FILES.get('file'):
@@ -61,26 +61,29 @@ def import_organization_units(request):
         except Exception as e:
             messages.error(request, f"Import failed: {e}")
         return redirect('organization_list')
-    return render(request, 'organization/import_organization_unit.html')
+    return render(request, 'organizations/import_organization_unit.html')
 
 
 def organization_tree_view(request):
     units = Organization.objects.all()
-    return render(request, 'organization/organization_tree.html', {'units': units})
+    return render(request, 'organizations/organization_tree.html', {'units': units})
 
 
 def inline_edit_organization_unit(request, unit_id):
     # Placeholder for inline editing logic
     unit = get_object_or_404(Organization, id=unit_id)
-    return render(request, 'organization/inline_edit_organization_unit.html', {'unit': unit})
+    return render(request, 'organizations/inline_edit_organization_unit.html', {'unit': unit})
 
 
 def view_relationships(request, unit_id):
     unit = get_object_or_404(Organization, id=unit_id)
     children = unit.children.all()
     equivalents = unit.equivalents.all()
-    return render(request, 'organization/view_relationships.html', {
+    return render(request, 'organizations/view_relationships.html', {
         'unit': unit,
         'children': children,
         'equivalents': equivalents
     })
+def org_tree(request):
+    roots = Organization.objects.filter(parent__isnull=True)
+    return render(request, "organizations/org_tree.html", {"roots": roots})

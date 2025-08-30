@@ -1,14 +1,16 @@
 import json
 import os
 import django
-from people.resume_parser import parse_resume_text
+from django.contrib import admin
 
 # Set up Django environment
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'vnw.settings')
 django.setup()
 
-
+from people.resume_parser import parse_resume_text
 from people.models import Person, PersonPosition, Cabinet
+from organizations.models import Organization
+
 
 def safe_parse_resume(resume_text):
     try:
@@ -26,14 +28,18 @@ def truncate(value, length):
     return str(value).strip()[:length]
 
 def create_or_update_person(item):
-    parsed = {
-        "hometown": item.get("hometown"),
-        "education": item.get("education"),
-        "ethnicity": item.get("ethnicity"),
-        "position": item.get("position"),
-        "position_process": item.get("position_process"),
-        "position_history": item.get("position_history", []),
-    }
+    parsed = safe_parse_resume(item.get("resume_text", ""))
+
+    # Fall back to original item fields if parsed field is missing
+    parsed["hometown"] = parsed.get("hometown") or item.get("hometown")
+    parsed["education"] = parsed.get("education") or item.get("education")
+    parsed["ethnicity"] = parsed.get("ethnicity") or item.get("ethnicity")
+    parsed["position"] = parsed.get("position") or item.get("position")
+    parsed["position_process"] = parsed.get("position_process") or item.get("position_process")
+    parsed["position_history"] = parsed.get("position_history") or item.get("position_history", [])
+    parsed["gender"] = parsed.get("gender") or item.get("gender")
+
+
 
     if not parsed["position_history"]:
         parsed_fallback = safe_parse_resume(item.get("resume_text", ""))
@@ -60,6 +66,8 @@ def create_or_update_person(item):
             "degree": truncate(parsed.get("degree"), 100),
             "rank": truncate(parsed.get("rank"), 100),
             "resume_text": item.get("resume_text"),
+            "gender": parsed.get("gender"),
+            "hometown_province": truncate(parsed.get("hometown_province"), 100),
         }
 
 
@@ -89,11 +97,17 @@ def create_or_update_person(item):
         for entry in position_history:
             print("  ->", entry)
             if entry.get("title"):
+                org_name = entry.get("organizations")
+                organization = None
+                if org_name:
+                    organization, _ = Organization.objects.get_or_create(name=org_name.strip())
+
                 PersonPosition.objects.create(
                     person=person,
                     title=truncate(entry.get("title"), 1000),
                     start=entry.get("start"),
                     end=entry.get("end"),
+                    organization=organization
                 )
     return created
 
@@ -102,8 +116,8 @@ if __name__ == "__main__":
         records = json.load(f)
 
 #Delete all existing entries
-    Person.objects.all().delete()
-    Cabinet.objects.all().delete()
+   # Person.objects.all().delete()
+   # Cabinet.objects.all().delete()
 
     success, failed, skipped = 0, 0, 0
 

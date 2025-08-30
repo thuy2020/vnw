@@ -6,6 +6,18 @@ def parse_resume_text(text):
         return {}
     data = {}
 
+    # Strip honorifics and infer gender if present
+    name_match = re.match(r"(Ông|Bà)\s+([A-ZÀ-Ý][^\d:;,]*)", text.strip(), re.IGNORECASE)
+    if name_match:
+        honorific = name_match.group(1).strip().lower()
+        name = name_match.group(2).strip()
+        data["name"] = name
+        if "gender" not in data or not data["gender"]:
+            if honorific == "ông":
+                data["gender"] = "Nam"
+            elif honorific == "bà":
+                data["gender"] = "Nữ"
+
     def extract(pattern, group=1):
         match = re.search(pattern, text, re.IGNORECASE)
         try:
@@ -40,7 +52,9 @@ def parse_resume_text(text):
     # -----------------------------
     # ✅ Extract other fields
     # -----------------------------
-    data['gender'] = extract(r"Nam/Nữ\s*[:\-]?\s*(Nam|Nữ)")
+    #gender is only extracted from the text if not already inferred from the honorific.
+    if not data.get('gender'):
+        data['gender'] = extract(r"Nam/Nữ\s*[:\-]?\s*(Nam|Nữ)")
     data['date_of_birth'] = extract(r"Ngày\s*sinh\s*[:\-]?\s*([\d/]+)")
     data['ethnicity'] = extract(r"Dân\s*tộc\s*[:\-]?\s*([A-Za-zÀ-ỹ\s]+)")
 
@@ -51,6 +65,23 @@ def parse_resume_text(text):
     )
     if hometown_match:
         data['hometown'] = hometown_match.group(1).strip()
+
+    # Extract province from hometown (after 'tỉnh' or 'thành phố')
+    hometown_text = data.get("hometown", "")
+    province_match = None
+
+    # Prefer province after "tỉnh"
+    match_tinh = re.search(r"tỉnh\s*[\n\s]*([A-ZÀ-Ỹ][a-zà-ỹ\s]*)", hometown_text, re.IGNORECASE)
+    if match_tinh:
+        province_match = match_tinh
+    else:
+        match_tp = re.search(r"thành phố\s*[\n\s]*([A-ZÀ-Ỹ][a-zà-ỹ\s]*)", hometown_text, re.IGNORECASE)
+        if match_tp:
+            province_match = match_tp
+
+    if province_match:
+        data["hometown_province"] = province_match.group(1).strip()
+
 
     # Extract only education title (e.g., Tiến sỹ, Cử nhân, etc.)
     education_match = re.search(r"(Giáo sư|Phó Giáo sư|Tiến sỹ|Thạc sỹ|Cử nhân)", text, re.IGNORECASE)
@@ -68,7 +99,7 @@ def parse_resume_text(text):
     data['date_entered_party_official'] = extract(r"Ngày\s*chính\s*thức\s*[:\-]?\s*([\d/]+)")
 
     # -----------------------------
-    # ✅ Extract position_process and structured position_history
+    # ✅ Extract position_process --> produce position_history
     # -----------------------------
     position_history = []
     process_match = re.search(r"(TÓM TẮT\s*)?QUÁ TRÌNH CÔNG TÁC.*?(?=\n|$)", text, re.IGNORECASE)
@@ -118,6 +149,78 @@ def parse_resume_text(text):
                 seen.add(key)
                 unique_history.append(item)
 
+        for item in unique_history:
+            full_title = item["title"]
+            parts = [p.strip() for p in full_title.split(",") if p.strip()]
+            if len(parts) > 1:
+                item["position"] = ", ".join(parts[:-1])
+                item["organizations"] = parts[-1]
+            else:
+                item["position"] = full_title
+                item["organizations"] = None
+            # Clean up organization names by removing common job-title phrases
+            if item["organizations"]:
+                item["organizations"] = re.sub(
+                    r"^(Phó Giám đốc|Giám đốc|Chủ tịch|Phó Chủ tịch|Phó Bí thư|Phó Chủ nhiệm|Uỷ viên|Bộ trưởng)\s+", "",
+                    item["organizations"],
+                    flags=re.IGNORECASE
+                ).strip()
+
         data["position_history"] = unique_history
 
     return data
+
+def parse_position_history(text):
+    text = re.sub(r'[\r\n]+', ' ', text)
+    text = re.sub(r'\s+', ' ', text).strip()
+
+    position_history = []
+    lines = re.split(r'\.\s*', text)
+
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+
+        match = re.match(
+            r"(?P<start>\d{1,2}/\d{4}|\d{4})\s*(?:-|\–|đến)?\s*(?P<end>\d{1,2}/\d{4}|\d{4}|nay)?[:\-]?\s*(?P<title>.+)",
+            line)
+        if match:
+            start = match.group("start")
+            end = match.group("end") or None
+            title = match.group("title").strip()
+            position_history.append({
+                "title": title,
+                "start": start,
+                "end": end
+            })
+        else:
+            # fallback if no match (try to salvage title)
+            if len(line) > 10:
+                position_history.append({
+                    "title": line,
+                    "start": None,
+                    "end": None
+                })
+    return position_history
+
+
+def safe_parse_resume(resume_text, position_process=None, name=None):
+    from .resume_parser import parse_resume_text, parse_position_history
+
+    try:
+        parsed = parse_resume_text(resume_text or "")
+        if not parsed.get("position_history") and position_process:
+            print(f"ℹ️ Trying to parse position_process for {name}")
+            parsed["position_history"] = parse_position_history(position_process)
+        return parsed
+    except Exception as e:
+        print(f"⚠️ Resume parsing failed for {name}: {e}")
+        return {"position_history": []}
+
+#test one example
+# if __name__ == "__main__":
+#    sample_text = "Ông NGUYỄN VĂN A. Ngày sinh: 01/01/1970. Nam/Nữ: Nam. Dân tộc: Kinh. Quê quán: Xã Quế Phú, huyện Quế Sơn, tỉnh Quảng Nam. Trình độ: Tiến sỹ."
+#    result = parse_resume_text(sample_text)
+#    from pprint import pprint
+# pprint(result)

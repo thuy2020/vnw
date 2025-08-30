@@ -1,0 +1,4 @@
+ please expand normalize_vietnamese_name() to:
+
+Strip common words from organization: "Chủ tịch", "Giám đốc", "Phó Chủ tịch", "Phó Bí thư", "Phó Chủ nhiệm", "Uỷ viên",
+	•	Handle known aliases “UBND” → “Ủy ban Nhân dân”, TW -> Trung Ương

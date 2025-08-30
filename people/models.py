@@ -1,5 +1,8 @@
 from django.db import models
+from unidecode import unidecode
 from core.models import BaseEntity
+from organizations.models import Organization
+from core.normalization import normalize_vietnamese_name
 
 class Cabinet(models.Model):
     name = models.CharField(max_length=300)
@@ -16,11 +19,16 @@ class Cabinet(models.Model):
 class Person(BaseEntity):
     CUSTOM_ID_PREFIX = "PER"
     name = models.CharField(max_length=200)
+    name_ascii = models.CharField(max_length=200, blank=True, null=True)
+
     hometown = models.CharField(max_length=200, blank=True, null=True)
+    hometown_province = models.CharField(max_length=100, blank=True, null=True)
+
+
     date_of_birth = models.CharField(max_length=20, blank=True, null=True)
     resume_text = models.TextField(null=True, blank=True)
 
-    #optional fields
+
     resume_url = models.URLField(blank=True, null=True)
     gender = models.CharField(max_length=10, blank=True, null=True)
 
@@ -53,6 +61,9 @@ class Person(BaseEntity):
         return self.name
 
     def save(self, *args, **kwargs):
+        if self.name:
+            self.name = normalize_vietnamese_name(self.name)
+            self.name_ascii = unidecode(self.name)
         if not self.custom_id:
             self.custom_id = self.generate_custom_id("PER")
         super().save(*args, **kwargs)
@@ -62,6 +73,9 @@ class PersonPosition(models.Model):
     title = models.CharField(max_length=1000)
     start = models.CharField(max_length=20, blank=True, null=True)
     end = models.CharField(max_length=20, blank=True, null=True)
+    organization = models.ForeignKey(
+        Organization, on_delete=models.CASCADE, null=True, blank=True,
+        related_name='person_positions')
 
     def __str__(self):
         return f"{self.person.name} — {self.title} ({self.start or '...'} to {self.end or '...'} )"

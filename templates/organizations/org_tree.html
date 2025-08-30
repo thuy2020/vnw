@@ -1,0 +1,6 @@
+<h1>Organization Tree</h1>
+<ul>
+  {% for org in roots %}
+    {% include "organizations/org_branch.html" with org=org %}
+  {% endfor %}
+</ul>

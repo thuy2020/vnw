@@ -10,25 +10,28 @@ class PersonPositionInline(admin.TabularInline):
     model = PersonPosition
     extra = 0
     max_num = None
+    autocomplete_fields = ["organization"]
 
 
 @admin.register(Person)
 class PersonAdmin(admin.ModelAdmin):
     exclude = ('custom_id',)
-    list_display = ("custom_id", "name", "hometown", "date_of_birth", "date_of_death",
+    list_display = ("custom_id", "name", "hometown_province","date_of_birth", "date_of_death",
                     "position")
     search_fields = (
         "custom_id",
-        "name",
+        "name_ascii", "name",
         "hometown",
+        "hometown_province",
         "position",
         "foreign_language",
         "political_theory",
         "education",
         "ethnicity",
     )
+
     filter_horizontal = ("cabinets",)
-    fields = ("name", "hometown", "date_of_birth", "date_of_death", "gender",
+    fields = ("name", "hometown", "hometown_province", "date_of_birth", "date_of_death", "gender",
               "foreign_language", "political_theory", "education",
               "position_process", "cabinets")
     inlines = [PersonPositionInline]
@@ -38,25 +41,21 @@ class PersonAdmin(admin.ModelAdmin):
         matching_ids = set()
 
         for field in self.search_fields:
-            try:
-                for obj in self.model.objects.all():
-                    value = getattr(obj, field, "")
-                    value_normalized = unicodedata.normalize('NFKD', str(value)).encode('ASCII', 'ignore').decode('utf-8').lower()
-                    if normalized_term in value_normalized:
-                        matching_ids.add(obj.id)
-            except Exception:
-                continue
+            for obj in self.model.objects.all():
+                value = getattr(obj, field, "")
+                value_normalized = unicodedata.normalize('NFKD', str(value)).encode('ASCII', 'ignore').decode('utf-8').lower()
+                if normalized_term in value_normalized:
+                    matching_ids.add(obj.id)
 
         return queryset.filter(id__in=matching_ids), False
-
 
 class CabinetMemberInline(admin.TabularInline):
     model = Person.cabinets.through
     extra = 1
     verbose_name = "Cabinet Member"
     verbose_name_plural = "Cabinet Members"
+    fields = ("person", "person_link")
     readonly_fields = ("person_link",)
-    fields = ("person_link",)
 
     def person_link(self, obj):
         url = reverse("admin:people_person_change", args=(obj.person.id,))
