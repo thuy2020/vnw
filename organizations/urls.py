@@ -5,18 +5,21 @@ from .views import (
     add_organization_unit,
     edit_organization_unit,
     import_organization_units,
-    organization_tree_view,
+    organization_chart,
     inline_edit_organization_unit,
     view_relationships,
 )
 
 urlpatterns = [
+# CRUD operations
     path('', organization_list, name='organization_list'),
     path('add/', add_organization_unit, name='add_organization_unit'),
     path('edit/<int:unit_id>/', edit_organization_unit, name='edit_organization_unit'),
     path('import/', import_organization_units, name='import_organization_units'),
-    path('tree/', views.org_tree, name='organization_tree'),
+
     path('inline-edit/<int:unit_id>/', inline_edit_organization_unit, name='inline_edit_organization_unit'),
     path('relationships/<int:unit_id>/', view_relationships, name='view_relationships'),
-    path('list/', views.organization_list, name='organization_list'),
+
+# Visualization
+    path('org-chart/', views.organization_chart, name='organization_chart'),
 ]

@@ -2,12 +2,12 @@ from django.db import models
 from core.models import BaseEntity
 from core.normalization import normalize_vietnamese_name
 
+
 class OrganizationType(models.Model):
     name = models.CharField(max_length=100, unique=True)
 
     def __str__(self):
         return self.name
-
 class Organization(BaseEntity):
     CUSTOM_ID_PREFIX = "ORG"
     name = models.CharField(max_length=225)

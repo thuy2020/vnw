@@ -64,9 +64,9 @@ def import_organization_units(request):
     return render(request, 'organizations/import_organization_unit.html')
 
 
-def organization_tree_view(request):
-    units = Organization.objects.all()
-    return render(request, 'organizations/organization_tree.html', {'units': units})
+# def organization_tree_view(request):
+#     units = Organization.objects.all()
+#     return render(request, 'organizations/organization_tree.html', {'units': units})
 
 
 def inline_edit_organization_unit(request, unit_id):
@@ -84,6 +84,17 @@ def view_relationships(request, unit_id):
         'children': children,
         'equivalents': equivalents
     })
-def org_tree(request):
-    roots = Organization.objects.filter(parent__isnull=True)
-    return render(request, "organizations/org_tree.html", {"roots": roots})
+def organization_chart(request):
+    # Build a list of [child_name, parent_name]
+    orgs = Organization.objects.all()
+    chart_data = []
+
+    for org in orgs:
+        chart_data.append([
+            org.name,
+            org.parent.name if org.parent else ''
+        ])
+
+    return render(request, 'organizations/org_chart.html', {
+        'chart_data': chart_data
+    })
