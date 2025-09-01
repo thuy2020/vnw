@@ -85,15 +85,26 @@ def view_relationships(request, unit_id):
         'equivalents': equivalents
     })
 def organization_chart(request):
-    # Build a list of [child_name, parent_name]
-    orgs = Organization.objects.all()
+
+    orgs = Organization.objects.select_related('parent', 'type').all()
     chart_data = []
 
     for org in orgs:
-        chart_data.append([
-            org.name,
-            org.parent.name if org.parent else ''
-        ])
+        level = org.level or ''
+        if level == "central":
+            color = 'red'
+        elif level == "provincial":
+            color = 'blue'
+        else:
+            color = 'gray'
+
+        chart_data.append({
+            'name': org.name,
+            'parent': org.parent.name if org.parent else '',
+            'type': org.type.name if org.type else '',
+            'level': org.level if org.level else '',
+            'id': org.id,
+        })
 
     return render(request, 'organizations/org_chart.html', {
         'chart_data': chart_data

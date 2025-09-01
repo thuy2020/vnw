@@ -3,6 +3,17 @@ from core.models import BaseEntity
 from core.normalization import normalize_vietnamese_name
 
 
+class OrganizationRelationship(models.Model):
+    from_org = models.ForeignKey('Organization', related_name='related_parent_links', on_delete=models.CASCADE)
+    to_org = models.ForeignKey('Organization', related_name='related_child_links', on_delete=models.CASCADE)
+    notes = models.TextField(blank=True, null=True)
+
+    class Meta:
+        unique_together = ('from_org', 'to_org')
+
+    def __str__(self):
+        return f"{self.to_org} → {self.from_org} ({self.notes})"
+
 class OrganizationType(models.Model):
     name = models.CharField(max_length=100, unique=True)
 
@@ -45,6 +56,15 @@ class Organization(BaseEntity):
                                on_delete=models.CASCADE, null=True, blank=True)
 
     equivalents = models.ManyToManyField('self', symmetrical=True, blank=True)
+    related_parents = models.ManyToManyField(
+        'self',
+        symmetrical=False,
+        blank=True,
+        related_name='related_children',
+        through='OrganizationRelationship',
+        through_fields=('to_org', 'from_org')
+    )
+
 
     description = models.TextField(blank=True, null=True)
     normalized_name = models.CharField(max_length=255, editable=False, db_index=True)

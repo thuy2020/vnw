@@ -27,18 +27,18 @@ class OrganizationTypeAdmin(admin.ModelAdmin):
 @admin.register(Organization)
 class OrganizationAdmin(admin.ModelAdmin):
     exclude = ('custom_id',)
-    list_display = ('custom_id', 'name_link', 'type', 'parent_link')
+    list_display = ('custom_id', 'name_link', 'type', 'parent_link') #, 'related_parents_display'
     search_fields = ('name',)
     list_filter = ('type',)
 
-    autocomplete_fields = ['type', 'parent', 'equivalents',]
+    autocomplete_fields = ['type', 'parent', 'equivalents'] #, 'related_parents'
     list_select_related = ('parent',)
 
-    filter_horizontal = ('equivalents',)
+    filter_horizontal = ('equivalents',) #, 'related_parents'
 
     ordering = ('type', 'name')
     inlines = [PersonPositionInline, ChildOrganizationInline]
-    readonly_fields = ('children_display',)
+    readonly_fields = ('children_display', 'related_parents_display')
 
     def name_link(self, obj):
         return format_html('<a href="{}">{}</a>', f"/admin/organizations/organization/{obj.id}/change/", obj.name)
@@ -68,4 +68,15 @@ class OrganizationAdmin(admin.ModelAdmin):
         )
 
     children_display.short_description = "Children"
-    readonly_fields = ('children_display',)
+
+
+    def related_parents_display(self, obj):
+        related = obj.related_parents.all()
+        if not related:
+            return "—"
+        return format_html_join(
+            ", ",
+            '<a href="/admin/organizations/organization/{}/change/">{}</a>',
+            ((parent.id, parent.name) for parent in related)
+        )
+    related_parents_display.short_description = "Related Parents"
