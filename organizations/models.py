@@ -1,7 +1,12 @@
 from django.db import models
 from core.models import BaseEntity
 from core.normalization import normalize_vietnamese_name
+# --- Admin Safeguard for Manual Entry ---
+from django.core.exceptions import ValidationError
+from django.db.models.signals import pre_save
+from django.dispatch import receiver
 
+from unidecode import unidecode
 
 class OrganizationRelationship(models.Model):
     from_org = models.ForeignKey('Organization', related_name='related_parent_links', on_delete=models.CASCADE)
@@ -46,6 +51,7 @@ class Organization(BaseEntity):
     )
 
     function = models.TextField(blank=True, null=True)
+    notes = models.TextField(blank=True, null=True)
 
     start_date = models.DateField(blank=True, null=True)
     end_date = models.DateField(blank=True, null=True)
@@ -67,7 +73,7 @@ class Organization(BaseEntity):
 
 
     description = models.TextField(blank=True, null=True)
-    normalized_name = models.CharField(max_length=255, editable=False, db_index=True)
+    normalized_name = models.CharField(max_length=255, editable=False, db_index=True, unique=True, null=True, blank=True)
 
     class Meta:
         verbose_name = "Organization"
@@ -76,6 +82,19 @@ class Organization(BaseEntity):
     def __str__(self):
         return self.name
 
+    def clean(self):
+        # Normalize the name to detect duplicates
+        normalized = unidecode(' '.join((self.name or '').split())).lower()
+        existing = Organization.objects.filter(normalized_name=normalized)
+
+        if self.pk:
+            existing = existing.exclude(pk=self.pk)
+
+        if existing.exists():
+            raise ValidationError(f"❌ Organization with name '{self.name}' already exists.")
+
     def save(self, *args, **kwargs):
-        self.name = normalize_vietnamese_name(self.name)
+        if self.name:
+            self.normalized_name = unidecode(' '.join(self.name.split())).lower()
+        self.full_clean()  # <--- ensures clean() is called even from admin
         super().save(*args, **kwargs)

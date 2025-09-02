@@ -5,6 +5,7 @@ from .forms import OrganizationForm
 import pandas as pd
 from django.contrib import messages
 from django.core.files.storage import FileSystemStorage
+from core.utils import get_or_create_existing_organization
 
 def organization_list(request):
     units = Organization.objects.all().order_by('type','name')
@@ -48,15 +49,17 @@ def import_organization_units(request):
                 df = pd.read_excel(file_path)
 
             for _, row in df.iterrows():
-                org = Organization(
-                    name=row.get("name"),
+                name = row.get("name")
+                if not name:
+                    continue
+
+                org = get_or_create_existing_organization(
+                    name=name,
                     type=row.get("type"),
                     description=row.get("description"),
                     date_started=row.get("date_started"),
                     date_ended=row.get("date_ended")
-
                 )
-                org.save()
             messages.success(request, "Import completed successfully.")
         except Exception as e:
             messages.error(request, f"Import failed: {e}")

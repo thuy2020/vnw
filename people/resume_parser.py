@@ -161,7 +161,7 @@ def parse_resume_text(text):
             # Clean up organization names by removing common job-title phrases
             if item["organizations"]:
                 item["organizations"] = re.sub(
-                    r"^(Phó Giám đốc|Giám đốc|Chủ tịch|Phó Chủ tịch|Phó Bí thư|Phó Chủ nhiệm|Uỷ viên|Bộ trưởng)\s+", "",
+                    r"^(Phó Giám đốc|Giám đốc|Chủ tịch|Phó Chủ tịch|Bí thư|Phó Bí thư|Phó Chủ nhiệm|Uỷ viên|Bộ trưởng)\s+", "",
                     item["organizations"],
                     flags=re.IGNORECASE
                 ).strip()

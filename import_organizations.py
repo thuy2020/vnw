@@ -4,6 +4,7 @@ import os
 import django
 
 from core.normalization import normalize_vietnamese_name
+from core.utils import get_or_create_existing_organization
 from django.db.models.functions import Lower
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "vnw.settings")
@@ -53,36 +54,21 @@ def import_organizations_from_excel(filepath):
             normalized_name = normalize_vietnamese_name(name)
             org = existing_orgs.get(normalized_name)
 
-            if not org:
-                org = Organization(
-                    name=name.strip(),
-                    abbreviation=row.get("abbreviation"),
-                    name_en=row.get("name_en"),
-                    level=row.get("level"),
-                    type=org_type,
-                    parent=parent,
-                    function=row.get("function"),
-                    start_date=parse_date(row.get("start_date")),
-                    end_date=parse_date(row.get("end_date")),
-                    color_code=row.get("color_code"),
-                    description=row.get("description"),
-                )
-                org.save()
-                existing_orgs[normalized_name] = org  # Add to existing_orgs for later reuse
-                print(f"✔️ Created: {org.name}")
-            else:
-                org.abbreviation = row.get("abbreviation")
-                org.name_en = row.get("name_en")
-                org.level = row.get("level")
-                org.type = org_type
-                org.parent = parent
-                org.function = row.get("function")
-                org.start_date = parse_date(row.get("start_date"))
-                org.end_date = parse_date(row.get("end_date"))
-                org.color_code = row.get("color_code")
-                org.description = row.get("description")
-                org.save()
-                print(f"🔄 Updated: {org.name}")
+            org = get_or_create_existing_organization(
+                name=name.strip(),
+                abbreviation=row.get("abbreviation"),
+                name_en=row.get("name_en"),
+                level=row.get("level"),
+                org_type=org_type,
+                parent=parent,
+                function=row.get("function"),
+                start_date=parse_date(row.get("start_date")),
+                end_date=parse_date(row.get("end_date")),
+                color_code=row.get("color_code"),
+                description=row.get("description"),
+            )
+            existing_orgs[normalized_name] = org
+            print(f"✅ Saved: {org.name}")
 
             created_names.add(org.name)
             processed_names.add(org.name)

@@ -10,7 +10,8 @@ django.setup()
 from people.resume_parser import parse_resume_text
 from people.models import Person, PersonPosition, Cabinet
 from organizations.models import Organization
-
+from unidecode import unidecode
+from core.utils import get_or_create_existing_organization
 
 def safe_parse_resume(resume_text):
     try:
@@ -26,6 +27,7 @@ def truncate(value, length):
     if not value:
         return None
     return str(value).strip()[:length]
+
 
 def create_or_update_person(item):
     parsed = safe_parse_resume(item.get("resume_text", ""))
@@ -98,9 +100,7 @@ def create_or_update_person(item):
             print("  ->", entry)
             if entry.get("title"):
                 org_name = entry.get("organizations")
-                organization = None
-                if org_name:
-                    organization, _ = Organization.objects.get_or_create(name=org_name.strip())
+                organization = get_or_create_existing_organization(name=org_name.strip()) if org_name else None
 
                 PersonPosition.objects.create(
                     person=person,
@@ -112,12 +112,13 @@ def create_or_update_person(item):
     return created
 
 if __name__ == "__main__":
+    # Delete all existing entries
+    Person.objects.all().delete()
+    Cabinet.objects.all().delete()
     with open("clean_individuals.json", "r", encoding="utf-8") as f:
         records = json.load(f)
 
-#Delete all existing entries
-   # Person.objects.all().delete()
-   # Cabinet.objects.all().delete()
+
 
     success, failed, skipped = 0, 0, 0
 
@@ -128,6 +129,34 @@ if __name__ == "__main__":
         except Exception as e:
             print(f"❌ Failed to import {item.get('name')}: {e}")
             failed += 1
+
+
+    # --- Duplicate Organization Cleanup ---
+    from collections import defaultdict
+    from django.db.models import Count, Min
+    print("\n🔍 Cleaning up duplicate organizations...")
+
+    duplicates = (
+        Organization.objects.values('normalized_name')
+        .annotate(count=Count('id'), keep_id=Min('id'))
+        .filter(count__gt=1)
+    )
+
+    for entry in duplicates:
+        normalized = entry['normalized_name']
+        keep_id = entry['keep_id']
+        dups = Organization.objects.filter(normalized_name=normalized).exclude(id=keep_id)
+
+        print(f"🧹 Merging {dups.count()} duplicates for '{normalized}'")
+
+        # Reassign PersonPosition references
+        for org in dups:
+            PersonPosition.objects.filter(organization=org).update(organization_id=keep_id)
+
+        # Delete duplicates
+        dups.delete()
+
+    print("✅ Duplicate cleanup complete.")
 
     print(f"\n✅ Successfully imported: {success}")
     print(f"❌ Failed imports: {failed}")

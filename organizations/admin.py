@@ -2,6 +2,9 @@ from django.contrib import admin
 from django.utils.html import format_html_join, format_html
 from .models import Organization, OrganizationType
 from people.models import Person, PersonPosition, Cabinet
+from django.urls import path, reverse
+from .admin_views import merge_organizations_view
+
 
 
 class PersonPositionInline(admin.TabularInline):
@@ -12,11 +15,13 @@ class PersonPositionInline(admin.TabularInline):
     can_delete = False
     show_change_link = True
 
+
 class ChildOrganizationInline(admin.TabularInline):
     model = Organization
     fk_name = 'parent'
     extra = 1
     fields = ['name', 'type', 'level']
+
 
 @admin.register(OrganizationType)
 class OrganizationTypeAdmin(admin.ModelAdmin):
@@ -24,17 +29,19 @@ class OrganizationTypeAdmin(admin.ModelAdmin):
 
     def has_module_permission(self, request):
         return False  # hides it from sidebar
+
+
 @admin.register(Organization)
-class OrganizationAdmin(admin.ModelAdmin):
+class CustomOrganizationAdmin(admin.ModelAdmin):
     exclude = ('custom_id',)
-    list_display = ('custom_id', 'name_link', 'type', 'parent_link') #, 'related_parents_display'
+    list_display = ('custom_id', 'name_link', 'type', 'parent_link', 'merge_link')  #, 'related_parents_display'
     search_fields = ('name',)
     list_filter = ('type',)
 
-    autocomplete_fields = ['type', 'parent', 'equivalents'] #, 'related_parents'
+    autocomplete_fields = ['type', 'parent', 'equivalents']  #, 'related_parents'
     list_select_related = ('parent',)
 
-    filter_horizontal = ('equivalents',) #, 'related_parents'
+    filter_horizontal = ('equivalents',)  #, 'related_parents'
 
     ordering = ('type', 'name')
     inlines = [PersonPositionInline, ChildOrganizationInline]
@@ -42,13 +49,16 @@ class OrganizationAdmin(admin.ModelAdmin):
 
     def name_link(self, obj):
         return format_html('<a href="{}">{}</a>', f"/admin/organizations/organization/{obj.id}/change/", obj.name)
+
     name_link.short_description = "Name"
     name_link.admin_order_field = "name"
 
     def parent_link(self, obj):
         if obj.parent:
-            return format_html('<a href="{}">{}</a>', f"/admin/organizations/organization/{obj.parent.id}/change/", obj.parent.name)
+            return format_html('<a href="{}">{}</a>', f"/admin/organizations/organization/{obj.parent.id}/change/",
+                               obj.parent.name)
         return "—"
+
     parent_link.short_description = "Parent Unit"
     parent_link.admin_order_field = "parent"
 
@@ -69,7 +79,6 @@ class OrganizationAdmin(admin.ModelAdmin):
 
     children_display.short_description = "Children"
 
-
     def related_parents_display(self, obj):
         related = obj.related_parents.all()
         if not related:
@@ -79,4 +88,21 @@ class OrganizationAdmin(admin.ModelAdmin):
             '<a href="/admin/organizations/organization/{}/change/">{}</a>',
             ((parent.id, parent.name) for parent in related)
         )
+
     related_parents_display.short_description = "Related Parents"
+
+    def merge_link(self, obj):
+        url = reverse("admin:merge_organizations") + f"?primary_id={obj.id}"
+        return format_html('<a class="button" href="{}">Merge this entity</a>', url)
+
+    merge_link.short_description = "Merge"
+
+    def get_urls(self):
+        urls = super().get_urls()
+        custom_urls = [
+            path("merge/", merge_organizations_view, name="merge_organizations"),
+        ]
+        return custom_urls + urls
+
+
+
