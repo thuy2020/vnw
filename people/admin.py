@@ -18,6 +18,7 @@ class PersonAdmin(admin.ModelAdmin):
     exclude = ('custom_id',)
     list_display = ("custom_id", "name", "hometown_province","date_of_birth", "date_of_death",
                     "position")
+    change_list_template = "admin/people/change_list.html"
     search_fields = (
         "custom_id",
         "name_ascii", "name",

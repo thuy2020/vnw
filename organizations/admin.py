@@ -34,18 +34,20 @@ class OrganizationTypeAdmin(admin.ModelAdmin):
 @admin.register(Organization)
 class CustomOrganizationAdmin(admin.ModelAdmin):
     exclude = ('custom_id',)
-    list_display = ('custom_id', 'name_link', 'type', 'parent_link', 'merge_link')  #, 'related_parents_display'
+    list_display = ('custom_id', 'name_link', 'type', 'parent_link', 'merge_link')
     search_fields = ('name',)
     list_filter = ('type',)
 
-    autocomplete_fields = ['type', 'parent', 'equivalents']  #, 'related_parents'
+    autocomplete_fields = ['type', 'parent', 'equivalents']
     list_select_related = ('parent',)
 
-    filter_horizontal = ('equivalents',)  #, 'related_parents'
+    filter_horizontal = ('equivalents',)
 
     ordering = ('type', 'name')
     inlines = [PersonPositionInline, ChildOrganizationInline]
     readonly_fields = ('children_display', 'related_parents_display')
+
+    change_list_template = "admin/organizations/change_list.html"
 
     def name_link(self, obj):
         return format_html('<a href="{}">{}</a>', f"/admin/organizations/organization/{obj.id}/change/", obj.name)

@@ -14,7 +14,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'vietnamwatch-2d7dc91a6fdb.herokuapp.com']
 
-#ALLOWED_HOSTS = []
+
 # Application definition
 
 

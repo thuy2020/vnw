@@ -1,0 +1,55 @@
+{% extends "admin/change_list.html" %}
+{% load static %}
+
+{% block object-tools %}
+  {{ block.super }}
+  <div class="export-dropdown" style="margin-top: 1em;">
+    <button class="dropbtn">⬇️ Export Options</button>
+    <div class="export-dropdown-content">
+      <a href="{% url 'download_people_csv' %}">People CSV</a>
+      <a href="{% url 'download_nodes_csv' %}">Nodes CSV</a>
+      <a href="{% url 'download_edges_csv' %}">Edges CSV</a>
+      <a href="{% url 'download_network_json' %}">Network JSON</a>
+    </div>
+  </div>
+
+  <style>
+    .export-dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .export-dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 240px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .export-dropdown-content a {
+      color: black;
+      padding: 8px 12px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .export-dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .export-dropdown:hover .export-dropdown-content {
+      display: block;
+    }
+
+    .dropbtn {
+      background-color: #f8f8f8;
+      color: black;
+      padding: 8px 12px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      cursor: pointer;
+    }
+  </style>
+{% endblock %}
