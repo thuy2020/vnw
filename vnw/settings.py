@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     "organizations",
     "core",
     "export",
+    "legislation",
 ]
 
 MIDDLEWARE = [
