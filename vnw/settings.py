@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     "scraper",
     "organizations",
     "core",
+    "export",
 ]
 
 MIDDLEWARE = [

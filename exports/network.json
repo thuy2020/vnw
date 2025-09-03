@@ -1,0 +1,3532 @@
+{
+  "nodes": [
+    {
+      "id": "org_2",
+      "label": "Bộ Tư pháp",
+      "type": "organization"
+    },
+    {
+      "id": "org_3",
+      "label": "bo test",
+      "type": "organization"
+    },
+    {
+      "id": "org_7",
+      "label": "Truong si quan cong binh 2",
+      "type": "organization"
+    },
+    {
+      "id": "org_9",
+      "label": "higest, keep",
+      "type": "organization"
+    },
+    {
+      "id": "org_10",
+      "label": "Child in bo tu phap",
+      "type": "organization"
+    },
+    {
+      "id": "person_1154",
+      "label": "Cụ Hồ Chí Minh",
+      "type": "person"
+    },
+    {
+      "id": "person_1155",
+      "label": "Ông Võ Nguyên Giáp",
+      "type": "person"
+    },
+    {
+      "id": "person_1156",
+      "label": "Ông Trần Huy Liệu",
+      "type": "person"
+    },
+    {
+      "id": "person_1157",
+      "label": "Ông Chu Văn Tấn",
+      "type": "person"
+    },
+    {
+      "id": "person_1158",
+      "label": "Ông Dương Đức Hiền",
+      "type": "person"
+    },
+    {
+      "id": "person_1159",
+      "label": "Ông Nguyễn Mạnh Hà",
+      "type": "person"
+    },
+    {
+      "id": "person_1160",
+      "label": "Ông Nguyễn Văn Tố",
+      "type": "person"
+    },
+    {
+      "id": "person_1161",
+      "label": "Ông Vũ Trọng Khánh",
+      "type": "person"
+    },
+    {
+      "id": "person_1162",
+      "label": "Ông Phạm Ngọc Thạch",
+      "type": "person"
+    },
+    {
+      "id": "person_1163",
+      "label": "Ông Đào Trọng Kim",
+      "type": "person"
+    },
+    {
+      "id": "person_1164",
+      "label": "Ông Lê Văn Hiến",
+      "type": "person"
+    },
+    {
+      "id": "person_1165",
+      "label": "Ông Phạm Văn Đồng",
+      "type": "person"
+    },
+    {
+      "id": "person_1166",
+      "label": "Ông Vũ Đình Hoè",
+      "type": "person"
+    },
+    {
+      "id": "person_1167",
+      "label": "Ông Cù Huy Cận",
+      "type": "person"
+    },
+    {
+      "id": "person_1168",
+      "label": "Ông Nguyễn Văn Xuân",
+      "type": "person"
+    },
+    {
+      "id": "person_1169",
+      "label": "Ông Nguyễn Hải Thần",
+      "type": "person"
+    },
+    {
+      "id": "person_1170",
+      "label": "Ông Nguyễn Tường Long",
+      "type": "person"
+    },
+    {
+      "id": "person_1171",
+      "label": "Ông Trương Đình Tri",
+      "type": "person"
+    },
+    {
+      "id": "person_1172",
+      "label": "Ông Nguyễn Tường Tam",
+      "type": "person"
+    },
+    {
+      "id": "person_1173",
+      "label": "Ông Huỳnh Thúc Kháng",
+      "type": "person"
+    },
+    {
+      "id": "person_1174",
+      "label": "Ông Chu Bá Phượng",
+      "type": "person"
+    },
+    {
+      "id": "person_1175",
+      "label": "Ông Phan Anh",
+      "type": "person"
+    },
+    {
+      "id": "person_1176",
+      "label": "Ông Đặng Thai Mai",
+      "type": "person"
+    },
+    {
+      "id": "person_1177",
+      "label": "Ông Trần Đăng Khoa",
+      "type": "person"
+    },
+    {
+      "id": "person_1178",
+      "label": "Ông Huỳnh Thiện Lộc (Từ 4-1946)",
+      "type": "person"
+    },
+    {
+      "id": "person_1179",
+      "label": "Ông Bồ Xuân Luật (Đến 4-1946)",
+      "type": "person"
+    },
+    {
+      "id": "person_1180",
+      "label": "Cố Vấn Vĩnh Thụy",
+      "type": "person"
+    },
+    {
+      "id": "person_1181",
+      "label": "Ông Huỳnh Thúc Kháng (Đến 21-4-1947 Từ Trần)",
+      "type": "person"
+    },
+    {
+      "id": "person_1182",
+      "label": "Ông Phan Kế Toại (Từ 11-1947)",
+      "type": "person"
+    },
+    {
+      "id": "person_1183",
+      "label": "Cụ Hồ Chí Minh (Đến 1947)",
+      "type": "person"
+    },
+    {
+      "id": "person_1184",
+      "label": "Ông Hoàng Minh Giám (Từ Năm 1947 Đến Tháng 4 – 1954).",
+      "type": "person"
+    },
+    {
+      "id": "person_1185",
+      "label": "Ông Phạm Văn Đồng (Từ 4-1954)",
+      "type": "person"
+    },
+    {
+      "id": "person_1186",
+      "label": "Ông Võ Nguyên Giáp (Đến 1947)",
+      "type": "person"
+    },
+    {
+      "id": "person_1187",
+      "label": "Ông Tạ Quang Bửu (Từ 1947 Đến 7-1948)",
+      "type": "person"
+    },
+    {
+      "id": "person_1188",
+      "label": "Ông Võ Nguyên Giáp (Từ 7-1948)",
+      "type": "person"
+    },
+    {
+      "id": "person_1189",
+      "label": "Ông Phan Anh (Từ 1947)",
+      "type": "person"
+    },
+    {
+      "id": "person_1190",
+      "label": "Ông Ngô Tấn Nhơn",
+      "type": "person"
+    },
+    {
+      "id": "person_1191",
+      "label": "Ông Nguyễn Văn Huyên",
+      "type": "person"
+    },
+    {
+      "id": "person_1192",
+      "label": "Ông Nghiêm Xuân Yêm (Từ 3-1954)",
+      "type": "person"
+    },
+    {
+      "id": "person_1193",
+      "label": "Ông Ngô Tấn Nhơn (Đến 3-1954)",
+      "type": "person"
+    },
+    {
+      "id": "person_1194",
+      "label": "Ông Nguyễn Văn Tạo",
+      "type": "person"
+    },
+    {
+      "id": "person_1195",
+      "label": "Ông Hoàng Tích Trí",
+      "type": "person"
+    },
+    {
+      "id": "person_1196",
+      "label": "Ông Nguyễn Văn Tố (Hy Sinh Năm 1947)",
+      "type": "person"
+    },
+    {
+      "id": "person_1197",
+      "label": "Ông Đặng Văn Hướng (Từ Năm 1947)",
+      "type": "person"
+    },
+    {
+      "id": "person_1198",
+      "label": "Ông Bồ Xuân Luật",
+      "type": "person"
+    },
+    {
+      "id": "person_1199",
+      "label": "Ông Nguyễn Lương Bằng (Từ 5-1951)",
+      "type": "person"
+    },
+    {
+      "id": "person_1200",
+      "label": "Ông Trần Quốc Hoàn (Từ 6-1953)",
+      "type": "person"
+    },
+    {
+      "id": "person_1201",
+      "label": "Ông Phạm Văn Đồng (Từ 9-1955)",
+      "type": "person"
+    },
+    {
+      "id": "person_1202",
+      "label": "Ông Phan Kế Toại (Từ 9-1955)",
+      "type": "person"
+    },
+    {
+      "id": "person_1203",
+      "label": "Ông Võ Nguyên Giáp (Từ 9-1955)",
+      "type": "person"
+    },
+    {
+      "id": "person_1204",
+      "label": "Ông Trường Chinh (Từ 4-1958)",
+      "type": "person"
+    },
+    {
+      "id": "person_1205",
+      "label": "Ông Phạm Hùng (Từ 4-1958)",
+      "type": "person"
+    },
+    {
+      "id": "person_1206",
+      "label": "Ông Trần Quốc Hoàn",
+      "type": "person"
+    },
+    {
+      "id": "person_1207",
+      "label": "Ông Lê Văn Hiến (Đến 6-1958)",
+      "type": "person"
+    },
+    {
+      "id": "person_1208",
+      "label": "Ông Hoàng Anh (Từ 6-1958)",
+      "type": "person"
+    },
+    {
+      "id": "person_1209",
+      "label": "Ông Nguyễn Văn Trân (Từ 9-1955)",
+      "type": "person"
+    },
+    {
+      "id": "person_1210",
+      "label": "Ông Trần Đăng Khoa (Từ 9-1955 Đến 4-1958)",
+      "type": "person"
+    },
+    {
+      "id": "person_1211",
+      "label": "Ông Trần Đăng Khoa (Từ 4-1958)",
+      "type": "person"
+    },
+    {
+      "id": "person_1212",
+      "label": "Ông Bùi Quang Tạo (Từ 4-1958)",
+      "type": "person"
+    },
+    {
+      "id": "person_1213",
+      "label": "Ông Lê Thanh Nghị (Từ 9-1955)",
+      "type": "person"
+    },
+    {
+      "id": "person_1214",
+      "label": "Ông Phan Anh (Từ 9-1955 Đến 4-1958)",
+      "type": "person"
+    },
+    {
+      "id": "person_1215",
+      "label": "Ông Đỗ Mười (Từ 4-1958)",
+      "type": "person"
+    },
+    {
+      "id": "person_1216",
+      "label": "Ông Phan Anh (Từ 4-1958)",
+      "type": "person"
+    },
+    {
+      "id": "person_1217",
+      "label": "Ông Hoàng Tích Trí (Đến 5-1959)",
+      "type": "person"
+    },
+    {
+      "id": "person_1218",
+      "label": "Ông Phạm Ngọc Thạch (Từ 5-1959)",
+      "type": "person"
+    },
+    {
+      "id": "person_1219",
+      "label": "Ông Vũ Đình Hòe",
+      "type": "person"
+    },
+    {
+      "id": "person_1220",
+      "label": "Ông Hoàng Minh Giám",
+      "type": "person"
+    },
+    {
+      "id": "person_1221",
+      "label": "Ông Vũ Đình Tụng (Đến 5-1959, Vì Giải Thể)",
+      "type": "person"
+    },
+    {
+      "id": "person_1222",
+      "label": "Ông Nguyễn Xiển (Từ 9-1955 Đến 5-1959, Vì Giải Thể)",
+      "type": "person"
+    },
+    {
+      "id": "person_1223",
+      "label": "Ông Nghiêm Xuân Yêm",
+      "type": "person"
+    },
+    {
+      "id": "person_1224",
+      "label": "Ông Phạm Hùng (Từ 9-1955 Đến 4-1958)",
+      "type": "person"
+    },
+    {
+      "id": "person_1225",
+      "label": "Ông Nguyễn Duy Trinh (Từ 4-1958 Đến 12-1958)",
+      "type": "person"
+    },
+    {
+      "id": "person_1226",
+      "label": "Ông Nguyễn Khang (Từ 5-1959)",
+      "type": "person"
+    },
+    {
+      "id": "person_1227",
+      "label": "Ông Nguyễn Văn Trân (Từ 4-1958 Đến 12-1958)",
+      "type": "person"
+    },
+    {
+      "id": "person_1228",
+      "label": "Ông Nguyễn Duy Trinh (Từ 5-1959)",
+      "type": "person"
+    },
+    {
+      "id": "person_1229",
+      "label": "Ông Lê Văn Hiến (Từ 12-1958)",
+      "type": "person"
+    },
+    {
+      "id": "person_1230",
+      "label": "Ông Trường Chinh (Phó Thủ Tướng Kiêm Chức Từ 4-1958)",
+      "type": "person"
+    },
+    {
+      "id": "person_1231",
+      "label": "Ông Phạm Hùng",
+      "type": "person"
+    },
+    {
+      "id": "person_1232",
+      "label": "Ông Phan Kế Toại",
+      "type": "person"
+    },
+    {
+      "id": "person_1233",
+      "label": "Ông Nguyễn Duy Trinh",
+      "type": "person"
+    },
+    {
+      "id": "person_1234",
+      "label": "Ông Lê Thanh Nghị",
+      "type": "person"
+    },
+    {
+      "id": "person_1235",
+      "label": "Ông Trần Hữu Dực (Từ Tháng 1-1963)",
+      "type": "person"
+    },
+    {
+      "id": "person_1236",
+      "label": "Ông Phạm Hùng (Đến Tháng 1-1963)",
+      "type": "person"
+    },
+    {
+      "id": "person_1237",
+      "label": "Ông Hoàng Anh (Đến Tháng 1-1963)",
+      "type": "person"
+    },
+    {
+      "id": "person_1238",
+      "label": "Ông Phạm Hùng (Từ Tháng 1-1963)",
+      "type": "person"
+    },
+    {
+      "id": "person_1239",
+      "label": "Ông Tố Hữu (Đến Tháng 1-1963)",
+      "type": "person"
+    },
+    {
+      "id": "person_1240",
+      "label": "Ông Lê Liêm (Từ Tháng 1-1963)",
+      "type": "person"
+    },
+    {
+      "id": "person_1241",
+      "label": "Ông Nguyễn Khang",
+      "type": "person"
+    },
+    {
+      "id": "person_1242",
+      "label": "Ông Phan Kế Toại (Đến 30-4-1963)",
+      "type": "person"
+    },
+    {
+      "id": "person_1243",
+      "label": "Ông Ung Văn Khiêm (Từ 30-4-1963)",
+      "type": "person"
+    },
+    {
+      "id": "person_1244",
+      "label": "Ông Phạm Văn Đồng (Thủ Tướng Kiêm Chức Đến 2-1961)",
+      "type": "person"
+    },
+    {
+      "id": "person_1245",
+      "label": "Ông Ung Văn Khiêm (Từ 2-1961 Đến 30-4-1963)",
+      "type": "person"
+    },
+    {
+      "id": "person_1246",
+      "label": "Ông Xuân Thủy (Từ 30-4-1963)",
+      "type": "person"
+    },
+    {
+      "id": "person_1247",
+      "label": "Ông Nghiêm Xuân Yêm (Đến 1-1963)",
+      "type": "person"
+    },
+    {
+      "id": "person_1248",
+      "label": "Ông Dương Quốc Chính (Từ 1-1963)",
+      "type": "person"
+    },
+    {
+      "id": "person_1249",
+      "label": "Ông Trần Hữu Dực (Đến 1-1963)",
+      "type": "person"
+    },
+    {
+      "id": "person_1250",
+      "label": "Ông Nghiêm Xuân Yêm (Từ 1-1963)",
+      "type": "person"
+    },
+    {
+      "id": "person_1251",
+      "label": "Ông Dương Quốc Chính (Đến 1-1963)",
+      "type": "person"
+    },
+    {
+      "id": "person_1252",
+      "label": "Ông Hà Kế Tấn (Từ 1-1963)",
+      "type": "person"
+    },
+    {
+      "id": "person_1253",
+      "label": "Ông Nguyễn Văn Trân",
+      "type": "person"
+    },
+    {
+      "id": "person_1254",
+      "label": "Ông Kha Vạng Cân",
+      "type": "person"
+    },
+    {
+      "id": "person_1255",
+      "label": "Ông Bùi Quang Tạo",
+      "type": "person"
+    },
+    {
+      "id": "person_1256",
+      "label": "Ông Phan Trọng Tuệ",
+      "type": "person"
+    },
+    {
+      "id": "person_1257",
+      "label": "Ông Hoàng Anh",
+      "type": "person"
+    },
+    {
+      "id": "person_1258",
+      "label": "Ông Đỗ Mười (Đến 1-1961)",
+      "type": "person"
+    },
+    {
+      "id": "person_1259",
+      "label": "Ông Nguyễn Thanh Bình (Từ 2-1961 Là Quyền Bộ Trưởng.Từ 1-1963 Là Bộ Trưởng)",
+      "type": "person"
+    },
+    {
+      "id": "person_1260",
+      "label": "Ông Võ Nguyên Giáp (Phó Thủ Tướng Kiêm Chức Đến 1-1963)",
+      "type": "person"
+    },
+    {
+      "id": "person_1261",
+      "label": "Ông Nguyễn Duy Trinh (Phó Thủ Tướng Kiêm Chức Từ 1-1963)",
+      "type": "person"
+    },
+    {
+      "id": "person_1262",
+      "label": "Ông Lê Quảng Ba",
+      "type": "person"
+    },
+    {
+      "id": "person_1263",
+      "label": "Ông Nguyễn Lương Bằng",
+      "type": "person"
+    },
+    {
+      "id": "person_1264",
+      "label": "Ông Nguyễn Văn Vịnh",
+      "type": "person"
+    },
+    {
+      "id": "person_1265",
+      "label": "Ông Tạ Hoàng Cơ (Quyền Tổng Giám Đốc Từ 1-1963)",
+      "type": "person"
+    },
+    {
+      "id": "person_1266",
+      "label": "Ông Lê Viết Lượng (Đến 01-1963)",
+      "type": "person"
+    },
+    {
+      "id": "person_1267",
+      "label": "Ông Nguyễn Côn (Từ 11-1967)",
+      "type": "person"
+    },
+    {
+      "id": "person_1268",
+      "label": "Ông Đỗ Mười (Từ 12-1969)",
+      "type": "person"
+    },
+    {
+      "id": "person_1269",
+      "label": "Ông Hoàng Anh (Từ 4-1971)",
+      "type": "person"
+    },
+    {
+      "id": "person_1270",
+      "label": "Ông Trần Hữu Dực (Đến 4-1965)",
+      "type": "person"
+    },
+    {
+      "id": "person_1271",
+      "label": "Ông Hoàng Anh (Từ 4-1965 Đến 12-1969)",
+      "type": "person"
+    },
+    {
+      "id": "person_1272",
+      "label": "Ông Lê Thanh Nghị (Đến 2-1967)",
+      "type": "person"
+    },
+    {
+      "id": "person_1273",
+      "label": "Ông Trần Danh Tuyên (Từ 1967 Đến 12-1969)",
+      "type": "person"
+    },
+    {
+      "id": "person_1274",
+      "label": "Ông Phạm Hùng (Phó Thủ Tướng Kiêm Chức Đến 4-1966)",
+      "type": "person"
+    },
+    {
+      "id": "person_1275",
+      "label": "Ông Nguyễn Thanh Bình (Từ 4-1966 Đến 12-1969)",
+      "type": "person"
+    },
+    {
+      "id": "person_1276",
+      "label": "Ông Nguyễn Văn Tạo (Từ 10-1965)",
+      "type": "person"
+    },
+    {
+      "id": "person_1277",
+      "label": "Ông Trần Quốc Hoàn (Đến 10-1965)",
+      "type": "person"
+    },
+    {
+      "id": "person_1278",
+      "label": "Ông Lê Liêm (Đến 10-1965)",
+      "type": "person"
+    },
+    {
+      "id": "person_1279",
+      "label": "Ông Trần Quang Huy (Từ 10-1965)",
+      "type": "person"
+    },
+    {
+      "id": "person_1280",
+      "label": "Ông Đỗ Mười (Phó Thủ Tướng Kiêm Chức Từ 12-1969, Sau Khi Sáp Nhập Ba Văn Phòng Nông, Công Nghiệp ,",
+      "type": "person"
+    },
+    {
+      "id": "person_1281",
+      "label": "Ông Nguyễn Khang (Đến 4-1965)",
+      "type": "person"
+    },
+    {
+      "id": "person_1282",
+      "label": "Ông Trần Hữu Dực (Từ 4-1965)",
+      "type": "person"
+    },
+    {
+      "id": "person_1283",
+      "label": "Ông Xuân Thủy (Từ 1968)",
+      "type": "person"
+    },
+    {
+      "id": "person_1284",
+      "label": "Ông Ung Văn Khiêm",
+      "type": "person"
+    },
+    {
+      "id": "person_1285",
+      "label": "Ông Xuân Thủy (Đến 4-1965)",
+      "type": "person"
+    },
+    {
+      "id": "person_1286",
+      "label": "Ông Nguyễn Duy Trinh (Phó Thủ Tướng Kiêm Chức Từ 4-1965)",
+      "type": "person"
+    },
+    {
+      "id": "person_1287",
+      "label": "Ông Võ Nguyên Giáp (Phó Thủ Tướng Kiêm Chức)",
+      "type": "person"
+    },
+    {
+      "id": "person_1288",
+      "label": "Ông Dương Quốc Chính (Đến 4-1965)",
+      "type": "person"
+    },
+    {
+      "id": "person_1289",
+      "label": "Ông Hoàng Anh (Từ 4-1965 Đến 11-1967)",
+      "type": "person"
+    },
+    {
+      "id": "person_1290",
+      "label": "Ông Nguyễn Văn Lộc (Từ 11-1967 Đến 4-1971)",
+      "type": "person"
+    },
+    {
+      "id": "person_1291",
+      "label": "Ông Nghiêm Xuân Yêm (Đến 4-1971)",
+      "type": "person"
+    },
+    {
+      "id": "person_1292",
+      "label": "Ông Hà Kế Tấn",
+      "type": "person"
+    },
+    {
+      "id": "person_1293",
+      "label": "Ông Nguyễn Văn Trân (Đến 2-1967)",
+      "type": "person"
+    },
+    {
+      "id": "person_1294",
+      "label": "Ông Lê Thanh Nghị (Phó Thủ Tướng Kiêm Chức Từ 2-1967 Đến 11-1967)",
+      "type": "person"
+    },
+    {
+      "id": "person_1295",
+      "label": "Ông Nguyễn Hữu Mai (Từ 11-1967 Đến 12-1969)",
+      "type": "person"
+    },
+    {
+      "id": "person_1296",
+      "label": "Ông Nguyễn Văn Tạo (Đến 10-1965)",
+      "type": "person"
+    },
+    {
+      "id": "person_1297",
+      "label": "Ông Nguyễn Hữu Khiếu (Từ 10-1965)",
+      "type": "person"
+    },
+    {
+      "id": "person_1298",
+      "label": "Ông Hoàng Anh (Đến 4-1965)",
+      "type": "person"
+    },
+    {
+      "id": "person_1299",
+      "label": "Ông Đặng Việt Châu (Từ 4-1965)",
+      "type": "person"
+    },
+    {
+      "id": "person_1300",
+      "label": "Ông Nguyễn Thanh Bình (Đến 10-1966)",
+      "type": "person"
+    },
+    {
+      "id": "person_1301",
+      "label": "Ông Hoàng Quốc Thịnh (Quyền Bộ Trưởng Từ 10-1966 Đến 11-1967 Là Bộ Trưởng)",
+      "type": "person"
+    },
+    {
+      "id": "person_1302",
+      "label": "Ông Phạm Ngọc Thạch (Đến 3-1969)",
+      "type": "person"
+    },
+    {
+      "id": "person_1303",
+      "label": "Ông Nguyễn Văn Hưởng (Từ 3-1969)",
+      "type": "person"
+    },
+    {
+      "id": "person_1304",
+      "label": "Ông Nguyễn Duy Trinh (Phó Thủ Tướng Kiêm Chức Đến 4-1965)",
+      "type": "person"
+    },
+    {
+      "id": "person_1305",
+      "label": "Ông Nguyễn Côn (Từ 4-1965)",
+      "type": "person"
+    },
+    {
+      "id": "person_1306",
+      "label": "Ông Nguyễn Văn Kha (Từ 12-1969)",
+      "type": "person"
+    },
+    {
+      "id": "person_1307",
+      "label": "Ông Đặng Thí (Từ 12-1969)",
+      "type": "person"
+    },
+    {
+      "id": "person_1308",
+      "label": "Ông Nguyễn Lam (Từ 12-1969)",
+      "type": "person"
+    },
+    {
+      "id": "person_1309",
+      "label": "Ông Nguyễn Duy Trinh (Phó Thủ Tướng Kiêm Chức Đến 10-1965, Sau Khi Ủy Ban Khoa Học Nhà Nước Tách Th",
+      "type": "person"
+    },
+    {
+      "id": "person_1310",
+      "label": "Ông Trần Đại Nghĩa (Từ 10-1965)",
+      "type": "person"
+    },
+    {
+      "id": "person_1311",
+      "label": "Ông Nguyễn Lương Bằng (Đến 9-1969)",
+      "type": "person"
+    },
+    {
+      "id": "person_1312",
+      "label": "Ông Nguyễn Thanh Bình (Từ 12-1969)",
+      "type": "person"
+    },
+    {
+      "id": "person_1313",
+      "label": "Ông Trần Đại Nghĩa",
+      "type": "person"
+    },
+    {
+      "id": "person_1314",
+      "label": "Ông Tạ Hoàng Cơ",
+      "type": "person"
+    },
+    {
+      "id": "person_1315",
+      "label": "Ông Nguyễn Hữu Mai (Từ 12-1969, Sau Khi Thành Lập Bộ)",
+      "type": "person"
+    },
+    {
+      "id": "person_1316",
+      "label": "Ông Đinh Đức Thiện (Từ 12-1969, Sau Khi Thành Lập Bộ)",
+      "type": "person"
+    },
+    {
+      "id": "person_1317",
+      "label": "Ông Tạ Quang Bửu (Từ 10-1965, Sau Khi Thành Lập Bộ)",
+      "type": "person"
+    },
+    {
+      "id": "person_1318",
+      "label": "Ông Ngô Minh Loan (Từ 12-1969, Sau Khi Thành Lập Bộ)",
+      "type": "person"
+    },
+    {
+      "id": "person_1319",
+      "label": "Ông Trần Danh Tuyên (Từ 12-1969, Sau Khi Thành Lập Bộ)",
+      "type": "person"
+    },
+    {
+      "id": "person_1320",
+      "label": "Ông Phạm Hùng (Phó Thủ Tướng Kiêm Chức Từ 4-1965, Sau Khi Thành Lập Ủy Ban, Đến 10-1966)",
+      "type": "person"
+    },
+    {
+      "id": "person_1321",
+      "label": "Ông Nguyễn Thanh Bình (Từ 10-1966 Đến 11-1967)",
+      "type": "person"
+    },
+    {
+      "id": "person_1322",
+      "label": "Ông Đỗ Mười (Từ 11-1967)",
+      "type": "person"
+    },
+    {
+      "id": "person_1323",
+      "label": "Ông Nghiêm Xuân Yêm (Đến 4-1971)",
+      "type": "person"
+    },
+    {
+      "id": "person_1324",
+      "label": "Ông Nguyễn Văn Lộc (Từ 4-1971)",
+      "type": "person"
+    },
+    {
+      "id": "person_1325",
+      "label": "Ông Hoàng Anh (Phó Thủ Tướng Kiêm Chức, Sau Khi Thành Lập Ủy Ban, Từ 4-1971)",
+      "type": "person"
+    },
+    {
+      "id": "person_1326",
+      "label": "Ông Huỳnh Tấn Phát",
+      "type": "person"
+    },
+    {
+      "id": "person_1327",
+      "label": "Ông Phùng Văn Cung",
+      "type": "person"
+    },
+    {
+      "id": "person_1328",
+      "label": "Ông Nguyễn Văn Kiết",
+      "type": "person"
+    },
+    {
+      "id": "person_1329",
+      "label": "Cụ Nguyễn Đóa",
+      "type": "person"
+    },
+    {
+      "id": "person_1330",
+      "label": "Ông Trần Bửu Kiếm",
+      "type": "person"
+    },
+    {
+      "id": "person_1331",
+      "label": "Ông Trần Nam Trung",
+      "type": "person"
+    },
+    {
+      "id": "person_1332",
+      "label": "Bà Nguyễn Thị Bình",
+      "type": "person"
+    },
+    {
+      "id": "person_1333",
+      "label": "Ông Phùng Văn Cung ( Phó Chủ Tịch Kiêm Chức)",
+      "type": "person"
+    },
+    {
+      "id": "person_1334",
+      "label": "Ông Cao Văn Bổn",
+      "type": "person"
+    },
+    {
+      "id": "person_1335",
+      "label": "Ông Lưu Hữu Phước",
+      "type": "person"
+    },
+    {
+      "id": "person_1336",
+      "label": "Ông Nguyễn Văn Kiết ( Phó Chủ Tịch Kiêm Chức)",
+      "type": "person"
+    },
+    {
+      "id": "person_1337",
+      "label": "Bà Dương Quỳnh Hoa",
+      "type": "person"
+    },
+    {
+      "id": "person_1338",
+      "label": "Ông Trương Như Tảng",
+      "type": "person"
+    },
+    {
+      "id": "person_1339",
+      "label": "Ông Trần Hữu Dực (Từ 3-1974 )",
+      "type": "person"
+    },
+    {
+      "id": "person_1340",
+      "label": "Ông Phan Trọng Tuệ (Từ 3-1974 )",
+      "type": "person"
+    },
+    {
+      "id": "person_1341",
+      "label": "Ông Đặng Việt Châu (Từ 3-1974)",
+      "type": "person"
+    },
+    {
+      "id": "person_1342",
+      "label": "Ông Nguyễn Côn",
+      "type": "person"
+    },
+    {
+      "id": "person_1343",
+      "label": "Ông Đỗ Mười",
+      "type": "person"
+    },
+    {
+      "id": "person_1344",
+      "label": "Ông Võ Nguyên Giáp (Phó Thủ Tướng Kiêm Chức)",
+      "type": "person"
+    },
+    {
+      "id": "person_1345",
+      "label": "Ông Nguyễn Duy Trinh (Phó Thủ Tướng Kiêm Chức)",
+      "type": "person"
+    },
+    {
+      "id": "person_1346",
+      "label": "Ông Xuân Thủy",
+      "type": "person"
+    },
+    {
+      "id": "person_1347",
+      "label": "Ông Dương Quốc Chính",
+      "type": "person"
+    },
+    {
+      "id": "person_1348",
+      "label": "Ông Nguyễn Lam (Từ 6-1973 Đến 3-1974)",
+      "type": "person"
+    },
+    {
+      "id": "person_1349",
+      "label": "Ông Nguyễn Côn (Phó Thủ Tướng Kiêm Chức, Đến 6-1973)",
+      "type": "person"
+    },
+    {
+      "id": "person_1350",
+      "label": "Ông Lê Thanh Nghị (Phó Thủ Tướng Kiêm Chức Từ 3-1974)",
+      "type": "person"
+    },
+    {
+      "id": "person_1351",
+      "label": "Ông Nguyễn Lam (Đến 6-1973)",
+      "type": "person"
+    },
+    {
+      "id": "person_1352",
+      "label": "Ông Nguyễn Văn Kha (Đến 6-1974)",
+      "type": "person"
+    },
+    {
+      "id": "person_1353",
+      "label": "Ông Đào Thiện Thi (Từ 3-1974)",
+      "type": "person"
+    },
+    {
+      "id": "person_1354",
+      "label": "Ông Đặng Việt Châu (Đến 3-1974)",
+      "type": "person"
+    },
+    {
+      "id": "person_1355",
+      "label": "Ông Nguyễn Lam (Đến 3-1974)",
+      "type": "person"
+    },
+    {
+      "id": "person_1356",
+      "label": "Ông Đỗ Mười (Phó Thủ Tướng Kiêm Chức, Đến 6-1973)",
+      "type": "person"
+    },
+    {
+      "id": "person_1357",
+      "label": "Ông Hoàng Anh (Phó Thủ Tướng Kiêm Chức, Đến 4-1974)",
+      "type": "person"
+    },
+    {
+      "id": "person_1358",
+      "label": "Ông Võ Thúc Đồng (Đến 4-1974)",
+      "type": "person"
+    },
+    {
+      "id": "person_1359",
+      "label": "Ông Nguyễn Văn Lộc (Đến 3-1974)",
+      "type": "person"
+    },
+    {
+      "id": "person_1360",
+      "label": "Ông Võ Thúc Đồng (Từ 11 - 1974)",
+      "type": "person"
+    },
+    {
+      "id": "person_1361",
+      "label": "Ông Hà Kế Tấn (Đến 6-1973)",
+      "type": "person"
+    },
+    {
+      "id": "person_1362",
+      "label": "Ông Nguyễn Thanh Bình (Từ 6-1973)",
+      "type": "person"
+    },
+    {
+      "id": "person_1363",
+      "label": "Ông Nguyễn Hữu Mai (Đến 4-1974)",
+      "type": "person"
+    },
+    {
+      "id": "person_1364",
+      "label": "Ông Nguyễn Chấn (Từ 4-1974)",
+      "type": "person"
+    },
+    {
+      "id": "person_1365",
+      "label": "Ông Đinh Đức Thiện (Đến 3-1974)",
+      "type": "person"
+    },
+    {
+      "id": "person_1366",
+      "label": "Ông Nguyễn Côn (Từ 3-1974)",
+      "type": "person"
+    },
+    {
+      "id": "person_1367",
+      "label": "Ông Ngô Minh Loan",
+      "type": "person"
+    },
+    {
+      "id": "person_1368",
+      "label": "Ông Bùi Quang Tạo (Đến 6-1973)",
+      "type": "person"
+    },
+    {
+      "id": "person_1369",
+      "label": "Ông Phan Trọng Tuệ (Đến 3-1974)",
+      "type": "person"
+    },
+    {
+      "id": "person_1370",
+      "label": "Ông Dương Bạch Liên (Từ 3-1974)",
+      "type": "person"
+    },
+    {
+      "id": "person_1371",
+      "label": "Ông Nguyễn Hữu Khiếu (Đến 4-1974)",
+      "type": "person"
+    },
+    {
+      "id": "person_1372",
+      "label": "Ông Nguyễn Thọ Chân (Từ 4-1974)",
+      "type": "person"
+    },
+    {
+      "id": "person_1373",
+      "label": "Ông Trần Danh Tuyên",
+      "type": "person"
+    },
+    {
+      "id": "person_1374",
+      "label": "Ông Hoàng Quốc Thịnh",
+      "type": "person"
+    },
+    {
+      "id": "person_1375",
+      "label": "Ông Tạ Quang Bửu",
+      "type": "person"
+    },
+    {
+      "id": "person_1376",
+      "label": "Ông Nguyễn Văn Hưởng (Đến 4-1974)",
+      "type": "person"
+    },
+    {
+      "id": "person_1377",
+      "label": "Ông Vũ Văn Cẩn (Từ 4-1974)",
+      "type": "person"
+    },
+    {
+      "id": "person_1378",
+      "label": "Ông Nguyễn Văn Lộc (Từ 3-1974)",
+      "type": "person"
+    },
+    {
+      "id": "person_1379",
+      "label": "Ông Nguyễn Thanh Bình (Đến 3-1974)",
+      "type": "person"
+    },
+    {
+      "id": "person_1380",
+      "label": "Ông Trần Hữu Dực",
+      "type": "person"
+    },
+    {
+      "id": "person_1381",
+      "label": "Ông Trần Quang Huy",
+      "type": "person"
+    },
+    {
+      "id": "person_1382",
+      "label": "Ông Phan Mỹ (Từ 4-1973)",
+      "type": "person"
+    },
+    {
+      "id": "person_1383",
+      "label": "Ông Đặng Thí (Đến 4-1973)",
+      "type": "person"
+    },
+    {
+      "id": "person_1384",
+      "label": "Ông Đỗ Mười (Phó Thủ Tướng Kiêm Chức, Từ 6-1973, Sau Khi Thành Lập Bộ)",
+      "type": "person"
+    },
+    {
+      "id": "person_1385",
+      "label": "Ông Hà Kế Tấn (Từ 6-1973)",
+      "type": "person"
+    },
+    {
+      "id": "person_1386",
+      "label": "Ông Đặng Thí (Từ 3-1974)",
+      "type": "person"
+    },
+    {
+      "id": "person_1387",
+      "label": "Luật Sư Nguyễn Hữu Thọ",
+      "type": "person"
+    },
+    {
+      "id": "person_1388",
+      "label": "Luật Sư Trịnh Đình Thảo",
+      "type": "person"
+    },
+    {
+      "id": "person_1389",
+      "label": "Ông Y-Bih Alê-Ô",
+      "type": "person"
+    },
+    {
+      "id": "person_1390",
+      "label": "Thượng Tọa Thích Đôn Hậu",
+      "type": "person"
+    },
+    {
+      "id": "person_1391",
+      "label": "Ông Huỳnh Cương",
+      "type": "person"
+    },
+    {
+      "id": "person_1392",
+      "label": "Sư Thúc Huỳnh Văn Trí",
+      "type": "person"
+    },
+    {
+      "id": "person_1393",
+      "label": "Cụ Nguyễn Công Phương",
+      "type": "person"
+    },
+    {
+      "id": "person_1394",
+      "label": "Cụ Võ Oanh",
+      "type": "person"
+    },
+    {
+      "id": "person_1395",
+      "label": "Giáo Sư Lê Văn Giáp",
+      "type": "person"
+    },
+    {
+      "id": "person_1396",
+      "label": "Thiếu Tá Huỳnh Thanh Mừng",
+      "type": "person"
+    },
+    {
+      "id": "person_1397",
+      "label": "Ông Luy-Xiêng Phạm Ngọc Hùng",
+      "type": "person"
+    },
+    {
+      "id": "person_1398",
+      "label": "Kỹ Sư Lâm Văn Tết",
+      "type": "person"
+    },
+    {
+      "id": "person_1399",
+      "label": "Nữ Giáo Sư Nguyễn Đình Chi",
+      "type": "person"
+    },
+    {
+      "id": "person_1400",
+      "label": "Ông Đặng Việt Châu",
+      "type": "person"
+    },
+    {
+      "id": "person_1401",
+      "label": "Ông Võ Nguyên Giáp ( Phó Thủ Tướng Kiêm Chức )",
+      "type": "person"
+    },
+    {
+      "id": "person_1402",
+      "label": "Ông Nguyễn Duy Trinh (Phó Thủ Tướng Kiêm Chức)",
+      "type": "person"
+    },
+    {
+      "id": "person_1403",
+      "label": "Ông Lê Thanh Nghị (Phó Thủ Tướng Kiêm Chức)",
+      "type": "person"
+    },
+    {
+      "id": "person_1404",
+      "label": "Ông Nguyễn Hữu Mai",
+      "type": "person"
+    },
+    {
+      "id": "person_1405",
+      "label": "Ông Đinh Đức Thiện",
+      "type": "person"
+    },
+    {
+      "id": "person_1406",
+      "label": "Ông Nguyễn Chấn",
+      "type": "person"
+    },
+    {
+      "id": "person_1407",
+      "label": "Ông Nguyễn Côn ( Phó Thủ Tướng Kiêm Chức)",
+      "type": "person"
+    },
+    {
+      "id": "person_1408",
+      "label": "Ông Đỗ Mười (Phó Thủ Tướng Kiêm Chức)",
+      "type": "person"
+    },
+    {
+      "id": "person_1409",
+      "label": "Ông Dương Bạch Liên",
+      "type": "person"
+    },
+    {
+      "id": "person_1410",
+      "label": "Ông Vũ Tuân",
+      "type": "person"
+    },
+    {
+      "id": "person_1411",
+      "label": "Ông Võ Thúc Đồng",
+      "type": "person"
+    },
+    {
+      "id": "person_1412",
+      "label": "Ông Nguyễn Thanh Bình",
+      "type": "person"
+    },
+    {
+      "id": "person_1413",
+      "label": "Ông Đào Thiện Thi",
+      "type": "person"
+    },
+    {
+      "id": "person_1414",
+      "label": "Ông Đặng Việt Châu (Phó Thủ Tướng Kiêm Chức)",
+      "type": "person"
+    },
+    {
+      "id": "person_1415",
+      "label": "Ông Nguyễn Thọ Chân",
+      "type": "person"
+    },
+    {
+      "id": "person_1416",
+      "label": "Ông Tô Duy",
+      "type": "person"
+    },
+    {
+      "id": "person_1417",
+      "label": "Ông Vũ Văn Cẩn",
+      "type": "person"
+    },
+    {
+      "id": "person_1418",
+      "label": "Ông Dương Quốc Chính",
+      "type": "person"
+    },
+    {
+      "id": "person_1419",
+      "label": "Ông Nguyễn Văn Lộc",
+      "type": "person"
+    },
+    {
+      "id": "person_1420",
+      "label": "Ông Đặng Thí",
+      "type": "person"
+    },
+    {
+      "id": "person_1421",
+      "label": "Ông Phan Mỹ",
+      "type": "person"
+    },
+    {
+      "id": "person_1422",
+      "label": "Ông Trần Hữu Dực (Phó Thủ Tướng Kiêm Chức)",
+      "type": "person"
+    },
+    {
+      "id": "person_1423",
+      "label": "Ông Nguyễn Duy Trinh (Đến 2-1980)",
+      "type": "person"
+    },
+    {
+      "id": "person_1424",
+      "label": "Ông Võ Chí Công",
+      "type": "person"
+    },
+    {
+      "id": "person_1425",
+      "label": "Ông Tố Hữu (Từ 2-1980)",
+      "type": "person"
+    },
+    {
+      "id": "person_1426",
+      "label": "Ông Nguyễn Lam (Từ 2-1980)",
+      "type": "person"
+    },
+    {
+      "id": "person_1427",
+      "label": "Ông Trần Quỳnh (Từ 1-1981)",
+      "type": "person"
+    },
+    {
+      "id": "person_1428",
+      "label": "Ông Trần Quốc Hoàn (Đến 2-1980)",
+      "type": "person"
+    },
+    {
+      "id": "person_1429",
+      "label": "Ông Phạm Hùng (Phó Thủ Tướng Kiêm Chức Từ 2-1980)",
+      "type": "person"
+    },
+    {
+      "id": "person_1430",
+      "label": "Ông Nguyễn Duy Trinh (Phó Thủ Tướng Kiêm Chức Đến 2-1980)",
+      "type": "person"
+    },
+    {
+      "id": "person_1431",
+      "label": "Ông Nguyễn Cơ Thạch",
+      "type": "person"
+    },
+    {
+      "id": "person_1432",
+      "label": "Ông Nguyễn Cơ Thạch (Từ 2-1980)",
+      "type": "person"
+    },
+    {
+      "id": "person_1433",
+      "label": "Ông Võ Nguyên Giáp (Phó Thủ Tướng Kiêm Chức Đến 2-1980)",
+      "type": "person"
+    },
+    {
+      "id": "person_1434",
+      "label": "Ông Văn Tiến Dũng (Từ 2-1980)",
+      "type": "person"
+    },
+    {
+      "id": "person_1435",
+      "label": "Ông Lê Thanh Nghị (Phó Thủ Tướng Kiêm Chức Đến 2-1980)",
+      "type": "person"
+    },
+    {
+      "id": "person_1436",
+      "label": "Ông Nguyễn Lam (Phó Thủ Tướng Kiêm Chức Từ 2-1980)",
+      "type": "person"
+    },
+    {
+      "id": "person_1437",
+      "label": "Ông Nguyễn Hữu Mai (Đến 2-1980)",
+      "type": "person"
+    },
+    {
+      "id": "person_1438",
+      "label": "Ông Trần Quỳnh (Từ 2-1980 Đến 1-1981)",
+      "type": "person"
+    },
+    {
+      "id": "person_1439",
+      "label": "Ông Trần Phương (Từ 2-1980 Đến 1-1981)",
+      "type": "person"
+    },
+    {
+      "id": "person_1440",
+      "label": "Ông Vũ Đại (Từ 1-1981)",
+      "type": "person"
+    },
+    {
+      "id": "person_1441",
+      "label": "Ông Võ Thúc Đồng (Đến 7-1977)",
+      "type": "person"
+    },
+    {
+      "id": "person_1442",
+      "label": "Ông Võ Chí Công (Phó Thủ Tướng Kiêm Chức Từ 7-1977 Đến 1979)",
+      "type": "person"
+    },
+    {
+      "id": "person_1443",
+      "label": "Ông Nguyễn Ngọc Trìu (Từ 1979)",
+      "type": "person"
+    },
+    {
+      "id": "person_1444",
+      "label": "Ông Hoàng Văn Kiểu (Đến 2-1977)",
+      "type": "person"
+    },
+    {
+      "id": "person_1445",
+      "label": "Ông Trần Kiên (Từ 2-1979 Đến 1-1981)",
+      "type": "person"
+    },
+    {
+      "id": "person_1446",
+      "label": "Ông Phan Xuân Đợt (Từ 1-1981)",
+      "type": "person"
+    },
+    {
+      "id": "person_1447",
+      "label": "Ông Nguyễn Thanh Bình (Đến 1-1981)",
+      "type": "person"
+    },
+    {
+      "id": "person_1448",
+      "label": "Ông Nguyễn Cảnh Dinh (Từ 1-1981)",
+      "type": "person"
+    },
+    {
+      "id": "person_1449",
+      "label": "Ông Nguyễn Côn (Đến 11-1977)",
+      "type": "person"
+    },
+    {
+      "id": "person_1450",
+      "label": "Ông Nguyễn Văn Kha (Từ 11-1977)",
+      "type": "person"
+    },
+    {
+      "id": "person_1451",
+      "label": "Ông Nguyễn Chấn (Đến 1-1981, Khi Chia Tách Bộ)",
+      "type": "person"
+    },
+    {
+      "id": "person_1452",
+      "label": "Ông Phạm Khai (Từ 1-1981, Khi Thành Lập Bộ)",
+      "type": "person"
+    },
+    {
+      "id": "person_1453",
+      "label": "Ông Nguyễn Chân (Từ 1-1981, Khi Thành Lập Bộ)",
+      "type": "person"
+    },
+    {
+      "id": "person_1454",
+      "label": "Ông Đỗ Mười (Phó Thủ Tướng Kiêm Chức Đến 11-1977)",
+      "type": "person"
+    },
+    {
+      "id": "person_1455",
+      "label": "Ông Đồng Sĩ Nguyên (Từ 11-1977)",
+      "type": "person"
+    },
+    {
+      "id": "person_1456",
+      "label": "Ông Vũ Tuân (Đến 2-1977)",
+      "type": "person"
+    },
+    {
+      "id": "person_1457",
+      "label": "Ông Trần Hữu Dư (Từ 2-1977)",
+      "type": "person"
+    },
+    {
+      "id": "person_1458",
+      "label": "Ông Ngô Minh Loan (Đến 4-1979)",
+      "type": "person"
+    },
+    {
+      "id": "person_1459",
+      "label": "Ông Hồ Viết Thắng (Từ 4-1979 Đến 1-1981)",
+      "type": "person"
+    },
+    {
+      "id": "person_1460",
+      "label": "Ông Vũ Tuân (Từ 1-1981, Khi Thành Lập Bộ)",
+      "type": "person"
+    },
+    {
+      "id": "person_1461",
+      "label": "Ông La Lâm Gia (Từ 1-1981, Khi Thành Lập Bộ)",
+      "type": "person"
+    },
+    {
+      "id": "person_1462",
+      "label": "Ông Võ Chí Công (Phó Thủ Tướng Kiêm Chức Đến 2-1977)",
+      "type": "person"
+    },
+    {
+      "id": "person_1463",
+      "label": "Ông Nguyễn Quang Lâm (Từ 2 Đến 11-1977)",
+      "type": "person"
+    },
+    {
+      "id": "person_1464",
+      "label": "Ông Đỗ Chính (Từ 11-1977 Đến 1-1981)",
+      "type": "person"
+    },
+    {
+      "id": "person_1465",
+      "label": "Ông Nguyễn Tấn Trịnh (Từ 1-1981)",
+      "type": "person"
+    },
+    {
+      "id": "person_1466",
+      "label": "Ông Hoàng Quốc Thịnh (Đến 11-1977)",
+      "type": "person"
+    },
+    {
+      "id": "person_1467",
+      "label": "Ông Trần Văn Hiển (Từ 11-1977 Đến 1-1981)",
+      "type": "person"
+    },
+    {
+      "id": "person_1468",
+      "label": "Ông Trần Phương (Từ 1-1981)",
+      "type": "person"
+    },
+    {
+      "id": "person_1469",
+      "label": "Ông Đặng Việt Châu (Đến 2-1980)",
+      "type": "person"
+    },
+    {
+      "id": "person_1470",
+      "label": "Ông Lê Khắc (Từ 2-1980)",
+      "type": "person"
+    },
+    {
+      "id": "person_1471",
+      "label": "Ông Đào Thiện Thi (Đến 2-1977)",
+      "type": "person"
+    },
+    {
+      "id": "person_1472",
+      "label": "Ông Hoàng Anh (Từ 2-1977)",
+      "type": "person"
+    },
+    {
+      "id": "person_1473",
+      "label": "Ông Hoàng Anh (Đến 2-1977)",
+      "type": "person"
+    },
+    {
+      "id": "person_1474",
+      "label": "Ông Trần Dương (Từ 2-1977 Đến 2-1981)",
+      "type": "person"
+    },
+    {
+      "id": "person_1475",
+      "label": "Ông Nguyễn Duy Gia (Từ 2-1981)",
+      "type": "person"
+    },
+    {
+      "id": "person_1476",
+      "label": "Ông Tô Duy (Đến 2-1981)",
+      "type": "person"
+    },
+    {
+      "id": "person_1477",
+      "label": "Ông Đoàn Trọng Truyến (Từ 2-1981)",
+      "type": "person"
+    },
+    {
+      "id": "person_1478",
+      "label": "Ông Nguyễn Thọ Chân (Đến 2-1981)",
+      "type": "person"
+    },
+    {
+      "id": "person_1479",
+      "label": "Ông Đào Thiện Thi (Từ 2-1981)",
+      "type": "person"
+    },
+    {
+      "id": "person_1480",
+      "label": "Ông Trần Sâm",
+      "type": "person"
+    },
+    {
+      "id": "person_1481",
+      "label": "Ông Lê Quảng Ba (Đến 2-1977)",
+      "type": "person"
+    },
+    {
+      "id": "person_1482",
+      "label": "Ông Vũ Lập (Từ 2-1977 Đến 6-1978)",
+      "type": "person"
+    },
+    {
+      "id": "person_1483",
+      "label": "Ông Trần Đại Nghĩa (Đến 2-1977)",
+      "type": "person"
+    },
+    {
+      "id": "person_1484",
+      "label": "Ông Trần Quỳnh (Từ 2-1977 Đến 2-1980)",
+      "type": "person"
+    },
+    {
+      "id": "person_1485",
+      "label": "Ông Lê Khắc (Từ 2-1980)",
+      "type": "person"
+    },
+    {
+      "id": "person_1486",
+      "label": "Ông Nguyễn Văn Hiếu (Đến 1977)",
+      "type": "person"
+    },
+    {
+      "id": "person_1487",
+      "label": "Ông Nguyễn Văn Hiếu (Sau Khi Thành Lập Bộ Mới Tiếp Tục Giữ Chức Bộ Trưởng)",
+      "type": "person"
+    },
+    {
+      "id": "person_1488",
+      "label": "Ông Nguyễn Đình Tứ",
+      "type": "person"
+    },
+    {
+      "id": "person_1489",
+      "label": "Ông Dương Quốc Chính",
+      "type": "person"
+    },
+    {
+      "id": "person_1490",
+      "label": "Ông Hà Kế Tấn (Đến 5-1978)",
+      "type": "person"
+    },
+    {
+      "id": "person_1491",
+      "label": "Ông Đặng Thí (Đến 2-1977)",
+      "type": "person"
+    },
+    {
+      "id": "person_1492",
+      "label": "Ông Vũ Tuân (Từ 2-1977 Đến 1-1981)",
+      "type": "person"
+    },
+    {
+      "id": "person_1493",
+      "label": "Ông Đặng Việt Châu (Từ 1-1981)",
+      "type": "person"
+    },
+    {
+      "id": "person_1494",
+      "label": "Ông Trần Quang Huy (Đến 2-1980)",
+      "type": "person"
+    },
+    {
+      "id": "person_1495",
+      "label": "Ông Trần Đại Nghĩa (Từ 4-1977)",
+      "type": "person"
+    },
+    {
+      "id": "person_1496",
+      "label": "Ông Trần Quang Huy (Từ 2-1980)",
+      "type": "person"
+    },
+    {
+      "id": "person_1497",
+      "label": "Ông Huỳnh Tấn Phát (Phó Thủ Tướng Kiêm Chức Từ 1979, Sau Khi Thành Lập Ủy Ban)",
+      "type": "person"
+    },
+    {
+      "id": "person_1498",
+      "label": "Ông Tố Hữu (Đến 6-1986)",
+      "type": "person"
+    },
+    {
+      "id": "person_1499",
+      "label": "Ông Huỳnh Tấn Phát (Đến 6-1982)",
+      "type": "person"
+    },
+    {
+      "id": "person_1500",
+      "label": "Ông Võ Chí Công (Đến 4-1982 Và Từ 6-1986)",
+      "type": "person"
+    },
+    {
+      "id": "person_1501",
+      "label": "Ông Nguyễn Lam (Đến 4-1982)",
+      "type": "person"
+    },
+    {
+      "id": "person_1502",
+      "label": "Ông Trần Quỳnh (Đến 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1503",
+      "label": "Ông Võ Văn Kiệt (Từ 4-1982)",
+      "type": "person"
+    },
+    {
+      "id": "person_1504",
+      "label": "Ông Đồng Sĩ Nguyên (Từ 4-1982)",
+      "type": "person"
+    },
+    {
+      "id": "person_1505",
+      "label": "Ông Vũ Đình Liệu (Từ 4-1982 Đến 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1506",
+      "label": "Ông Trần Phương (Từ 4-1982 Đến 1-1986)",
+      "type": "person"
+    },
+    {
+      "id": "person_1507",
+      "label": "Ông Nguyễn Cơ Thạch (Từ 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1508",
+      "label": "Ông Nguyễn Ngọc Trìu (Từ 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1509",
+      "label": "Ông Trần Đức Lương (Đến 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1510",
+      "label": "Ông Nguyễn Khánh (Từ 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1511",
+      "label": "Ông Đoàn Duy Thành (Từ 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1512",
+      "label": "Ông Nguyễn Văn Chính (Chín Cần) (Từ 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1513",
+      "label": "Ông Đặng Thí (Đến 4-1982)",
+      "type": "person"
+    },
+    {
+      "id": "person_1514",
+      "label": "Ông Nguyễn Hữu Thụ (Từ 4-1982 Đến 5-1984)",
+      "type": "person"
+    },
+    {
+      "id": "person_1515",
+      "label": "Ông Đoàn Trọng Truyến (Từ 5-1984 Đến 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1516",
+      "label": "Ông Nguyễn Khánh (Phó Chủ Tịch Hđbt Kiêm Chức, Từ 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1517",
+      "label": "Ông Phạm Hùng (Phó Chủ Tịch Hđbt Kiêm Chức Đến 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1518",
+      "label": "Ông Mai Chí Thọ (Từ 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1519",
+      "label": "Ông Văn Tiến Dũng (Đến 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1520",
+      "label": "Ông Lê Đức Anh (Từ 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1521",
+      "label": "Ông Võ Đông Giang (Từ 3-1983)",
+      "type": "person"
+    },
+    {
+      "id": "person_1522",
+      "label": "Ông Nguyễn Lam (Phó Chủ Tịch Hđbt Kiêm Chức Đến 4-1982)",
+      "type": "person"
+    },
+    {
+      "id": "person_1523",
+      "label": "Ông Võ Văn Kiệt (Phó Chủ Tịch Hđbt Kiêm Chức Từ 4-1982)",
+      "type": "person"
+    },
+    {
+      "id": "person_1524",
+      "label": "Ông Vũ Đại",
+      "type": "person"
+    },
+    {
+      "id": "person_1525",
+      "label": "Ông Hoàng Quy (Từ 10-1983 Đến 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1526",
+      "label": "Ông Đậu Ngọc Xuân (Từ 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1527",
+      "label": "Ông Huỳnh Tấn Phát (Phó Chủ Tịch Hđbt Kiêm Chức, Đến 6-1982)",
+      "type": "person"
+    },
+    {
+      "id": "person_1528",
+      "label": "Ông Đỗ Quốc Sam (Đến 10-1982)",
+      "type": "person"
+    },
+    {
+      "id": "person_1529",
+      "label": "Ông Lê Khắc (Đến 4-1982)",
+      "type": "person"
+    },
+    {
+      "id": "person_1530",
+      "label": "Ông Đặng Hữu (Từ 4-1982)",
+      "type": "person"
+    },
+    {
+      "id": "person_1531",
+      "label": "Ông Trần Nam Trung (Đến 4-1982)",
+      "type": "person"
+    },
+    {
+      "id": "person_1532",
+      "label": "Ông Bùi Quang Tạo (Từ 4-1982 Đến 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1533",
+      "label": "Ông Nguyễn Văn Chính (Chín Cần) (Phó Chủ Tịch Hđbt Kiêm Chức, Từ 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1534",
+      "label": "Ông Hoàng Văn Kiểu (Đến 2-1987, Khi Giải Thể Uỷ Ban)",
+      "type": "person"
+    },
+    {
+      "id": "person_1535",
+      "label": "Ông Đoàn Trọng Truyến (Đến 5-1984)",
+      "type": "person"
+    },
+    {
+      "id": "person_1536",
+      "label": "Ông Phan Văn Tiệm (Từ 5-1984 Là Quyền Chủ Nhiệm, Từ 2-1987 Là Chủ Nhiệm)",
+      "type": "person"
+    },
+    {
+      "id": "person_1537",
+      "label": "Ông Hoàng Anh (Đến 4-1982)",
+      "type": "person"
+    },
+    {
+      "id": "person_1538",
+      "label": "Ông Chu Tam Thức (Từ 4-1982 Đến 6-1986)",
+      "type": "person"
+    },
+    {
+      "id": "person_1539",
+      "label": "Ông Vũ Tuân (Từ 6-1986 Đến 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1540",
+      "label": "Ông Hoàng Quy (Từ 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1541",
+      "label": "Ông Lữ Minh Châu (Từ 6-1986)",
+      "type": "person"
+    },
+    {
+      "id": "person_1542",
+      "label": "Ông Nguyễn Duy Gia (Đến 6-1986)",
+      "type": "person"
+    },
+    {
+      "id": "person_1543",
+      "label": "Ông Trần Sâm (Đến 4-1982)",
+      "type": "person"
+    },
+    {
+      "id": "person_1544",
+      "label": "Ông Hoàng Đức Nghi (Từ 4-1982)",
+      "type": "person"
+    },
+    {
+      "id": "person_1545",
+      "label": "Ông Đào Thiện Thi (Đến 2-1987, Khi Sát Nhập Bộ Lao Động Và Bộ Thương Binh Xã Hội Thành Bộ Mới)",
+      "type": "person"
+    },
+    {
+      "id": "person_1546",
+      "label": "Ông Đồng Sĩ Nguyên (Đến 4-1982)",
+      "type": "person"
+    },
+    {
+      "id": "person_1547",
+      "label": "Ông Phan Ngọc Tường (Từ 4-1982)",
+      "type": "person"
+    },
+    {
+      "id": "person_1548",
+      "label": "Ông Đinh Đức Thiện (Đến 4-1982)",
+      "type": "person"
+    },
+    {
+      "id": "person_1549",
+      "label": "Ông Đồng Sĩ Nguyên (Phó Chủ Tịch Hđbt Kiêm Chức, Từ 4-1982 Đến 6-1986)",
+      "type": "person"
+    },
+    {
+      "id": "person_1550",
+      "label": "Ông Bùi Danh Lưu (Từ 6-1986)",
+      "type": "person"
+    },
+    {
+      "id": "person_1551",
+      "label": "Ông Nguyễn Văn Kha (Đến 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1552",
+      "label": "Ông Phan Thanh Liêm (Từ 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1553",
+      "label": "Ông Nguyễn Trân (Đến 6-1986)",
+      "type": "person"
+    },
+    {
+      "id": "person_1554",
+      "label": "Ông Phạm Khai (Từ 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1555",
+      "label": "Ông Trần Hữu Dư (Đến 4-1982)",
+      "type": "person"
+    },
+    {
+      "id": "person_1556",
+      "label": "Ông Nguyễn Chí Vu (Từ 4-1982 Đến 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1557",
+      "label": "Ông Vũ Tuân (Từ 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1558",
+      "label": "Ông Vũ Tuân (Đến 6-1982)",
+      "type": "person"
+    },
+    {
+      "id": "person_1559",
+      "label": "Ông Nguyễn Ngọc Trìu (Từ 2-1987 Là Phó Chủ Tịch Hđbt Kiêm Chức)",
+      "type": "person"
+    },
+    {
+      "id": "person_1560",
+      "label": "Ông Phan Xuân Đợt",
+      "type": "person"
+    },
+    {
+      "id": "person_1561",
+      "label": "Ông Nguyễn Cảnh Dinh",
+      "type": "person"
+    },
+    {
+      "id": "person_1562",
+      "label": "Ông Nguyễn Tấn Trịnh",
+      "type": "person"
+    },
+    {
+      "id": "person_1563",
+      "label": "Ông Nguyễn Văn Chính (Chín Cần) (Từ 6-1984 Đến 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1564",
+      "label": "Ông La Lâm Gia (Đến 6-1984)",
+      "type": "person"
+    },
+    {
+      "id": "person_1565",
+      "label": "Ông Trần Phương (Đến 4-1982)",
+      "type": "person"
+    },
+    {
+      "id": "person_1566",
+      "label": "Ông Lê Đức Thịnh (Từ 4-1982 Đến 6-1986)",
+      "type": "person"
+    },
+    {
+      "id": "person_1567",
+      "label": "Ông Hoàng Minh Thắng (Từ 6-1986)",
+      "type": "person"
+    },
+    {
+      "id": "person_1568",
+      "label": "Ông Lê Khắc (Đến 6-1986)",
+      "type": "person"
+    },
+    {
+      "id": "person_1569",
+      "label": "Ông Đoàn Duy Thành (Từ 6-1986)",
+      "type": "person"
+    },
+    {
+      "id": "person_1570",
+      "label": "Ông Nguyễn Văn Hiếu (Đến 6-1986)",
+      "type": "person"
+    },
+    {
+      "id": "person_1571",
+      "label": "Ông Trần Văn Phác (Đến 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1572",
+      "label": "Ông Vũ Văn Cẩn (Đến 4-1982)",
+      "type": "person"
+    },
+    {
+      "id": "person_1573",
+      "label": "Ông Đặng Hồi Xuân (Từ 4-1982)",
+      "type": "person"
+    },
+    {
+      "id": "person_1574",
+      "label": "Bà Nguyễn Thị Bình (Đến 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1575",
+      "label": "Ông Phạm Minh Hạc (Từ 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1576",
+      "label": "Ông Nguyễn Đình Tứ (Đến 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1577",
+      "label": "Ông Trần Hồng Quân (Từ 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1578",
+      "label": "Ông Dương Quốc Chính (Đến 4-1982)",
+      "type": "person"
+    },
+    {
+      "id": "person_1579",
+      "label": "Ông Song Hào (Từ 4-1982 Đến 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1580",
+      "label": "Ông Phan Hiền",
+      "type": "person"
+    },
+    {
+      "id": "person_1581",
+      "label": "Ông Đặng Thí (Đến 4-1982)",
+      "type": "person"
+    },
+    {
+      "id": "person_1582",
+      "label": "Ông Nguyễn Hữu Thụ (Từ 4-1982 Đến 5-1984)",
+      "type": "person"
+    },
+    {
+      "id": "person_1583",
+      "label": "Ông Đoàn Trọng Truyến (Từ 5-1984 Đến 2-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1584",
+      "label": "Ông Hồ Ngọc Nhường (Từ 4-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1585",
+      "label": "Ông Trần Hoàn (Từ 2-1987, Khi Giải Thể Ủy Ban Phát Thanh Và Truyền Hình, Thành Lập Bộ Thông Tin)",
+      "type": "person"
+    },
+    {
+      "id": "person_1586",
+      "label": "Ông Nguyễn Công Tạn (Từ 2-1987, Khi Sáp Nhập 3 Bộ Nông Nghiệp, Công Nghiệp Thực Phẩm Và Lương Thực,",
+      "type": "person"
+    },
+    {
+      "id": "person_1587",
+      "label": "Ông Vũ Ngọc Hải ( Từ 2-1987, Khi Sáp Nhập 2 Bộ: Bộ Điện Lực, Mỏ Than, Thành Lập Bộ Mới )",
+      "type": "person"
+    },
+    {
+      "id": "person_1588",
+      "label": "Ông Nguyễn Kỳ Cẩm (Từ 2-1987, Khi Sáp Nhập 2 Bộ: Bộ Lao Động Và Bộ Thương Binh Xã Hội, Thành Lập Bộ",
+      "type": "person"
+    },
+    {
+      "id": "person_1589",
+      "label": "Ông Phạm Hùng (Đến 10-3-1988 Vì Từ Trần)",
+      "type": "person"
+    },
+    {
+      "id": "person_1590",
+      "label": "Ông Võ Văn Kiệt (Từ 8-1991)",
+      "type": "person"
+    },
+    {
+      "id": "person_1591",
+      "label": "Ông Đỗ Mười (Từ 6-1988 Đến 7-1991)",
+      "type": "person"
+    },
+    {
+      "id": "person_1592",
+      "label": "Ông Võ Văn Kiệt (Từ 3-1988 Đến 6-1988)",
+      "type": "person"
+    },
+    {
+      "id": "person_1593",
+      "label": "Ông Võ Văn Kiệt (Từ 6-1987 Đến 8-1991)",
+      "type": "person"
+    },
+    {
+      "id": "person_1594",
+      "label": "Ông Phan Văn Khải (Từ 8-1991)",
+      "type": "person"
+    },
+    {
+      "id": "person_1595",
+      "label": "Ông Nguyễn Cơ Thạch (Đến 8-1991)",
+      "type": "person"
+    },
+    {
+      "id": "person_1596",
+      "label": "Ông Võ Nguyên Giáp (Đến 8-1991)",
+      "type": "person"
+    },
+    {
+      "id": "person_1597",
+      "label": "Ông Nguyễn Khánh",
+      "type": "person"
+    },
+    {
+      "id": "person_1598",
+      "label": "Ông Trần Đức Lương",
+      "type": "person"
+    },
+    {
+      "id": "person_1599",
+      "label": "Ông Nguyễn Ngọc Trìu (Đến 5-1988)",
+      "type": "person"
+    },
+    {
+      "id": "person_1600",
+      "label": "Ông Nguyễn Văn Chính (Chín Cần) (Đến 5-1988)",
+      "type": "person"
+    },
+    {
+      "id": "person_1601",
+      "label": "Ông Đoàn Duy Thành (Đến 5-1988)",
+      "type": "person"
+    },
+    {
+      "id": "person_1602",
+      "label": "Ông Đồng Sĩ Nguyên (Đến 8-1991)",
+      "type": "person"
+    },
+    {
+      "id": "person_1603",
+      "label": "Ông Nguyễn Khánh (Phó Chủ Tịch Hđbt Kiêm Chức)",
+      "type": "person"
+    },
+    {
+      "id": "person_1604",
+      "label": "Ông Lê Đức Anh (Đến 7-1991)",
+      "type": "person"
+    },
+    {
+      "id": "person_1605",
+      "label": "Ông Đoàn Khuê (Từ 8-1991)",
+      "type": "person"
+    },
+    {
+      "id": "person_1606",
+      "label": "Ông Nguyễn Cơ Thạch (Phó Chủ Tịch Hđbt Kiêm Chức Đến 7-1991)",
+      "type": "person"
+    },
+    {
+      "id": "person_1607",
+      "label": "Ông Nguyễn Mạnh Cầm (Từ 8-1991)",
+      "type": "person"
+    },
+    {
+      "id": "person_1608",
+      "label": "Ông Mai Chí Thọ (Đến 7-1991)",
+      "type": "person"
+    },
+    {
+      "id": "person_1609",
+      "label": "Ông Bùi Thiện Ngộ (Từ 8-1991)",
+      "type": "person"
+    },
+    {
+      "id": "person_1610",
+      "label": "Ông Võ Văn Kiệt (Phó Chủ Tịch Hđbt Kiêm Chức Đến 3-1988)",
+      "type": "person"
+    },
+    {
+      "id": "person_1611",
+      "label": "Ông Đậu Ngọc Xuân (Từ 3-1988 Đến 3-1989)",
+      "type": "person"
+    },
+    {
+      "id": "person_1612",
+      "label": "Ông Đỗ Quốc Sam (Từ 8-1991)",
+      "type": "person"
+    },
+    {
+      "id": "person_1613",
+      "label": "Ông Phan Văn Khải (Từ 3-1989 Đến 8-1991)",
+      "type": "person"
+    },
+    {
+      "id": "person_1614",
+      "label": "Ông Đậu Ngọc Xuân (Đến 3-1988)",
+      "type": "person"
+    },
+    {
+      "id": "person_1615",
+      "label": "Ông Đậu Ngọc Xuân (Từ 3-1989 Đến 4-1989)",
+      "type": "person"
+    },
+    {
+      "id": "person_1616",
+      "label": "Ông Đậu Ngọc Xuân (Từ 4-1989)",
+      "type": "person"
+    },
+    {
+      "id": "person_1617",
+      "label": "Ông Võ Đông Giang (Đến 3-1988, Khi Sáp Nhập Bộ Ngoại Thương Và Ủy Ban Kinh Tế Đối Ngoại)",
+      "type": "person"
+    },
+    {
+      "id": "person_1618",
+      "label": "Ông Đặng Thí (Đến 1-1989 Khi Giải Thể Ủy Ban)",
+      "type": "person"
+    },
+    {
+      "id": "person_1619",
+      "label": "Ông Đỗ Quốc Sam (Đến 3-1988, Khi Sáp Nhập Ủy Ban Với Bộ Xây Dựng)",
+      "type": "person"
+    },
+    {
+      "id": "person_1620",
+      "label": "Ông Đặng Hữu (Đến 3-1990 Đổi Là Chủ Nhiệm Ủy Ban Khoa Học)",
+      "type": "person"
+    },
+    {
+      "id": "person_1621",
+      "label": "Ông Nguyễn Văn Chính (Chín Cần) (Phó Chủ Tịch Hđbt Kiêm Chức Đến 5-1988)",
+      "type": "person"
+    },
+    {
+      "id": "person_1622",
+      "label": "Ông Huỳnh Công Sổ (Từ 5-1988 Đến 4-1989)",
+      "type": "person"
+    },
+    {
+      "id": "person_1623",
+      "label": "Ông Nguyễn Kỳ Cẩm (Từ 4-1989)",
+      "type": "person"
+    },
+    {
+      "id": "person_1624",
+      "label": "Ông Phan Văn Tiệm",
+      "type": "person"
+    },
+    {
+      "id": "person_1625",
+      "label": "Ông Hoàng Quy (Đến 5-1992)",
+      "type": "person"
+    },
+    {
+      "id": "person_1626",
+      "label": "Ông Hồ Tế (Từ 5-1992)",
+      "type": "person"
+    },
+    {
+      "id": "person_1627",
+      "label": "Ông Lữ Minh Châu (Đến 4-1989)",
+      "type": "person"
+    },
+    {
+      "id": "person_1628",
+      "label": "Ông Cao Sỹ Kiêm (Từ 4-1989)",
+      "type": "person"
+    },
+    {
+      "id": "person_1629",
+      "label": "Ông Hoàng Đức Nghi",
+      "type": "person"
+    },
+    {
+      "id": "person_1630",
+      "label": "Ông Nguyễn Kỳ Cẩm (Đến 4-1989)",
+      "type": "person"
+    },
+    {
+      "id": "person_1631",
+      "label": "Ông Trần Đình Hoan (Từ 4-1989)",
+      "type": "person"
+    },
+    {
+      "id": "person_1632",
+      "label": "Ông Phan Ngọc Tường",
+      "type": "person"
+    },
+    {
+      "id": "person_1633",
+      "label": "Ông Ngô Xuân Lộc (Từ 10-1989)",
+      "type": "person"
+    },
+    {
+      "id": "person_1634",
+      "label": "Ông Bùi Danh Lưu",
+      "type": "person"
+    },
+    {
+      "id": "person_1635",
+      "label": "Ông Phan Thanh Liêm (Đến 2-1990)",
+      "type": "person"
+    },
+    {
+      "id": "person_1636",
+      "label": "Ông Trần Lum (Từ 2-1990)",
+      "type": "person"
+    },
+    {
+      "id": "person_1637",
+      "label": "Ông Hoàng Đức Nghi (Từ 3-1990)",
+      "type": "person"
+    },
+    {
+      "id": "person_1638",
+      "label": "Ông Vũ Ngọc Hải",
+      "type": "person"
+    },
+    {
+      "id": "person_1639",
+      "label": "Ông Vũ Tuân (Đến 2-1990)",
+      "type": "person"
+    },
+    {
+      "id": "person_1640",
+      "label": "Ông Đặng Vũ Chư (Từ 2-1990)",
+      "type": "person"
+    },
+    {
+      "id": "person_1641",
+      "label": "Ông Nguyễn Công Tạn",
+      "type": "person"
+    },
+    {
+      "id": "person_1642",
+      "label": "Ông Hoàng Minh Thắng (Đến 3-1987)",
+      "type": "person"
+    },
+    {
+      "id": "person_1643",
+      "label": "Ông Hoàng Minh Thắng (Từ 3-1987 Đến 8-1991)",
+      "type": "person"
+    },
+    {
+      "id": "person_1644",
+      "label": "Ông Lê Văn Triết (Từ 8-1991)",
+      "type": "person"
+    },
+    {
+      "id": "person_1645",
+      "label": "Ông Lê Văn Triết",
+      "type": "person"
+    },
+    {
+      "id": "person_1646",
+      "label": "Ông Đoàn Duy Thành (Đến 3-1988)",
+      "type": "person"
+    },
+    {
+      "id": "person_1647",
+      "label": "Ông Đoàn Duy Thành",
+      "type": "person"
+    },
+    {
+      "id": "person_1648",
+      "label": "Ông Trần Văn Phác (Đến 3-1990)",
+      "type": "person"
+    },
+    {
+      "id": "person_1649",
+      "label": "Ông Trần Hoàn (Đến 3-1990)",
+      "type": "person"
+    },
+    {
+      "id": "person_1650",
+      "label": "Ông Trần Hoàn",
+      "type": "person"
+    },
+    {
+      "id": "person_1651",
+      "label": "Ông Đặng Hồi Xuân (Đến 11-1988)",
+      "type": "person"
+    },
+    {
+      "id": "person_1652",
+      "label": "Ông Phạm Song (Từ 11-1988)",
+      "type": "person"
+    },
+    {
+      "id": "person_1653",
+      "label": "Ông Phạm Minh Hạc (Đến 3-1990)",
+      "type": "person"
+    },
+    {
+      "id": "person_1654",
+      "label": "Ông Trần Hồng Quân (Đến 3-1990)",
+      "type": "person"
+    },
+    {
+      "id": "person_1655",
+      "label": "Ông Trần Hồng Quân",
+      "type": "person"
+    },
+    {
+      "id": "person_1656",
+      "label": "Ông Phan Hiền (Đến 5-1992)",
+      "type": "person"
+    },
+    {
+      "id": "person_1657",
+      "label": "Ông Nguyễn Đình Lộc (Từ 5-1992)",
+      "type": "person"
+    },
+    {
+      "id": "person_1658",
+      "label": "Ông Phan Ngọc Tường (Từ 11-1989)",
+      "type": "person"
+    },
+    {
+      "id": "person_1659",
+      "label": "Ông Mai Kỷ (Từ 3-1992)",
+      "type": "person"
+    },
+    {
+      "id": "person_1660",
+      "label": "Ông Võ Văn Kiệt",
+      "type": "person"
+    },
+    {
+      "id": "person_1661",
+      "label": "Ông Phan Văn Khải",
+      "type": "person"
+    },
+    {
+      "id": "person_1662",
+      "label": "Ông Đoàn Khuê",
+      "type": "person"
+    },
+    {
+      "id": "person_1663",
+      "label": "Ông Bùi Thiện Ngộ (Đến 11-1996)",
+      "type": "person"
+    },
+    {
+      "id": "person_1664",
+      "label": "Ông Lê Minh Hương (Từ 11-1996)",
+      "type": "person"
+    },
+    {
+      "id": "person_1665",
+      "label": "Ông Nguyễn Mạnh Cầm",
+      "type": "person"
+    },
+    {
+      "id": "person_1666",
+      "label": "Ông Nguyễn Đình Lộc",
+      "type": "person"
+    },
+    {
+      "id": "person_1667",
+      "label": "Ông Hồ Tế (Đến 11-1996)",
+      "type": "person"
+    },
+    {
+      "id": "person_1668",
+      "label": "Nguyễn Sinh Hùng",
+      "type": "person"
+    },
+    {
+      "id": "person_1669",
+      "label": "Ông Đặng Hữu (Đến 11-1996)",
+      "type": "person"
+    },
+    {
+      "id": "person_1670",
+      "label": "Phạm Gia Khiêm",
+      "type": "person"
+    },
+    {
+      "id": "person_1671",
+      "label": "Ông Trần Đình Hoan",
+      "type": "person"
+    },
+    {
+      "id": "person_1672",
+      "label": "Ông Bùi Danh Lưu (Đến 11-1996)",
+      "type": "person"
+    },
+    {
+      "id": "person_1673",
+      "label": "Ông Lê Ngọc Hoàn (Từ 11-1996)",
+      "type": "person"
+    },
+    {
+      "id": "person_1674",
+      "label": "Ông Ngô Xuân Lộc",
+      "type": "person"
+    },
+    {
+      "id": "person_1675",
+      "label": "Ông Đặng Vũ Chư (Đến 10-1995 Khi Thành Lập Bộ Công Nghiệp)",
+      "type": "person"
+    },
+    {
+      "id": "person_1676",
+      "label": "Ông Trần Lum (Đến 10-1995 Khi Thành Lập Bộ Công Nghiệp)",
+      "type": "person"
+    },
+    {
+      "id": "person_1677",
+      "label": "Ông Vũ Ngọc Hải (Đến 9-1992)",
+      "type": "person"
+    },
+    {
+      "id": "person_1678",
+      "label": "Ông Thái Phụng Nê (Từ 10-1993 Đến 10-1995 Khi Thành Lập Bộ Công Nghiệp)",
+      "type": "person"
+    },
+    {
+      "id": "person_1679",
+      "label": "Ông Đặng Vũ Chư (Từ 10-1995 Khi Sáp Nhập Các Bộ Thành Bộ Công Nghiệp)",
+      "type": "person"
+    },
+    {
+      "id": "person_1680",
+      "label": "Ông Nguyễn Công Tạn (Đến 10-1995 Khi Thành Lập Bộ Nông Nghiệp Và Phát Triển Nông Thôn)",
+      "type": "person"
+    },
+    {
+      "id": "person_1681",
+      "label": "Ông Nguyễn Quang Hà (Đến 10-1995 Khi Sáp Nhập Bộ)",
+      "type": "person"
+    },
+    {
+      "id": "person_1682",
+      "label": "Ông Nguyễn Cảnh Dinh (Đến 10-1995 Khi Sáp Nhập Bộ)",
+      "type": "person"
+    },
+    {
+      "id": "person_1683",
+      "label": "Ông Nguyễn Công Tạn (Từ 10-1995 Khi Sáp Nhập 3 Bộ: Nông Nghiệp Và Công Nghiệp Thực Phẩm, Lâm Nghiệp,",
+      "type": "person"
+    },
+    {
+      "id": "person_1684",
+      "label": "Ông Nguyễn Cảnh Dinh (Từ 10-1995)",
+      "type": "person"
+    },
+    {
+      "id": "person_1685",
+      "label": "Ông Nguyễn Tấn Trịnh (Đến 11-1996)",
+      "type": "person"
+    },
+    {
+      "id": "person_1686",
+      "label": "Ông Tạ Quang Ngọc (Từ 11-1996)",
+      "type": "person"
+    },
+    {
+      "id": "person_1687",
+      "label": "Ông Trần Hoàn (Đến 11-1996)",
+      "type": "person"
+    },
+    {
+      "id": "person_1688",
+      "label": "Ông Nguyễn Khoa Điềm (Từ 11-1996)",
+      "type": "person"
+    },
+    {
+      "id": "person_1689",
+      "label": "Ông Phạm Song (Đến 9-1992)",
+      "type": "person"
+    },
+    {
+      "id": "person_1690",
+      "label": "Ông Nguyễn Trọng Nhân (Từ 9-1992 Đến 10-1995)",
+      "type": "person"
+    },
+    {
+      "id": "person_1691",
+      "label": "Ông Đỗ Nguyên Phương (Từ 10-1995)",
+      "type": "person"
+    },
+    {
+      "id": "person_1692",
+      "label": "Ông Đỗ Quốc Sam",
+      "type": "person"
+    },
+    {
+      "id": "person_1693",
+      "label": "Ông Trần Xuân Giá (Từ 11-1996)",
+      "type": "person"
+    },
+    {
+      "id": "person_1694",
+      "label": "Ông Đậu Ngọc Xuân (Từ 10-1995 Đến 10-1996)",
+      "type": "person"
+    },
+    {
+      "id": "person_1695",
+      "label": "Ông Đỗ Quốc Sam (Từ 11-1996)",
+      "type": "person"
+    },
+    {
+      "id": "person_1696",
+      "label": "Ông Nguyễn Kỳ Cẩm (Đến 10-1995)",
+      "type": "person"
+    },
+    {
+      "id": "person_1697",
+      "label": "Ông Tạ Hữu Thanh (Từ 10-1995)",
+      "type": "person"
+    },
+    {
+      "id": "person_1698",
+      "label": "Ông Cao Sỹ Kiêm",
+      "type": "person"
+    },
+    {
+      "id": "person_1699",
+      "label": "Ông Phan Ngọc Tường (Đến 11-1996)",
+      "type": "person"
+    },
+    {
+      "id": "person_1700",
+      "label": "Ông Đỗ Quang Trung (Từ 11-1996)",
+      "type": "person"
+    },
+    {
+      "id": "person_1701",
+      "label": "Ông Lê Xuân Trinh (Đến 11-1996)",
+      "type": "person"
+    },
+    {
+      "id": "person_1702",
+      "label": "Ông Lại Văn Cử (Từ 11-1996)",
+      "type": "person"
+    },
+    {
+      "id": "person_1703",
+      "label": "Ông Mai Kỷ",
+      "type": "person"
+    },
+    {
+      "id": "person_1704",
+      "label": "Bà Trần Thị Thanh Thanh",
+      "type": "person"
+    },
+    {
+      "id": "person_1705",
+      "label": "Ông Phan Văn Tiệm (Đến 11-1996)",
+      "type": "person"
+    },
+    {
+      "id": "person_1706",
+      "label": "Ông Hà Quang Dự",
+      "type": "person"
+    },
+    {
+      "id": "person_1707",
+      "label": "Ông Nguyễn Kỳ Cẩm (Từ 11-1995 Đến 11-1996)",
+      "type": "person"
+    },
+    {
+      "id": "person_1708",
+      "label": "Ông Phan Văn Khải",
+      "type": "person"
+    },
+    {
+      "id": "person_1709",
+      "label": "Nguyễn Tấn Dũng",
+      "type": "person"
+    },
+    {
+      "id": "person_1710",
+      "label": "Ông Ngô Xuân Lộc (Đến 11-12-1999)",
+      "type": "person"
+    },
+    {
+      "id": "person_1711",
+      "label": "Ông Phạm Văn Trà",
+      "type": "person"
+    },
+    {
+      "id": "person_1712",
+      "label": "Ông Lê Minh Hương",
+      "type": "person"
+    },
+    {
+      "id": "person_1713",
+      "label": "Ông Nguyễn Mạnh Cầm (Phó Thủ Tướng Kiêm Chức Đến 28-1-2000)",
+      "type": "person"
+    },
+    {
+      "id": "person_1714",
+      "label": "Ông Nguyễn Dy Niên (Từ 28-1-2000)",
+      "type": "person"
+    },
+    {
+      "id": "person_1715",
+      "label": "Ông Trần Xuân Giá",
+      "type": "person"
+    },
+    {
+      "id": "person_1716",
+      "label": "Ông Trương Đình Tuyển (Đến 28-1-2000)",
+      "type": "person"
+    },
+    {
+      "id": "person_1717",
+      "label": "Ông Vũ Khoan (Từ 28-1-2000)",
+      "type": "person"
+    },
+    {
+      "id": "person_1718",
+      "label": "Ông Lê Huy Ngọ",
+      "type": "person"
+    },
+    {
+      "id": "person_1719",
+      "label": "Ông Lê Ngọc Hoàn",
+      "type": "person"
+    },
+    {
+      "id": "person_1720",
+      "label": "Ông Nguyễn Mạnh Kiểm",
+      "type": "person"
+    },
+    {
+      "id": "person_1721",
+      "label": "Ông Đặng Vũ Chư",
+      "type": "person"
+    },
+    {
+      "id": "person_1722",
+      "label": "Ông Tạ Quang Ngọc",
+      "type": "person"
+    },
+    {
+      "id": "person_1723",
+      "label": "Ông Trần Đình Hoan (Đến 12-1997)",
+      "type": "person"
+    },
+    {
+      "id": "person_1724",
+      "label": "Bà Nguyễn Thị Hằng (Từ 1-1998)",
+      "type": "person"
+    },
+    {
+      "id": "person_1725",
+      "label": "Ông Chu Tuấn Nhạ",
+      "type": "person"
+    },
+    {
+      "id": "person_1726",
+      "label": "Ông Phạm Quang Nghị",
+      "type": "person"
+    },
+    {
+      "id": "person_1727",
+      "label": "Ông Nguyễn Minh Hiển",
+      "type": "person"
+    },
+    {
+      "id": "person_1728",
+      "label": "Ông Đỗ Nguyên Phương",
+      "type": "person"
+    },
+    {
+      "id": "person_1729",
+      "label": "Ông Đỗ Quang Trung",
+      "type": "person"
+    },
+    {
+      "id": "person_1730",
+      "label": "Ông Tạ Hữu Thanh",
+      "type": "person"
+    },
+    {
+      "id": "person_1731",
+      "label": "Ông Lại Văn Cử (Đến 3-1999)",
+      "type": "person"
+    },
+    {
+      "id": "person_1732",
+      "label": "Ông Đoàn Mạnh Giao (Từ 3-1999)",
+      "type": "person"
+    },
+    {
+      "id": "person_1733",
+      "label": "Ông Nguyễn Danh Thái",
+      "type": "person"
+    },
+    {
+      "id": "person_1734",
+      "label": "Bà Trần Thị Trung Chiến",
+      "type": "person"
+    },
+    {
+      "id": "person_1735",
+      "label": "Ông Lê Đức Thuý (Từ 11-12-1999)",
+      "type": "person"
+    },
+    {
+      "id": "person_1736",
+      "label": "Ông Đỗ Quế Lượng (Đến 5-1998)",
+      "type": "person"
+    },
+    {
+      "id": "person_1737",
+      "label": "Ông Phan Văn Khải (Đến 27-6-2006)",
+      "type": "person"
+    },
+    {
+      "id": "person_1738",
+      "label": "Trương Vĩnh Trọng",
+      "type": "person"
+    },
+    {
+      "id": "person_1739",
+      "label": "Ông Vũ Khoan (Đến 6-2006)",
+      "type": "person"
+    },
+    {
+      "id": "person_1740",
+      "label": "Ông Phạm Văn Trà (Đến 6-2006)",
+      "type": "person"
+    },
+    {
+      "id": "person_1741",
+      "label": "Đại Tướng Phùng Quang Thanh",
+      "type": "person"
+    },
+    {
+      "id": "person_1742",
+      "label": "Lê Hồng Anh",
+      "type": "person"
+    },
+    {
+      "id": "person_1743",
+      "label": "Ông Nguyễn Dy Niên (Đến 6-2006)",
+      "type": "person"
+    },
+    {
+      "id": "person_1744",
+      "label": "Ông Uông Chu Lưu",
+      "type": "person"
+    },
+    {
+      "id": "person_1745",
+      "label": "Võ Hồng Phúc",
+      "type": "person"
+    },
+    {
+      "id": "person_1746",
+      "label": "Vũ Văn Ninh",
+      "type": "person"
+    },
+    {
+      "id": "person_1747",
+      "label": "Ông Trương Đình Tuyển",
+      "type": "person"
+    },
+    {
+      "id": "person_1748",
+      "label": "Ông Lê Huy Ngọ (Đến 6-2004)",
+      "type": "person"
+    },
+    {
+      "id": "person_1749",
+      "label": "Cao Đức Phát",
+      "type": "person"
+    },
+    {
+      "id": "person_1750",
+      "label": "Ông Đào Đình Bình (Đến 6-2006)",
+      "type": "person"
+    },
+    {
+      "id": "person_1751",
+      "label": "Hồ Nghĩa Dũng",
+      "type": "person"
+    },
+    {
+      "id": "person_1752",
+      "label": "Nguyễn Hồng Quân",
+      "type": "person"
+    },
+    {
+      "id": "person_1753",
+      "label": "Hoàng Trung Hải",
+      "type": "person"
+    },
+    {
+      "id": "person_1754",
+      "label": "Bà Nguyễn Thị Hằng",
+      "type": "person"
+    },
+    {
+      "id": "person_1755",
+      "label": "Hoàng Văn Phong",
+      "type": "person"
+    },
+    {
+      "id": "person_1756",
+      "label": "Ông Mai Ái Trực",
+      "type": "person"
+    },
+    {
+      "id": "person_1757",
+      "label": "Ông Phạm Quang Nghị (Đến 6-2006)",
+      "type": "person"
+    },
+    {
+      "id": "person_1758",
+      "label": "Lê Doãn Hợp",
+      "type": "person"
+    },
+    {
+      "id": "person_1759",
+      "label": "Ông Nguyễn Minh Hiển (Đến 6-2006)",
+      "type": "person"
+    },
+    {
+      "id": "person_1760",
+      "label": "Nguyễn Thiện Nhân",
+      "type": "person"
+    },
+    {
+      "id": "person_1761",
+      "label": "Ông Đỗ Trung Tá",
+      "type": "person"
+    },
+    {
+      "id": "person_1762",
+      "label": "Ông Ksor Phước",
+      "type": "person"
+    },
+    {
+      "id": "person_1763",
+      "label": "Ông Quách Lê Thanh (Đến 6-2006)",
+      "type": "person"
+    },
+    {
+      "id": "person_1764",
+      "label": "Trần Văn Truyền",
+      "type": "person"
+    },
+    {
+      "id": "person_1765",
+      "label": "Ông Đoàn Mạnh Giao",
+      "type": "person"
+    },
+    {
+      "id": "person_1766",
+      "label": "Bà Lê Thị Thu",
+      "type": "person"
+    },
+    {
+      "id": "person_1767",
+      "label": "Ông Lê Đức Thuý",
+      "type": "person"
+    },
+    {
+      "id": "person_1768",
+      "label": "Đại Tướng Phùng Quang Thanh",
+      "type": "person"
+    },
+    {
+      "id": "person_1769",
+      "label": "Hà Hùng Cường",
+      "type": "person"
+    },
+    {
+      "id": "person_1770",
+      "label": "Vũ Huy Hoàng",
+      "type": "person"
+    },
+    {
+      "id": "person_1771",
+      "label": "Nguyễn Thị Kim Ngân",
+      "type": "person"
+    },
+    {
+      "id": "person_1772",
+      "label": "Phạm Vũ Luận",
+      "type": "person"
+    },
+    {
+      "id": "person_1773",
+      "label": "Trần Văn Tuấn",
+      "type": "person"
+    },
+    {
+      "id": "person_1774",
+      "label": "Nguyễn Quốc Triệu",
+      "type": "person"
+    },
+    {
+      "id": "person_1775",
+      "label": "Hoàng Tuấn Anh",
+      "type": "person"
+    },
+    {
+      "id": "person_1776",
+      "label": "Phạm Khôi Nguyên",
+      "type": "person"
+    },
+    {
+      "id": "person_1777",
+      "label": "Nguyễn Xuân Phúc",
+      "type": "person"
+    },
+    {
+      "id": "person_1778",
+      "label": "Nguyễn Văn Giàu",
+      "type": "person"
+    },
+    {
+      "id": "person_1779",
+      "label": "Giàng Seo Phử",
+      "type": "person"
+    },
+    {
+      "id": "person_1780",
+      "label": "Trương Hòa Bình",
+      "type": "person"
+    },
+    {
+      "id": "person_1781",
+      "label": "Phạm Bình Minh",
+      "type": "person"
+    },
+    {
+      "id": "person_1782",
+      "label": "Vương Đình Huệ",
+      "type": "person"
+    },
+    {
+      "id": "person_1783",
+      "label": "Vũ Đức Đam",
+      "type": "person"
+    },
+    {
+      "id": "person_1784",
+      "label": "Trịnh Đình Dũng",
+      "type": "person"
+    },
+    {
+      "id": "person_1785",
+      "label": "Đại Tướng Phùng Quang Thanh",
+      "type": "person"
+    },
+    {
+      "id": "person_1786",
+      "label": "Ngô Xuân Lịch",
+      "type": "person"
+    },
+    {
+      "id": "person_1787",
+      "label": "Trần Đại Quang",
+      "type": "person"
+    },
+    {
+      "id": "person_1788",
+      "label": "Tô Lâm",
+      "type": "person"
+    },
+    {
+      "id": "person_1789",
+      "label": "Lê Thành Long",
+      "type": "person"
+    },
+    {
+      "id": "person_1790",
+      "label": "Đinh Tiến Dũng",
+      "type": "person"
+    },
+    {
+      "id": "person_1791",
+      "label": "Trần Tuấn Anh",
+      "type": "person"
+    },
+    {
+      "id": "person_1792",
+      "label": "Phạm Thị Hải Chuyền",
+      "type": "person"
+    },
+    {
+      "id": "person_1793",
+      "label": "Đào Ngọc Dung",
+      "type": "person"
+    },
+    {
+      "id": "person_1794",
+      "label": "Đinh La Thăng",
+      "type": "person"
+    },
+    {
+      "id": "person_1795",
+      "label": "Trương Quang Nghĩa",
+      "type": "person"
+    },
+    {
+      "id": "person_1796",
+      "label": "Phạm Hồng Hà",
+      "type": "person"
+    },
+    {
+      "id": "person_1797",
+      "label": "Nguyễn Bắc Son",
+      "type": "person"
+    },
+    {
+      "id": "person_1798",
+      "label": "Trương Minh Tuấn",
+      "type": "person"
+    },
+    {
+      "id": "person_1799",
+      "label": "Phùng Xuân Nhạ",
+      "type": "person"
+    },
+    {
+      "id": "person_1800",
+      "label": "Bùi Quang Vinh",
+      "type": "person"
+    },
+    {
+      "id": "person_1801",
+      "label": "Nguyễn Chí Dũng",
+      "type": "person"
+    },
+    {
+      "id": "person_1802",
+      "label": "Nguyễn Thái Bình",
+      "type": "person"
+    },
+    {
+      "id": "person_1803",
+      "label": "Lê Vĩnh Tân",
+      "type": "person"
+    },
+    {
+      "id": "person_1804",
+      "label": "Nguyễn Thị Kim Tiến",
+      "type": "person"
+    },
+    {
+      "id": "person_1805",
+      "label": "Nguyễn Quân",
+      "type": "person"
+    },
+    {
+      "id": "person_1806",
+      "label": "Chu Ngọc Anh",
+      "type": "person"
+    },
+    {
+      "id": "person_1807",
+      "label": "Nguyễn Ngọc Thiện",
+      "type": "person"
+    },
+    {
+      "id": "person_1808",
+      "label": "Nguyễn Minh Quang",
+      "type": "person"
+    },
+    {
+      "id": "person_1809",
+      "label": "Trần Hồng Hà",
+      "type": "person"
+    },
+    {
+      "id": "person_1810",
+      "label": "Nguyễn Văn Nên",
+      "type": "person"
+    },
+    {
+      "id": "person_1811",
+      "label": "Mai Tiến Dũng",
+      "type": "person"
+    },
+    {
+      "id": "person_1812",
+      "label": "Huỳnh Phong Tranh",
+      "type": "person"
+    },
+    {
+      "id": "person_1813",
+      "label": "Phan Văn Sáu",
+      "type": "person"
+    },
+    {
+      "id": "person_1814",
+      "label": "Nguyễn Văn Bình",
+      "type": "person"
+    },
+    {
+      "id": "person_1815",
+      "label": "Lê Minh Hưng",
+      "type": "person"
+    },
+    {
+      "id": "person_1816",
+      "label": "Đỗ Văn Chiến",
+      "type": "person"
+    },
+    {
+      "id": "person_1817",
+      "label": "Phạm Minh Chính",
+      "type": "person"
+    },
+    {
+      "id": "person_1818",
+      "label": "Lê Minh Khái",
+      "type": "person"
+    },
+    {
+      "id": "person_1819",
+      "label": "Lê Văn Thành",
+      "type": "person"
+    },
+    {
+      "id": "person_1820",
+      "label": "Phan Văn Giang",
+      "type": "person"
+    },
+    {
+      "id": "person_1821",
+      "label": "Bùi Thanh Sơn",
+      "type": "person"
+    },
+    {
+      "id": "person_1822",
+      "label": "Hồ Đức Phớc",
+      "type": "person"
+    },
+    {
+      "id": "person_1823",
+      "label": "Nguyễn Hồng Diên",
+      "type": "person"
+    },
+    {
+      "id": "person_1824",
+      "label": "Nguyễn Văn Thể",
+      "type": "person"
+    },
+    {
+      "id": "person_1825",
+      "label": "Nguyễn Thanh Nghị",
+      "type": "person"
+    },
+    {
+      "id": "person_1826",
+      "label": "Nguyễn Mạnh Hùng",
+      "type": "person"
+    },
+    {
+      "id": "person_1827",
+      "label": "Nguyễn Kim Sơn",
+      "type": "person"
+    },
+    {
+      "id": "person_1828",
+      "label": "Nguyễn Xuân Cường",
+      "type": "person"
+    },
+    {
+      "id": "person_1829",
+      "label": "Lê Minh Hoan",
+      "type": "person"
+    },
+    {
+      "id": "person_1830",
+      "label": "Phạm Thị Thanh Trà",
+      "type": "person"
+    },
+    {
+      "id": "person_1831",
+      "label": "Nguyễn Thanh Long",
+      "type": "person"
+    },
+    {
+      "id": "person_1832",
+      "label": "Huỳnh Thành Đạt",
+      "type": "person"
+    },
+    {
+      "id": "person_1833",
+      "label": "Nguyễn Văn Hùng",
+      "type": "person"
+    },
+    {
+      "id": "person_1834",
+      "label": "Trần Văn Sơn",
+      "type": "person"
+    },
+    {
+      "id": "person_1835",
+      "label": "Đoàn Hồng Phong",
+      "type": "person"
+    },
+    {
+      "id": "person_1836",
+      "label": "Nguyễn Thị Hồng",
+      "type": "person"
+    },
+    {
+      "id": "person_1837",
+      "label": "Hầu A Lềnh",
+      "type": "person"
+    },
+    {
+      "id": "person_1838",
+      "label": "Nguyễn Hòa Bình",
+      "type": "person"
+    },
+    {
+      "id": "person_1839",
+      "label": "Trần Lưu Quang",
+      "type": "person"
+    },
+    {
+      "id": "person_1840",
+      "label": "Lê Thành Long",
+      "type": "person"
+    },
+    {
+      "id": "person_1841",
+      "label": "Hồ Đức Phớc",
+      "type": "person"
+    },
+    {
+      "id": "person_1842",
+      "label": "Mai Văn Chính",
+      "type": "person"
+    },
+    {
+      "id": "person_1843",
+      "label": "Lương Tam Quang",
+      "type": "person"
+    },
+    {
+      "id": "person_1844",
+      "label": "Nguyễn Hải Ninh",
+      "type": "person"
+    },
+    {
+      "id": "person_1845",
+      "label": "Nguyễn Văn Thắng",
+      "type": "person"
+    },
+    {
+      "id": "person_1846",
+      "label": "Trần Hồng Minh",
+      "type": "person"
+    },
+    {
+      "id": "person_1847",
+      "label": "Đào Hồng Lan",
+      "type": "person"
+    },
+    {
+      "id": "person_1848",
+      "label": "Đỗ Đức Duy",
+      "type": "person"
+    },
+    {
+      "id": "person_1849",
+      "label": "Đặng Quốc Khánh",
+      "type": "person"
+    },
+    {
+      "id": "person_1850",
+      "label": "Hồ Đức Phớc",
+      "type": "person"
+    }
+  ],
+  "edges": [
+    {
+      "source": "person_1846",
+      "target": "org_7",
+      "label": "8/1987- 8/1996 : Quân hàm Trung úy, Đại úy; Giảng viên bộ môn Đường, Khoa Cầu đường vượt sông, Trường sỹ quan công binh, Binh chủng Công binh; Kỹ sư xây dựng công trình quốc phòng",
+      "type": "holds_position",
+      "start": null,
+      "end": null
+    },
+    {
+      "source": "person_1850",
+      "target": "org_3",
+      "label": "test",
+      "type": "holds_position",
+      "start": "2009",
+      "end": "2010"
+    }
+  ]
+}

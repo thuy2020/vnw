@@ -9,4 +9,5 @@ urlpatterns = [
     path('organizations/', include('organizations.urls')),
     path('scraper/', include('scraper.urls')),
     path('', people_views.home, name='home'),  # Home page view
+    path("export/", include("export.urls")),
 ]

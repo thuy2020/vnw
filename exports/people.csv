@@ -1,0 +1,698 @@
+ID,Custom ID,Name,Date of Birth,Hometown,Current Position
+1154,PER00001,Cụ Hồ Chí Minh,,,Chủ tịch nước
+1155,PER00002,Ông Võ Nguyên Giáp,,,Phó Chủ tịch Hội đồng Bộ trưởng
+1156,PER00003,Ông Trần Huy Liệu,,,Bộ trưởng  Bộ Tuyên truyền và Cổ động
+1157,PER00004,Ông Chu Văn Tấn,,,Bộ trưởng  Bộ Quốc phòng
+1158,PER00005,Ông Dương Đức Hiền,,,Bộ trưởng  Bộ Thanh niên
+1159,PER00006,Ông Nguyễn Mạnh Hà,,,Bộ trưởng  Bộ Kinh tế quốc gia
+1160,PER00007,Ông Nguyễn Văn Tố,,,Bộ trưởng  Bộ Cứu tế xã hội
+1161,PER00008,Ông Vũ Trọng Khánh,,,Bộ trưởng  Bộ Tư pháp
+1162,PER00009,Ông Phạm Ngọc Thạch,,,Bộ trưởng  Bộ Y tế
+1163,PER00010,Ông Đào Trọng Kim,,,Bộ trưởng  Bộ Giao thông Công chính
+1164,PER00011,Ông Lê Văn Hiến,,,"Bộ trưởng  không bộ, phụ trách Phó Chủ nhiệm Ủy ban Kế hoạch Nhà nước"
+1165,PER00012,Ông Phạm Văn Đồng,,,Chủ tịch Hội đồng Bộ trưởng
+1166,PER00013,Ông Vũ Đình Hoè,,,Bộ trưởng  Bộ Tư pháp
+1167,PER00014,Ông Cù Huy Cận,,,Bộ trưởng phụ trách  Công tác Văn hoá Nghệ thuật tại Văn phòng Hội đồng Bộ trưởng (từ 9-1984)
+1168,PER00015,Ông Nguyễn Văn Xuân,,,Bộ trưởng  không  Bộ
+1169,PER00016,Ông Nguyễn Hải Thần,,,Phó Chủ tịch
+1170,PER00017,Ông Nguyễn Tường Long,,,Bộ trưởng  Bộ Quốc dân Kinh tế
+1171,PER00018,Ông Trương Đình Tri,,,"Bộ trưởng   Bộ Xã hội kiêm Y tế, Cứu tế và Lao động"
+1172,PER00019,Ông Nguyễn Tường Tam,,,Bộ trưởng  Bộ Ngoại giao
+1173,PER00020,Ông Huỳnh Thúc Kháng,,,Bộ trưởng  Bộ Nội vụ
+1174,PER00021,Ông Chu Bá Phượng,,,Bộ trưởng  Bộ Cứu tế
+1175,PER00022,Ông Phan Anh,,,Bộ trưởng  Bộ Ngoại thương
+1176,PER00023,Ông Đặng Thai Mai,,,Bộ trưởng  Bộ Giáo dục
+1177,PER00024,Ông Trần Đăng Khoa,,,Bộ trưởng  Bộ Giao thông
+1178,PER00025,Ông Huỳnh Thiện Lộc (Từ 4-1946),,,Bộ trưởng  Bộ Canh nông
+1179,PER00026,Ông Bồ Xuân Luật (Đến 4-1946),,,Bộ trưởng  Bộ Canh nông
+1180,PER00027,Cố Vấn Vĩnh Thụy,,,Đoàn  Cố vấn tối cao
+1181,PER00028,Ông Huỳnh Thúc Kháng (Đến 21-4-1947 Từ Trần),,,Bộ trưởng  Bộ Nội vụ
+1182,PER00029,Ông Phan Kế Toại (Từ 11-1947),,,Quyền Bộ trưởng  Bộ Nội vụ
+1183,PER00030,Cụ Hồ Chí Minh (Đến 1947),,,Bộ trưởng  Bộ Ngoại giao
+1184,PER00031,Ông Hoàng Minh Giám (Từ Năm 1947 Đến Tháng 4 – 1954).,,,Bộ trưởng  Bộ Ngoại giao
+1185,PER00032,Ông Phạm Văn Đồng (Từ 4-1954),,,Bộ trưởng  Bộ Ngoại giao
+1186,PER00033,Ông Võ Nguyên Giáp (Đến 1947),,,Bộ trưởng  Bộ Quốc phòng
+1187,PER00034,Ông Tạ Quang Bửu (Từ 1947 Đến 7-1948),,,Bộ trưởng  Bộ Quốc phòng
+1188,PER00035,Ông Võ Nguyên Giáp (Từ 7-1948),,,Bộ trưởng  Bộ Quốc phòng
+1189,PER00036,Ông Phan Anh (Từ 1947),,,Bộ trưởng  Bộ Kinh tế (từ 5-1951 đổi tên là Bộ Công thương)
+1190,PER00037,Ông Ngô Tấn Nhơn,,,Bộ trưởng  Bộ Kinh tế (từ 5-1951 đổi tên là Bộ Công thương)
+1191,PER00038,Ông Nguyễn Văn Huyên,,,Bộ trưởng  Bộ Giáo dục
+1192,PER00039,Ông Nghiêm Xuân Yêm (Từ 3-1954),,,Bộ trưởng  Bộ Canh nông
+1193,PER00040,Ông Ngô Tấn Nhơn (Đến 3-1954),,,Bộ trưởng  Bộ Canh nông
+1194,PER00041,Ông Nguyễn Văn Tạo,,,Bộ trưởng  Bộ Lao động
+1195,PER00042,Ông Hoàng Tích Trí,,,Bộ trưởng  Bộ Y tế
+1196,PER00043,Ông Nguyễn Văn Tố (Hy Sinh Năm 1947),,,Bộ trưởng  không Bộ
+1197,PER00044,Ông Đặng Văn Hướng (Từ Năm 1947),,,Bộ trưởng  không Bộ
+1198,PER00045,Ông Bồ Xuân Luật,,,Bộ trưởng  không Bộ
+1199,PER00046,Ông Nguyễn Lương Bằng (Từ 5-1951),,,Tổng giám đốc  Ngân hàng Quốc gia Việt Nam (thành lập 5-1951)
+1200,PER00047,Ông Trần Quốc Hoàn (Từ 6-1953),,,Bộ trưởng  Bộ Công an (tháng 6-1953 đổi tên Thứ Bộ Công an thành Bộ Công an)
+1201,PER00048,Ông Phạm Văn Đồng (Từ 9-1955),,,Thủ tướng kiêm Bộ trưởng Bộ Ngoại giao
+1202,PER00049,Ông Phan Kế Toại (Từ 9-1955),,,Phó Thủ tướng kiêm Bộ trưởng Bộ Nội vụ
+1203,PER00050,Ông Võ Nguyên Giáp (Từ 9-1955),,,Phó Thủ tướng kiêm Bộ trưởng Bộ Quốc phòng
+1204,PER00051,Ông Trường Chinh (Từ 4-1958),,,Phó Thủ tướng
+1205,PER00052,Ông Phạm Hùng (Từ 4-1958),,,Phó Thủ tướng
+1206,PER00053,Ông Trần Quốc Hoàn,,,Bộ trưởng  Bộ Nội vụ
+1207,PER00054,Ông Lê Văn Hiến (Đến 6-1958),,,Bộ trưởng  Bộ Tài chính
+1208,PER00055,Ông Hoàng Anh (Từ 6-1958),,,Bộ trưởng  Bộ Tài chính
+1209,PER00056,Ông Nguyễn Văn Trân (Từ 9-1955),,,Bộ trưởng  Bộ Giao thông và Bưu điện
+1210,PER00057,Ông Trần Đăng Khoa (Từ 9-1955 Đến 4-1958),,,Bộ trưởng  Bộ Thủy lợi và Kiến trúc
+1211,PER00058,Ông Trần Đăng Khoa (Từ 4-1958),,,Bộ trưởng  Bộ Thủy lợi
+1212,PER00059,Ông Bùi Quang Tạo (Từ 4-1958),,,Bộ trưởng  Bộ Kiến trúc
+1213,PER00060,Ông Lê Thanh Nghị (Từ 9-1955),,,Bộ trưởng  Bộ Công nghiệp
+1214,PER00061,Ông Phan Anh (Từ 9-1955 Đến 4-1958),,,Bộ trưởng  Bộ Thương nghiệp
+1215,PER00062,Ông Đỗ Mười (Từ 4-1958),,,Bộ trưởng  Bộ Nội thương
+1216,PER00063,Ông Phan Anh (Từ 4-1958),,,Bộ trưởng  Bộ Ngoại thương
+1217,PER00064,Ông Hoàng Tích Trí (Đến 5-1959),,,Bộ trưởng  Bộ Y tế
+1218,PER00065,Ông Phạm Ngọc Thạch (Từ 5-1959),,,Bộ trưởng  Bộ Y tế
+1219,PER00066,Ông Vũ Đình Hòe,,,Bộ trưởng  Bộ Tư pháp
+1220,PER00067,Ông Hoàng Minh Giám,,,Bộ trưởng  Bộ Văn hoá
+1221,PER00068,"Ông Vũ Đình Tụng (Đến 5-1959, Vì Giải Thể)",,,Bộ trưởng  Bộ Thương binh
+1222,PER00069,"Ông Nguyễn Xiển (Từ 9-1955 Đến 5-1959, Vì Giải Thể)",,,Bộ trưởng  Bộ Cứu tế
+1223,PER00070,Ông Nghiêm Xuân Yêm,,,Bộ trưởng phụ trách  Khoa học và Kỹ thuật Nông nghiệp
+1224,PER00071,Ông Phạm Hùng (Từ 9-1955 Đến 4-1958),,,Bộ trưởng  Phủ Thủ tướng
+1225,PER00072,Ông Nguyễn Duy Trinh (Từ 4-1958 Đến 12-1958),,,Bộ trưởng  Phủ Thủ tướng
+1226,PER00073,Ông Nguyễn Khang (Từ 5-1959),,,Bộ trưởng  Phủ Thủ tướng
+1227,PER00074,Ông Nguyễn Văn Trân (Từ 4-1958 Đến 12-1958),,,Chủ nhiệm  Ủy ban Kế hoạch Nhà nước
+1228,PER00075,Ông Nguyễn Duy Trinh (Từ 5-1959),,,Chủ nhiệm  Ủy ban Kế hoạch Nhà nước
+1229,PER00076,Ông Lê Văn Hiến (Từ 12-1958),,,"Bộ trưởng, Phó Chủ nhiệm   Ủy ban Kế hoạch Nhà nước"
+1230,PER00077,Ông Trường Chinh (Phó Thủ Tướng Kiêm Chức Từ 4-1958),,,Chủ nhiệm  Ủy ban Khoa học Nhà nước
+1231,PER00078,Ông Phạm Hùng,,,Phó Thủ tướng
+1232,PER00079,Ông Phan Kế Toại,,,Phó Thủ tướng
+1233,PER00080,Ông Nguyễn Duy Trinh,,,Phó Thủ tướng
+1234,PER00081,Ông Lê Thanh Nghị,,,Phó Thủ tướng
+1235,PER00082,Ông Trần Hữu Dực (Từ Tháng 1-1963),,,Chủ nhiệm  Văn phòng Nông nghiệp
+1236,PER00083,Ông Phạm Hùng (Đến Tháng 1-1963),,,Chủ nhiệm  Văn phòng Nông nghiệp
+1237,PER00084,Ông Hoàng Anh (Đến Tháng 1-1963),,,Chủ nhiệm  Văn phòng Tài chính-Thương nghiệp
+1238,PER00085,Ông Phạm Hùng (Từ Tháng 1-1963),,,Chủ nhiệm  Văn phòng Tài chính-Thương nghiệp
+1239,PER00086,Ông Tố Hữu (Đến Tháng 1-1963),,,Chủ nhiệm  Văn phòng Văn giáo
+1240,PER00087,Ông Lê Liêm (Từ Tháng 1-1963),,,Chủ nhiệm  Văn phòng Văn giáo
+1241,PER00088,Ông Nguyễn Khang,,,Bộ trưởng  Phủ Thủ tướng
+1242,PER00089,Ông Phan Kế Toại (Đến 30-4-1963),,,Bộ trưởng  Bộ Nội vụ
+1243,PER00090,Ông Ung Văn Khiêm (Từ 30-4-1963),,,Bộ trưởng  Bộ Nội vụ
+1244,PER00091,Ông Phạm Văn Đồng (Thủ Tướng Kiêm Chức Đến 2-1961),,,Bộ trưởng  Bộ Ngoại Giao
+1245,PER00092,Ông Ung Văn Khiêm (Từ 2-1961 Đến 30-4-1963),,,Bộ trưởng  Bộ Ngoại giao
+1246,PER00093,Ông Xuân Thủy (Từ 30-4-1963),,,Bộ trưởng  Bộ Ngoại giao
+1247,PER00094,Ông Nghiêm Xuân Yêm (Đến 1-1963),,,Bộ trưởng  Bộ Nông nghiệp
+1248,PER00095,Ông Dương Quốc Chính (Từ 1-1963),,,Bộ trưởng  Bộ Nông nghiệp
+1249,PER00096,Ông Trần Hữu Dực (Đến 1-1963),,,Bộ trưởng  Bộ Nông trường
+1250,PER00097,Ông Nghiêm Xuân Yêm (Từ 1-1963),,,Bộ trưởng  Bộ Nông trường
+1251,PER00098,Ông Dương Quốc Chính (Đến 1-1963),,,Bộ trưởng  Bộ Thủy lợi và Điện lực
+1252,PER00099,Ông Hà Kế Tấn (Từ 1-1963),,,Bộ trưởng  Bộ Thủy lợi và Điện lực
+1253,PER00100,Ông Nguyễn Văn Trân,,,Viện trưởng   Viện Quản lý Kinh tế
+1254,PER00101,Ông Kha Vạng Cân,,,Bộ trưởng  Bộ Công nghiệp nhẹ
+1255,PER00102,Ông Bùi Quang Tạo,,,Bộ trưởng  Bộ Kiến trúc
+1256,PER00103,Ông Phan Trọng Tuệ,,,Phó Thủ tướng
+1257,PER00104,Ông Hoàng Anh,,,Phó Thủ tướng
+1258,PER00105,Ông Đỗ Mười (Đến 1-1961),,,Bộ trưởng  Bộ Nội thương
+1259,PER00106,Ông Nguyễn Thanh Bình (Từ 2-1961 Là Quyền Bộ Trưởng.Từ 1-1963 Là Bộ Trưởng),,,Bộ trưởng  Bộ Nội thương
+1260,PER00107,Ông Võ Nguyên Giáp (Phó Thủ Tướng Kiêm Chức Đến 1-1963),,,Chủ nhiệm  Ủy ban Khoa học Nhà nước
+1261,PER00108,Ông Nguyễn Duy Trinh (Phó Thủ Tướng Kiêm Chức Từ 1-1963),,,Chủ nhiệm  Ủy ban Khoa học Nhà nước
+1262,PER00109,Ông Lê Quảng Ba,,,Chủ nhiệm  Ủy ban Dân tộc Chính phủ
+1263,PER00110,Ông Nguyễn Lương Bằng,,,Chủ nhiệm  Ủy ban Thanh tra Chính phủ
+1264,PER00111,Ông Nguyễn Văn Vịnh,,,Chủ nhiệm  Ủy ban Thống nhất
+1265,PER00112,Ông Tạ Hoàng Cơ (Quyền Tổng Giám Đốc Từ 1-1963),,,Tổng giám đốc  Ngân hàng Nhà nước Việt Nam
+1266,PER00113,Ông Lê Viết Lượng (Đến 01-1963),,,Tổng giám đốc  Ngân hàng Nhà nước Việt Nam
+1267,PER00114,Ông Nguyễn Côn (Từ 11-1967),,,Phó Thủ tướng
+1268,PER00115,Ông Đỗ Mười (Từ 12-1969),,,Phó Thủ tướng
+1269,PER00116,Ông Hoàng Anh (Từ 4-1971),,,Phó Thủ tướng
+1270,PER00117,Ông Trần Hữu Dực (Đến 4-1965),,,Chủ nhiệm  Văn phòng Nông nghiệp
+1271,PER00118,Ông Hoàng Anh (Từ 4-1965 Đến 12-1969),,,Chủ nhiệm  Văn phòng Nông nghiệp
+1272,PER00119,Ông Lê Thanh Nghị (Đến 2-1967),,,Chủ nhiệm  Văn phòng Công nghiệp
+1273,PER00120,Ông Trần Danh Tuyên (Từ 1967 Đến 12-1969),,,Chủ nhiệm  Văn phòng Công nghiệp
+1274,PER00121,Ông Phạm Hùng (Phó Thủ Tướng Kiêm Chức Đến 4-1966),,,Chủ nhiệm  Văn phòng Tài chính-Thương nghiệp
+1275,PER00122,Ông Nguyễn Thanh Bình (Từ 4-1966 Đến 12-1969),,,Chủ nhiệm  Văn phòng Tài chính-Thương nghiệp
+1276,PER00123,Ông Nguyễn Văn Tạo (Từ 10-1965),,,Chủ nhiệm  Văn phòng Nội chính
+1277,PER00124,Ông Trần Quốc Hoàn (Đến 10-1965),,,Chủ nhiệm  Văn phòng Nội chính
+1278,PER00125,Ông Lê Liêm (Đến 10-1965),,,Chủ nhiệm  Văn phòng Văn giáo
+1279,PER00126,Ông Trần Quang Huy (Từ 10-1965),,,Chủ nhiệm  Văn phòng Văn giáo
+1280,PER00127,"Ông Đỗ Mười (Phó Thủ Tướng Kiêm Chức Từ 12-1969, Sau Khi Sáp Nhập Ba Văn Phòng Nông, Công Nghiệp ,",,,Chủ nhiệm  Văn phòng Kinh tế Phủ Thủ tướng
+1281,PER00128,Ông Nguyễn Khang (Đến 4-1965),,,Bộ trưởng  Phủ Thủ tướng
+1282,PER00129,Ông Trần Hữu Dực (Từ 4-1965),,,Bộ trưởng  Phủ Thủ tướng
+1283,PER00130,Ông Xuân Thủy (Từ 1968),,,Bộ trưởng  Chính phủ
+1284,PER00131,Ông Ung Văn Khiêm,,,Bộ trưởng  Bộ Nội vụ
+1285,PER00132,Ông Xuân Thủy (Đến 4-1965),,,Bộ trưởng  Bộ Ngoại giao
+1286,PER00133,Ông Nguyễn Duy Trinh (Phó Thủ Tướng Kiêm Chức Từ 4-1965),,,Bộ trưởng  Bộ Ngoại giao
+1287,PER00134,Ông Võ Nguyên Giáp (Phó Thủ Tướng Kiêm Chức),,,Bộ trưởng  Bộ Quốc phòng
+1288,PER00135,Ông Dương Quốc Chính (Đến 4-1965),,,Bộ trưởng  Bộ Nông nghiệp
+1289,PER00136,Ông Hoàng Anh (Từ 4-1965 Đến 11-1967),,,Bộ trưởng  Bộ Nông nghiệp
+1290,PER00137,Ông Nguyễn Văn Lộc (Từ 11-1967 Đến 4-1971),,,Bộ trưởng  Bộ Nông nghiệp
+1291,PER00138,Ông Nghiêm Xuân Yêm (Đến 4-1971),,,Bộ trưởng  Bộ Nông trường
+1292,PER00139,Ông Hà Kế Tấn,,,Bộ trưởng Chuyên trách   công trình sông Đà
+1293,PER00140,Ông Nguyễn Văn Trân (Đến 2-1967),,,Bộ trưởng  Bộ Công nghiệp nặng
+1294,PER00141,Ông Lê Thanh Nghị (Phó Thủ Tướng Kiêm Chức Từ 2-1967 Đến 11-1967),,,Bộ trưởng  Bộ Công nghiệp nặng
+1295,PER00142,Ông Nguyễn Hữu Mai (Từ 11-1967 Đến 12-1969),,,Bộ trưởng  Bộ Công nghiệp nặng
+1296,PER00143,Ông Nguyễn Văn Tạo (Đến 10-1965),,,Bộ trưởng  Bộ Lao động
+1297,PER00144,Ông Nguyễn Hữu Khiếu (Từ 10-1965),,,Bộ trưởng  Bộ Lao động
+1298,PER00145,Ông Hoàng Anh (Đến 4-1965),,,Bộ trưởng  Bộ Tài chính
+1299,PER00146,Ông Đặng Việt Châu (Từ 4-1965),,,Bộ trưởng  Bộ Tài chính
+1300,PER00147,Ông Nguyễn Thanh Bình (Đến 10-1966),,,Bộ trưởng  Bộ Nội thương
+1301,PER00148,Ông Hoàng Quốc Thịnh (Quyền Bộ Trưởng Từ 10-1966 Đến 11-1967 Là Bộ Trưởng),,,Bộ trưởng  Bộ Nội thương
+1302,PER00149,Ông Phạm Ngọc Thạch (Đến 3-1969),,,Bộ trưởng  Bộ Y tế
+1303,PER00150,Ông Nguyễn Văn Hưởng (Từ 3-1969),,,Bộ trưởng  Bộ Y tế
+1304,PER00151,Ông Nguyễn Duy Trinh (Phó Thủ Tướng Kiêm Chức Đến 4-1965),,,Chủ nhiệm  Ủy ban Kế hoạch Nhà nước
+1305,PER00152,Ông Nguyễn Côn (Từ 4-1965),,,Chủ nhiệm  Ủy ban Kế hoạch Nhà nước
+1306,PER00153,Ông Nguyễn Văn Kha (Từ 12-1969),,,"Bộ trưởng, Phó Chủ nhiệm   Ủy ban Kế hoạch Nhà nước"
+1307,PER00154,Ông Đặng Thí (Từ 12-1969),,,"Bộ trưởng, Phó Chủ nhiệm   Ủy ban Kế hoạch Nhà nước"
+1308,PER00155,Ông Nguyễn Lam (Từ 12-1969),,,"Bộ trưởng, Phó Chủ nhiệm   Ủy ban Kế hoạch Nhà nước"
+1309,PER00156,"Ông Nguyễn Duy Trinh (Phó Thủ Tướng Kiêm Chức Đến 10-1965, Sau Khi Ủy Ban Khoa Học Nhà Nước Tách Th",,,Chủ nhiệm  Ủy ban Khoa học Nhà nước
+1310,PER00157,Ông Trần Đại Nghĩa (Từ 10-1965),,,Chủ nhiệm  Ủy ban Khoa học và Kỹ thuật Nhà nước
+1311,PER00158,Ông Nguyễn Lương Bằng (Đến 9-1969),,,Tổng Thanh tra  Ủy ban Thanh tra của Chính phủ
+1312,PER00159,Ông Nguyễn Thanh Bình (Từ 12-1969),,,Chủ nhiệm  Ủy ban Thanh tra Chính phủ (thành lập 12-1969)
+1313,PER00160,Ông Trần Đại Nghĩa,,,Chủ nhiệm  Khoa học Kỹ thuật Nhà nước
+1314,PER00161,Ông Tạ Hoàng Cơ,,,Tổng giám đốc  Ngân hàng  Nhà nước Việt Nam
+1315,PER00162,"Ông Nguyễn Hữu Mai (Từ 12-1969, Sau Khi Thành Lập Bộ)",,,Bộ trưởng   Bộ Điện và Than
+1316,PER00163,"Ông Đinh Đức Thiện (Từ 12-1969, Sau Khi Thành Lập Bộ)",,,Bộ trưởng  Bộ Cơ khí và Luyện kim
+1317,PER00164,"Ông Tạ Quang Bửu (Từ 10-1965, Sau Khi Thành Lập Bộ)",,,Bộ trưởng  Bộ Đại học và Trung học chuyên nghiệp
+1318,PER00165,"Ông Ngô Minh Loan (Từ 12-1969, Sau Khi Thành Lập Bộ)",,,Bộ trưởng  Bộ Lương thực và Thực phẩm
+1319,PER00166,"Ông Trần Danh Tuyên (Từ 12-1969, Sau Khi Thành Lập Bộ)",,,Bộ trưởng  Bộ Vật tư
+1320,PER00167,"Ông Phạm Hùng (Phó Thủ Tướng Kiêm Chức Từ 4-1965, Sau Khi Thành Lập Ủy Ban, Đến 10-1966)",,,Chủ nhiệm  Ủy ban Vật giá Nhà nước
+1321,PER00168,Ông Nguyễn Thanh Bình (Từ 10-1966 Đến 11-1967),,,Chủ nhiệm  Ủy ban Vật giá Nhà nước
+1322,PER00169,Ông Đỗ Mười (Từ 11-1967),,,Chủ nhiệm  Ủy ban Vật giá Nhà nước
+1323,PER00170,Ông Nghiêm Xuân Yêm (Đến 4-1971),,,Bộ trưởng Phó Chủ nhiệm thường trực  Ủy ban Nông nghiệp Trung ương
+1324,PER00171,Ông Nguyễn Văn Lộc (Từ 4-1971),,,Bộ trưởng Phó Chủ nhiệm thường trực  Ủy ban Nông nghiệp Trung ương
+1325,PER00172,"Ông Hoàng Anh (Phó Thủ Tướng Kiêm Chức, Sau Khi Thành Lập Ủy Ban, Từ 4-1971)",,,Chủ nhiệm  Ủy ban Nông nghiệp Trung ương
+1326,PER00173,Ông Huỳnh Tấn Phát,,,Phó Thủ tướng
+1327,PER00174,Ông Phùng Văn Cung,,,Phó Chủ tịch
+1328,PER00175,Ông Nguyễn Văn Kiết,,,Phó Chủ tịch
+1329,PER00176,Cụ Nguyễn Đóa,,,Phó Chủ tịch
+1330,PER00177,Ông Trần Bửu Kiếm,,,Bộ trưởng  Phủ Chủ tịch Chính phủ
+1331,PER00178,Ông Trần Nam Trung,,,Chủ nhiệm  Ủy ban Thanh tra Chính phủ
+1332,PER00179,Bà Nguyễn Thị Bình,,,Bộ trưởng  Bộ Giáo dục
+1333,PER00180,Ông Phùng Văn Cung ( Phó Chủ Tịch Kiêm Chức),,,Bộ trưởng  Bộ Nội vụ
+1334,PER00181,Ông Cao Văn Bổn,,,Bộ trưởng  Bộ Kinh tế Tài chính
+1335,PER00182,Ông Lưu Hữu Phước,,,Bộ trưởng  Bộ Thông tin Văn hoá
+1336,PER00183,Ông Nguyễn Văn Kiết ( Phó Chủ Tịch Kiêm Chức),,,Bộ trưởng  Bộ Giáo dục và Thanh niên
+1337,PER00184,Bà Dương Quỳnh Hoa,,,Bộ trưởng  Bộ Thương binh và Xã hội
+1338,PER00185,Ông Trương Như Tảng,,,Bộ trưởng  Bộ Tư pháp
+1339,PER00186,Ông Trần Hữu Dực (Từ 3-1974 ),,,Phó Thủ tướng
+1340,PER00187,Ông Phan Trọng Tuệ (Từ 3-1974 ),,,Phó Thủ tướng
+1341,PER00188,Ông Đặng Việt Châu (Từ 3-1974),,,Phó Thủ tướng
+1342,PER00189,Ông Nguyễn Côn,,,Phó Thủ tướng
+1343,PER00190,Ông Đỗ Mười,,,Phó Chủ tịch Hội đồng Bộ trưởng
+1344,PER00191,Ông Võ Nguyên Giáp (Phó Thủ Tướng Kiêm Chức),,,Bộ trưởng  Bộ Quốc phòng
+1345,PER00192,Ông Nguyễn Duy Trinh (Phó Thủ Tướng Kiêm Chức),,,Bộ trưởng  Bộ Ngoại giao
+1346,PER00193,Ông Xuân Thủy,,,Bộ trưởng  không Bộ
+1347,PER00194,Ông Dương Quốc Chính,,,Bộ trưởng  Bộ Nội vụ
+1348,PER00195,Ông Nguyễn Lam (Từ 6-1973 Đến 3-1974),,,Chủ nhiệm  Ủy ban Kế hoạch Nhà nước
+1349,PER00196,"Ông Nguyễn Côn (Phó Thủ Tướng Kiêm Chức, Đến 6-1973)",,,Chủ nhiệm  Ủy ban Kế hoạch Nhà nước
+1350,PER00197,Ông Lê Thanh Nghị (Phó Thủ Tướng Kiêm Chức Từ 3-1974),,,Chủ nhiệm  Ủy ban Kế hoạch Nhà nước
+1351,PER00198,Ông Nguyễn Lam (Đến 6-1973),,,"Bộ trưởng, Phó Chủ nhiệm   Ủy ban Kế hoạch Nhà nước"
+1352,PER00199,Ông Nguyễn Văn Kha (Đến 6-1974),,,"Bộ trưởng, Phó Chủ nhiệm   Ủy ban Kế hoạch Nhà nước"
+1353,PER00200,Ông Đào Thiện Thi (Từ 3-1974),,,Quyền Bộ trưởng  Bộ Tài chính
+1354,PER00201,Ông Đặng Việt Châu (Đến 3-1974),,,Bộ trưởng  Bộ Tài chính
+1355,PER00202,Ông Nguyễn Lam (Đến 3-1974),,,Chủ nhiệm  Ủy ban Vật giá Nhà nước
+1356,PER00203,"Ông Đỗ Mười (Phó Thủ Tướng Kiêm Chức, Đến 6-1973)",,,Chủ nhiệm  Ủy ban Kiến thiết cơ bản Nhà nước
+1357,PER00204,"Ông Hoàng Anh (Phó Thủ Tướng Kiêm Chức, Đến 4-1974)",,,Chủ nhiệm  Ủy ban Nông nghiệp Trung ương
+1358,PER00205,Ông Võ Thúc Đồng (Đến 4-1974),,,Quyền Chủ nhiệm  Ủy ban Nông nghiệp Trung ương
+1359,PER00206,Ông Nguyễn Văn Lộc (Đến 3-1974),,,"Bộ trưởng, Phó Chủ nhiệm   Ủy ban Nông nghiệp Trung ương"
+1360,PER00207,Ông Võ Thúc Đồng (Từ 11 - 1974),,,Chủ nhiệm  Ủy ban Nông nghiệp Trung ương
+1361,PER00208,Ông Hà Kế Tấn (Đến 6-1973),,,Bộ trưởng  Bộ Thủy lợi
+1362,PER00209,Ông Nguyễn Thanh Bình (Từ 6-1973),,,Bộ trưởng  Bộ Thủy lợi
+1363,PER00210,Ông Nguyễn Hữu Mai (Đến 4-1974),,,Bộ trưởng  Bộ Điện và Than
+1364,PER00211,Ông Nguyễn Chấn (Từ 4-1974),,,Quyền Bộ trưởng  Bộ Điện và Than
+1365,PER00212,Ông Đinh Đức Thiện (Đến 3-1974),,,Bộ trưởng  Bộ Cơ khí và  Luyện kim
+1366,PER00213,Ông Nguyễn Côn (Từ 3-1974),,,Bộ trưởng  Bộ Cơ khí và  Luyện kim
+1367,PER00214,Ông Ngô Minh Loan,,,"Bộ trưởng, Phó Chủ nhiệm   Ủy ban Nông nghiệp Trung ương"
+1368,PER00215,Ông Bùi Quang Tạo (Đến 6-1973),,,Bộ trưởng  Bộ Kiến trúc
+1369,PER00216,Ông Phan Trọng Tuệ (Đến 3-1974),,,Bộ trưởng  Bộ Giao thông vận tải
+1370,PER00217,Ông Dương Bạch Liên (Từ 3-1974),,,Bộ trưởng  Bộ Giao thông vận tải
+1371,PER00218,Ông Nguyễn Hữu Khiếu (Đến 4-1974),,,Bộ trưởng  Bộ Lao động
+1372,PER00219,Ông Nguyễn Thọ Chân (Từ 4-1974),,,Bộ trưởng  Bộ Lao động
+1373,PER00220,Ông Trần Danh Tuyên,,,Bộ trưởng  Bộ Vật tư
+1374,PER00221,Ông Hoàng Quốc Thịnh,,,Bộ trưởng  Bộ Nội thương
+1375,PER00222,Ông Tạ Quang Bửu,,,Bộ trưởng  Bộ Đại học và Trung học chuyên  nghiệp
+1376,PER00223,Ông Nguyễn Văn Hưởng (Đến 4-1974),,,Bộ trưởng  Bộ Y tế
+1377,PER00224,Ông Vũ Văn Cẩn (Từ 4-1974),,,Quyền Bộ trưởng  Bộ Y tế
+1378,PER00225,Ông Nguyễn Văn Lộc (Từ 3-1974),,,Chủ nhiệm  Ủy ban Thanh tra Chính phủ
+1379,PER00226,Ông Nguyễn Thanh Bình (Đến 3-1974),,,Chủ nhiệm  Ủy ban Thanh tra Chính phủ
+1380,PER00227,Ông Trần Hữu Dực,,,Phó Thủ tướng
+1381,PER00228,Ông Trần Quang Huy,,,Bộ trưởng Chuyên trách   Văn giáo
+1382,PER00229,Ông Phan Mỹ (Từ 4-1973),,,"Bộ trưởng, Chủ nhiệm  Văn phòng Phủ Thủ tướng"
+1383,PER00230,Ông Đặng Thí (Đến 4-1973),,,"Bộ trưởng, Chủ nhiệm  Văn phòng Phủ Thủ tướng"
+1384,PER00231,"Ông Đỗ Mười (Phó Thủ Tướng Kiêm Chức, Từ 6-1973, Sau Khi Thành Lập Bộ)",,,Bộ trưởng  Bộ Xây dựng
+1385,PER00232,Ông Hà Kế Tấn (Từ 6-1973),,,Bộ trưởng phụ trách  Công trình Sông Đà
+1386,PER00233,Ông Đặng Thí (Từ 3-1974),,,Chủ nhiệm  Ủy ban Thống nhất của Chính phủ
+1387,PER00234,Luật Sư Nguyễn Hữu Thọ,,,Chủ tịch Hội đồng cố vấn
+1388,PER00235,Luật Sư Trịnh Đình Thảo,,,Phó Chủ tịch
+1389,PER00236,Ông Y-Bih Alê-Ô,,,Ủy viên
+1390,PER00237,Thượng Tọa Thích Đôn Hậu,,,Ủy viên
+1391,PER00238,Ông Huỳnh Cương,,,Ủy viên
+1392,PER00239,Sư Thúc Huỳnh Văn Trí,,,Ủy viên
+1393,PER00240,Cụ Nguyễn Công Phương,,,Ủy viên
+1394,PER00241,Cụ Võ Oanh,,,Ủy viên
+1395,PER00242,Giáo Sư Lê Văn Giáp,,,Ủy viên
+1396,PER00243,Thiếu Tá Huỳnh Thanh Mừng,,,Ủy viên
+1397,PER00244,Ông Luy-Xiêng Phạm Ngọc Hùng,,,Ủy viên
+1398,PER00245,Kỹ Sư Lâm Văn Tết,,,Ủy viên
+1399,PER00246,Nữ Giáo Sư Nguyễn Đình Chi,,,Ủy viên
+1400,PER00247,Ông Đặng Việt Châu,,,Phó Thủ tướng
+1401,PER00248,Ông Võ Nguyên Giáp ( Phó Thủ Tướng Kiêm Chức ),,,Bộ trưởng  Bộ Quốc phòng
+1402,PER00249,Ông Nguyễn Duy Trinh (Phó Thủ Tướng Kiêm Chức),,,Bộ trưởng  Bộ Ngoại giao
+1403,PER00250,Ông Lê Thanh Nghị (Phó Thủ Tướng Kiêm Chức),,,Chủ nhiệm  Ủy ban Kế hoạch Nhà nước
+1404,PER00251,Ông Nguyễn Hữu Mai,,,"Bộ trưởng, Phó Chủ nhiệm   Ủy ban Kế hoạch Nhà nước"
+1405,PER00252,Ông Đinh Đức Thiện,,,Bộ trưởng phụ trách  Công tác Dầu khí
+1406,PER00253,Ông Nguyễn Chấn,,,Bộ trưởng  Bộ Điện và Than
+1407,PER00254,Ông Nguyễn Côn ( Phó Thủ Tướng Kiêm Chức),,,Bộ trưởng  Bộ Cơ khí và Luyện kim
+1408,PER00255,Ông Đỗ Mười (Phó Thủ Tướng Kiêm Chức),,,Bộ trưởng  Bộ Xây dựng
+1409,PER00256,Ông Dương Bạch Liên,,,Bộ trưởng  Bộ Giao thông vận tải
+1410,PER00257,Ông Vũ Tuân,,,Bộ trưởng  Bộ Công nghiệp nhẹ
+1411,PER00258,Ông Võ Thúc Đồng,,,Chủ nhiệm  Ủy ban Nông nghiệp Trung ương
+1412,PER00259,Ông Nguyễn Thanh Bình,,,Bộ trưởng  Bộ Thủy lợi
+1413,PER00260,Ông Đào Thiện Thi,,,Bộ trưởng  Bộ Tài chính
+1414,PER00261,Ông Đặng Việt Châu (Phó Thủ Tướng Kiêm Chức),,,Tổng giám đốc  Ngân hàng Nhà nước Việt Nam
+1415,PER00262,Ông Nguyễn Thọ Chân,,,Bộ trưởng  Bộ Lao động
+1416,PER00263,Ông Tô Duy,,,Chủ nhiệm  Ủy ban Vật giá Nhà nước
+1417,PER00264,Ông Vũ Văn Cẩn,,,Bộ trưởng  Bộ Y tế
+1418,PER00265,Ông Dương Quốc Chính,,,Bộ trưởng  Bộ Thương binh và Xã hội
+1419,PER00266,Ông Nguyễn Văn Lộc,,,Chủ nhiệm  Ủy ban Thanh tra của Chính phủ
+1420,PER00267,Ông Đặng Thí,,,Chủ nhiệm  Ủy ban Thống nhất của Chính phủ
+1421,PER00268,Ông Phan Mỹ,,,"Bộ trưởng, Chủ nhiệm  Văn phòng Phủ Thủ tướng"
+1422,PER00269,Ông Trần Hữu Dực (Phó Thủ Tướng Kiêm Chức),,,Bộ trưởng  Phủ Thủ tướng
+1423,PER00270,Ông Nguyễn Duy Trinh (Đến 2-1980),,,Phó Thủ tướng
+1424,PER00271,Ông Võ Chí Công,,,Phó Thủ tướng
+1425,PER00272,Ông Tố Hữu (Từ 2-1980),,,Phó Thủ tướng
+1426,PER00273,Ông Nguyễn Lam (Từ 2-1980),,,Phó Thủ tướng
+1427,PER00274,Ông Trần Quỳnh (Từ 1-1981),,,Phó Thủ tướng
+1428,PER00275,Ông Trần Quốc Hoàn (Đến 2-1980),,,Bộ trưởng  Bộ Nội vụ
+1429,PER00276,Ông Phạm Hùng (Phó Thủ Tướng Kiêm Chức Từ 2-1980),,,Bộ trưởng  Bộ Nội vụ
+1430,PER00277,Ông Nguyễn Duy Trinh (Phó Thủ Tướng Kiêm Chức Đến 2-1980),,,Bộ trưởng  Bộ Ngoại giao
+1431,PER00278,Ông Nguyễn Cơ Thạch,,,Bộ trưởng  Bộ Ngoại giao
+1432,PER00279,Ông Nguyễn Cơ Thạch (Từ 2-1980),,,Bộ trưởng  Bộ Ngoại giao
+1433,PER00280,Ông Võ Nguyên Giáp (Phó Thủ Tướng Kiêm Chức Đến 2-1980),,,Bộ trưởng  Bộ Quốc phòng
+1434,PER00281,Ông Văn Tiến Dũng (Từ 2-1980),,,Bộ trưởng  Bộ Quốc phòng
+1435,PER00282,Ông Lê Thanh Nghị (Phó Thủ Tướng Kiêm Chức Đến 2-1980),,,Chủ nhiệm  Ủy ban Kế hoạch Nhà nước
+1436,PER00283,Ông Nguyễn Lam (Phó Thủ Tướng Kiêm Chức Từ 2-1980),,,Chủ nhiệm  Ủy ban Kế hoạch Nhà nước
+1437,PER00284,Ông Nguyễn Hữu Mai (Đến 2-1980),,,"Bộ trưởng, Phó Chủ nhiệm   Ủy ban Kế hoạch Nhà nước"
+1438,PER00285,Ông Trần Quỳnh (Từ 2-1980 Đến 1-1981),,,"Bộ trưởng, Phó Chủ nhiệm   Ủy ban Kế hoạch Nhà nước"
+1439,PER00286,Ông Trần Phương (Từ 2-1980 Đến 1-1981),,,"Bộ trưởng, Phó Chủ nhiệm   Ủy ban Kế hoạch Nhà nước"
+1440,PER00287,Ông Vũ Đại (Từ 1-1981),,,"Bộ trưởng, Phó Chủ nhiệm   Ủy ban Kế hoạch Nhà nước"
+1441,PER00288,Ông Võ Thúc Đồng (Đến 7-1977),,,Bộ trưởng  Bộ Nông nghiệp
+1442,PER00289,Ông Võ Chí Công (Phó Thủ Tướng Kiêm Chức Từ 7-1977 Đến 1979),,,Bộ trưởng  Bộ Nông nghiệp
+1443,PER00290,Ông Nguyễn Ngọc Trìu (Từ 1979),,,Bộ trưởng  Bộ Nông nghiệp
+1444,PER00291,Ông Hoàng Văn Kiểu (Đến 2-1977),,,Bộ trưởng  Bộ Lâm nghiệp
+1445,PER00292,Ông Trần Kiên (Từ 2-1979 Đến 1-1981),,,Bộ trưởng  Bộ Lâm nghiệp
+1446,PER00293,Ông Phan Xuân Đợt (Từ 1-1981),,,Bộ trưởng  Bộ Lâm nghiệp
+1447,PER00294,Ông Nguyễn Thanh Bình (Đến 1-1981),,,Bộ trưởng  Bộ Thủy lợi
+1448,PER00295,Ông Nguyễn Cảnh Dinh (Từ 1-1981),,,Bộ trưởng  Bộ Thủy lợi
+1449,PER00296,Ông Nguyễn Côn (Đến 11-1977),,,Bộ trưởng  Bộ Cơ khí Luyện kim
+1450,PER00297,Ông Nguyễn Văn Kha (Từ 11-1977),,,Bộ trưởng  Bộ Cơ khí Luyện kim
+1451,PER00298,"Ông Nguyễn Chấn (Đến 1-1981, Khi Chia Tách Bộ)",,,Bộ trưởng  Bộ Điện và Than
+1452,PER00299,"Ông Phạm Khai (Từ 1-1981, Khi Thành Lập Bộ)",,,Bộ trưởng  Bộ Điện lực
+1453,PER00300,"Ông Nguyễn Chân (Từ 1-1981, Khi Thành Lập Bộ)",,,Bộ trưởng  Bộ Mỏ và Than
+1454,PER00301,Ông Đỗ Mười (Phó Thủ Tướng Kiêm Chức Đến 11-1977),,,Bộ trưởng  Bộ Xây dựng
+1455,PER00302,Ông Đồng Sĩ Nguyên (Từ 11-1977),,,Bộ trưởng  Bộ Xây dựng
+1456,PER00303,Ông Vũ Tuân (Đến 2-1977),,,Bộ trưởng  Bộ Công nghiệp nhẹ
+1457,PER00304,Ông Trần Hữu Dư (Từ 2-1977),,,Bộ trưởng  Bộ Công nghiệp nhẹ
+1458,PER00305,Ông Ngô Minh Loan (Đến 4-1979),,,Bộ trưởng  Bộ Lương thực và Thực phẩm
+1459,PER00306,Ông Hồ Viết Thắng (Từ 4-1979 Đến 1-1981),,,Bộ trưởng  Bộ Lương thực và Thực phẩm
+1460,PER00307,"Ông Vũ Tuân (Từ 1-1981, Khi Thành Lập Bộ)",,,Bộ trưởng  Bộ Công nghiệp Thực phẩm
+1461,PER00308,"Ông La Lâm Gia (Từ 1-1981, Khi Thành Lập Bộ)",,,Bộ trưởng  Bộ Lương thực
+1462,PER00309,Ông Võ Chí Công (Phó Thủ Tướng Kiêm Chức Đến 2-1977),,,Bộ trưởng  Bộ Hải sản
+1463,PER00310,Ông Nguyễn Quang Lâm (Từ 2 Đến 11-1977),,,Bộ trưởng  Bộ Hải sản
+1464,PER00311,Ông Đỗ Chính (Từ 11-1977 Đến 1-1981),,,Bộ trưởng  Bộ Hải sản
+1465,PER00312,Ông Nguyễn Tấn Trịnh (Từ 1-1981),,,Bộ trưởng  Bộ Hải sản
+1466,PER00313,Ông Hoàng Quốc Thịnh (Đến 11-1977),,,Bộ trưởng  Bộ Nội thương
+1467,PER00314,Ông Trần Văn Hiển (Từ 11-1977 Đến 1-1981),,,Bộ trưởng  Bộ Nội thương
+1468,PER00315,Ông Trần Phương (Từ 1-1981),,,Bộ trưởng  Bộ Nội thương
+1469,PER00316,Ông Đặng Việt Châu (Đến 2-1980),,,Bộ trưởng  Bộ Ngoại thương
+1470,PER00317,Ông Lê Khắc (Từ 2-1980),,,Bộ trưởng  Bộ Ngoại thương
+1471,PER00318,Ông Đào Thiện Thi (Đến 2-1977),,,Bộ trưởng  Bộ Tài Chính
+1472,PER00319,Ông Hoàng Anh (Từ 2-1977),,,Bộ trưởng  Bộ Tài Chính
+1473,PER00320,Ông Hoàng Anh (Đến 2-1977),,,Tổng giám đốc  Ngân hàng Nhà nước Việt Nam
+1474,PER00321,Ông Trần Dương (Từ 2-1977 Đến 2-1981),,,Tổng giám đốc  Ngân hàng Nhà nước Việt Nam
+1475,PER00322,Ông Nguyễn Duy Gia (Từ 2-1981),,,Tổng giám đốc  Ngân hàng Nhà nước Việt Nam
+1476,PER00323,Ông Tô Duy (Đến 2-1981),,,Chủ nhiệm  Ủy ban Vật giá Nhà nước
+1477,PER00324,Ông Đoàn Trọng Truyến (Từ 2-1981),,,Chủ nhiệm  Ủy ban Vật giá Nhà nước
+1478,PER00325,Ông Nguyễn Thọ Chân (Đến 2-1981),,,Bộ trưởng  Bộ Lao động
+1479,PER00326,Ông Đào Thiện Thi (Từ 2-1981),,,Bộ trưởng  Bộ Lao động
+1480,PER00327,Ông Trần Sâm,,,Bộ trưởng  Bộ Vật tư
+1481,PER00328,Ông Lê Quảng Ba (Đến 2-1977),,,Chủ nhiệm  Ủy ban Dân tộc của Chính phủ
+1482,PER00329,Ông Vũ Lập (Từ 2-1977 Đến 6-1978),,,Chủ nhiệm  Ủy ban Dân tộc của Chính phủ
+1483,PER00330,Ông Trần Đại Nghĩa (Đến 2-1977),,,Chủ nhiệm  Ủy ban Khoa học và Kỹ thuật Nhà nước
+1484,PER00331,Ông Trần Quỳnh (Từ 2-1977 Đến 2-1980),,,Chủ nhiệm  Ủy ban Khoa học và Kỹ thuật Nhà nước
+1485,PER00332,Ông Lê Khắc (Từ 2-1980),,,Quyền Chủ nhiệm  Ủy ban Khoa học và Kỹ thuật Nhà nước
+1486,PER00333,Ông Nguyễn Văn Hiếu (Đến 1977),,,Bộ trưởng  Bộ Văn hóa
+1487,PER00334,Ông Nguyễn Văn Hiếu (Sau Khi Thành Lập Bộ Mới Tiếp Tục Giữ Chức Bộ Trưởng),,,Bộ trưởng  Bộ Văn hoá và Thông tin
+1488,PER00335,Ông Nguyễn Đình Tứ,,,Bộ trưởng  Bộ Đại học và Trung học chuyên nghiệp
+1489,PER00336,Ông Dương Quốc Chính,,,Bộ trưởng  Bộ Thương binh và Xã hội
+1490,PER00337,Ông Hà Kế Tấn (Đến 5-1978),,,Bộ trưởng phụ trách  Công trình Sông Đà
+1491,PER00338,Ông Đặng Thí (Đến 2-1977),,,Bộ trưởng  Phủ Thủ tướng
+1492,PER00339,Ông Vũ Tuân (Từ 2-1977 Đến 1-1981),,,Bộ trưởng  Phủ Thủ tướng
+1493,PER00340,Ông Đặng Việt Châu (Từ 1-1981),,,Bộ trưởng  Phủ Thủ tướng
+1494,PER00341,Ông Trần Quang Huy (Đến 2-1980),,,"Bộ trưởng phụ trách  Công tác Văn hóa, Giáo dục ở Phủ Thủ tướng"
+1495,PER00342,Ông Trần Đại Nghĩa (Từ 4-1977),,,Bộ trưởng phụ trách  Viện Khoa học Việt Nam
+1496,PER00343,Ông Trần Quang Huy (Từ 2-1980),,,"Bộ trưởng, Chủ nhiệm  Ủy ban Pháp chế của Chính phủ"
+1497,PER00344,"Ông Huỳnh Tấn Phát (Phó Thủ Tướng Kiêm Chức Từ 1979, Sau Khi Thành Lập Ủy Ban)",,,Chủ nhiệm  Ủy ban Xây dựng Cơ bản Nhà nước
+1498,PER00345,Ông Tố Hữu (Đến 6-1986),,,Phó Chủ tịch Hội đồng Bộ trưởng
+1499,PER00346,Ông Huỳnh Tấn Phát (Đến 6-1982),,,Phó Chủ tịch Hội đồng Bộ trưởng
+1500,PER00347,Ông Võ Chí Công (Đến 4-1982 Và Từ 6-1986),,,Phó Chủ tịch Hội đồng Bộ trưởng
+1501,PER00348,Ông Nguyễn Lam (Đến 4-1982),,,Phó Chủ tịch Hội đồng Bộ trưởng
+1502,PER00349,Ông Trần Quỳnh (Đến 2-1987),,,Phó Chủ tịch Hội đồng Bộ trưởng
+1503,PER00350,Ông Võ Văn Kiệt (Từ 4-1982),,,Phó Chủ tịch Hội đồng Bộ trưởng
+1504,PER00351,Ông Đồng Sĩ Nguyên (Từ 4-1982),,,Phó Chủ tịch Hội đồng Bộ trưởng
+1505,PER00352,Ông Vũ Đình Liệu (Từ 4-1982 Đến 2-1987),,,Phó Chủ tịch Hội đồng Bộ trưởng
+1506,PER00353,Ông Trần Phương (Từ 4-1982 Đến 1-1986),,,Phó Chủ tịch Hội đồng Bộ trưởng
+1507,PER00354,Ông Nguyễn Cơ Thạch (Từ 2-1987),,,Phó Chủ tịch Hội đồng Bộ trưởng
+1508,PER00355,Ông Nguyễn Ngọc Trìu (Từ 2-1987),,,Phó Chủ tịch Hội đồng Bộ trưởng
+1509,PER00356,Ông Trần Đức Lương (Đến 2-1987),,,Phó Chủ tịch Hội đồng Bộ trưởng
+1510,PER00357,Ông Nguyễn Khánh (Từ 2-1987),,,Phó Chủ tịch Hội đồng Bộ trưởng
+1511,PER00358,Ông Đoàn Duy Thành (Từ 2-1987),,,Phó Chủ tịch Hội đồng Bộ trưởng
+1512,PER00359,Ông Nguyễn Văn Chính (Chín Cần) (Từ 2-1987),,,Phó Chủ tịch Hội đồng Bộ trưởng
+1513,PER00360,Ông Đặng Thí (Đến 4-1982),,,"Bộ trưởng, Tổng Thư ký  Hội đồng Bộ trưởng"
+1514,PER00361,Ông Nguyễn Hữu Thụ (Từ 4-1982 Đến 5-1984),,,"Bộ trưởng, Tổng Thư ký  Hội đồng Bộ trưởng"
+1515,PER00362,Ông Đoàn Trọng Truyến (Từ 5-1984 Đến 2-1987),,,"Bộ trưởng, Tổng Thư ký  Hội đồng Bộ trưởng"
+1516,PER00363,"Ông Nguyễn Khánh (Phó Chủ Tịch Hđbt Kiêm Chức, Từ 2-1987)",,,"Bộ trưởng, Tổng Thư ký  Hội đồng Bộ trưởng"
+1517,PER00364,Ông Phạm Hùng (Phó Chủ Tịch Hđbt Kiêm Chức Đến 2-1987),,,Bộ trưởng  Bộ Nội vụ
+1518,PER00365,Ông Mai Chí Thọ (Từ 2-1987),,,Bộ trưởng  Bộ Nội vụ
+1519,PER00366,Ông Văn Tiến Dũng (Đến 2-1987),,,Bộ trưởng  Bộ Quốc phòng
+1520,PER00367,Ông Lê Đức Anh (Từ 2-1987),,,Bộ trưởng  Bộ Quốc phòng
+1521,PER00368,Ông Võ Đông Giang (Từ 3-1983),,,Bộ trưởng Biệt phái  Bộ Ngoại giao
+1522,PER00369,Ông Nguyễn Lam (Phó Chủ Tịch Hđbt Kiêm Chức Đến 4-1982),,,Chủ nhiệm  Ủy ban Kế hoạch  Nhà nước
+1523,PER00370,Ông Võ Văn Kiệt (Phó Chủ Tịch Hđbt Kiêm Chức Từ 4-1982),,,Chủ nhiệm  Ủy ban Kế hoạch  Nhà nước
+1524,PER00371,Ông Vũ Đại,,,"Bộ trưởng, Phó Chủ nhiệm   Ủy ban Kế hoạch  Nhà nước"
+1525,PER00372,Ông Hoàng Quy (Từ 10-1983 Đến 2-1987),,,"Bộ trưởng, Phó Chủ nhiệm thứ nhất   Ủy ban Kế hoạch  Nhà nước"
+1526,PER00373,Ông Đậu Ngọc Xuân (Từ 2-1987),,,"Bộ trưởng, Phó Chủ nhiệm thứ nhất   Ủy ban Kế hoạch  Nhà nước"
+1527,PER00374,"Ông Huỳnh Tấn Phát (Phó Chủ Tịch Hđbt Kiêm Chức, Đến 6-1982)",,,Chủ nhiệm  Ủy ban Xây dựng cơ bản Nhà nước
+1528,PER00375,Ông Đỗ Quốc Sam (Đến 10-1982),,,Chủ nhiệm  Ủy ban Xây dựng cơ bản Nhà nước
+1529,PER00376,Ông Lê Khắc (Đến 4-1982),,,Chủ nhiệm  Ủy ban Khoa học và Kỹ thuật Nhà nước
+1530,PER00377,Ông Đặng Hữu (Từ 4-1982),,,Chủ nhiệm  Ủy ban Khoa học và Kỹ thuật Nhà nước
+1531,PER00378,Ông Trần Nam Trung (Đến 4-1982),,,"Chủ nhiệm  Ủy ban Thanh tra của Chính phủ (từ tháng 5-1984, đổi là Thanh tra Nhà nước)"
+1532,PER00379,Ông Bùi Quang Tạo (Từ 4-1982 Đến 2-1987),,,"Chủ nhiệm  Ủy ban Thanh tra của Chính phủ (từ tháng 5-1984, đổi là Thanh tra Nhà nước)"
+1533,PER00380,"Ông Nguyễn Văn Chính (Chín Cần) (Phó Chủ Tịch Hđbt Kiêm Chức, Từ 2-1987)",,,"Chủ nhiệm  Ủy ban Thanh tra của Chính phủ (từ tháng 5-1984, đổi là Thanh tra Nhà nước)"
+1534,PER00381,"Ông Hoàng Văn Kiểu (Đến 2-1987, Khi Giải Thể Uỷ Ban)",,,Chủ nhiệm  Uỷ ban Dân tộc của Chính phủ
+1535,PER00382,Ông Đoàn Trọng Truyến (Đến 5-1984),,,Chủ nhiệm  Ủy ban Vật giá Nhà nước
+1536,PER00383,"Ông Phan Văn Tiệm (Từ 5-1984 Là Quyền Chủ Nhiệm, Từ 2-1987 Là Chủ Nhiệm)",,,Chủ nhiệm  Ủy ban Vật giá Nhà nước
+1537,PER00384,Ông Hoàng Anh (Đến 4-1982),,,Bộ trưởng  Bộ Tài chính
+1538,PER00385,Ông Chu Tam Thức (Từ 4-1982 Đến 6-1986),,,Bộ trưởng  Bộ Tài chính
+1539,PER00386,Ông Vũ Tuân (Từ 6-1986 Đến 2-1987),,,Bộ trưởng  Bộ Tài chính
+1540,PER00387,Ông Hoàng Quy (Từ 2-1987),,,Bộ trưởng  Bộ Tài chính
+1541,PER00388,Ông Lữ Minh Châu (Từ 6-1986),,,Tổng giám đốc  Ngân hàng Nhà nước Việt Nam
+1542,PER00389,Ông Nguyễn Duy Gia (Đến 6-1986),,,Tổng giám đốc  Ngân hàng Nhà nước Việt Nam
+1543,PER00390,Ông Trần Sâm (Đến 4-1982),,,Bộ trưởng   Bộ Vật tư
+1544,PER00391,Ông Hoàng Đức Nghi (Từ 4-1982),,,Bộ trưởng   Bộ Vật tư
+1545,PER00392,"Ông Đào Thiện Thi (Đến 2-1987, Khi Sát Nhập Bộ Lao Động Và Bộ Thương Binh Xã Hội Thành Bộ Mới)",,,Bộ trưởng  Bộ Lao động
+1546,PER00393,Ông Đồng Sĩ Nguyên (Đến 4-1982),,,Bộ trưởng  Bộ Xây dựng
+1547,PER00394,Ông Phan Ngọc Tường (Từ 4-1982),,,Bộ trưởng  Bộ Xây dựng
+1548,PER00395,Ông Đinh Đức Thiện (Đến 4-1982),,,Bộ trưởng  Bộ Giao thông vận tải
+1549,PER00396,"Ông Đồng Sĩ Nguyên (Phó Chủ Tịch Hđbt Kiêm Chức, Từ 4-1982 Đến 6-1986)",,,Bộ trưởng  Bộ Giao thông vận tải
+1550,PER00397,Ông Bùi Danh Lưu (Từ 6-1986),,,Bộ trưởng  Bộ Giao thông vận tải
+1551,PER00398,Ông Nguyễn Văn Kha (Đến 2-1987),,,Bộ trưởng  Bộ Cơ khí Luyện kim
+1552,PER00399,Ông Phan Thanh Liêm (Từ 2-1987),,,Bộ trưởng  Bộ Cơ khí Luyện kim
+1553,PER00400,Ông Nguyễn Trân (Đến 6-1986),,,Bộ trưởng  Mỏ và Than
+1554,PER00401,Ông Phạm Khai (Từ 2-1987),,,Bộ trưởng  Bộ Điện lực
+1555,PER00402,Ông Trần Hữu Dư (Đến 4-1982),,,Bộ trưởng  Bộ Công nghiệp nhẹ
+1556,PER00403,Ông Nguyễn Chí Vu (Từ 4-1982 Đến 2-1987),,,Bộ trưởng  Bộ Công nghiệp nhẹ
+1557,PER00404,Ông Vũ Tuân (Từ 2-1987),,,Bộ trưởng  Bộ Công nghiệp nhẹ
+1558,PER00405,Ông Vũ Tuân (Đến 6-1982),,,Bộ trưởng  Bộ Công nghiệp thực phẩm
+1559,PER00406,Ông Nguyễn Ngọc Trìu (Từ 2-1987 Là Phó Chủ Tịch Hđbt Kiêm Chức),,,Bộ trưởng  Bộ Nông nghiệp
+1560,PER00407,Ông Phan Xuân Đợt,,,Bộ trưởng  Bộ Lâm nghiệp
+1561,PER00408,Ông Nguyễn Cảnh Dinh,,,Bộ trưởng  Bộ Thủy lợi
+1562,PER00409,Ông Nguyễn Tấn Trịnh,,,Bộ trưởng  Bộ Thủy sản
+1563,PER00410,Ông Nguyễn Văn Chính (Chín Cần) (Từ 6-1984 Đến 2-1987),,,Bộ trưởng  Bộ Lương thực
+1564,PER00411,Ông La Lâm Gia (Đến 6-1984),,,Bộ trưởng  Bộ Lương thực
+1565,PER00412,Ông Trần Phương (Đến 4-1982),,,Bộ trưởng  Bộ Nội thương
+1566,PER00413,Ông Lê Đức Thịnh (Từ 4-1982 Đến 6-1986),,,Bộ trưởng  Bộ Nội thương
+1567,PER00414,Ông Hoàng Minh Thắng (Từ 6-1986),,,Bộ trưởng  Bộ Nội thương
+1568,PER00415,Ông Lê Khắc (Đến 6-1986),,,Bộ trưởng  Bộ Ngoại thương
+1569,PER00416,Ông Đoàn Duy Thành (Từ 6-1986),,,Bộ trưởng  Bộ Ngoại thương
+1570,PER00417,Ông Nguyễn Văn Hiếu (Đến 6-1986),,,Bộ trưởng  Bộ Văn hóa
+1571,PER00418,Ông Trần Văn Phác (Đến 2-1987),,,Bộ trưởng  Bộ Văn hóa
+1572,PER00419,Ông Vũ Văn Cẩn (Đến 4-1982),,,Bộ trưởng  Bộ Y tế
+1573,PER00420,Ông Đặng Hồi Xuân (Từ 4-1982),,,Bộ trưởng  Bộ Y tế
+1574,PER00421,Bà Nguyễn Thị Bình (Đến 2-1987),,,Bộ trưởng  Bộ Giáo dục
+1575,PER00422,Ông Phạm Minh Hạc (Từ 2-1987),,,Bộ trưởng  Bộ Giáo dục
+1576,PER00423,Ông Nguyễn Đình Tứ (Đến 2-1987),,,Bộ trưởng  Bộ Đại học và Trung học chuyên nghiệp
+1577,PER00424,Ông Trần Hồng Quân (Từ 2-1987),,,Bộ trưởng  Bộ Đại học và Trung học chuyên nghiệp
+1578,PER00425,Ông Dương Quốc Chính (Đến 4-1982),,,Bộ trưởng  Bộ Thương binh và Xã hội
+1579,PER00426,Ông Song Hào (Từ 4-1982 Đến 2-1987),,,Bộ trưởng  Bộ Thương binh và Xã hội
+1580,PER00427,Ông Phan Hiền,,,Bộ trưởng  Bộ Tư pháp
+1581,PER00428,Ông Đặng Thí (Đến 4-1982),,,Chủ nhiệm  Văn phòng Hội đồng Bộ trưởng
+1582,PER00429,Ông Nguyễn Hữu Thụ (Từ 4-1982 Đến 5-1984),,,Chủ nhiệm  Văn phòng Hội đồng Bộ trưởng
+1583,PER00430,Ông Đoàn Trọng Truyến (Từ 5-1984 Đến 2-1987),,,Chủ nhiệm  Văn phòng Hội đồng Bộ trưởng
+1584,PER00431,Ông Hồ Ngọc Nhường (Từ 4-1987),,,Chủ nhiệm  Văn phòng Hội đồng Bộ trưởng
+1585,PER00432,"Ông Trần Hoàn (Từ 2-1987, Khi Giải Thể Ủy Ban Phát Thanh Và Truyền Hình, Thành Lập Bộ Thông Tin)",,,Bộ trưởng  Bộ Thông tin
+1586,PER00433,"Ông Nguyễn Công Tạn (Từ 2-1987, Khi Sáp Nhập 3 Bộ Nông Nghiệp, Công Nghiệp Thực Phẩm Và Lương Thực,",,,Bộ trưởng  Bộ Nông nghiệp và Công nghiệp thực phẩm
+1587,PER00434,"Ông Vũ Ngọc Hải ( Từ 2-1987, Khi Sáp Nhập 2 Bộ: Bộ Điện Lực, Mỏ Than, Thành Lập Bộ Mới )",,,Bộ trưởng  Bộ Năng Lượng
+1588,PER00435,"Ông Nguyễn Kỳ Cẩm (Từ 2-1987, Khi Sáp Nhập 2 Bộ: Bộ Lao Động Và Bộ Thương Binh Xã Hội, Thành Lập Bộ",,,Bộ trưởng  Bộ Lao động - Thương binh và Xã hội
+1589,PER00436,Ông Phạm Hùng (Đến 10-3-1988 Vì Từ Trần),,,Chủ tịch Hội đồng Bộ trưởng
+1590,PER00437,Ông Võ Văn Kiệt (Từ 8-1991),,,Chủ tịch Hội đồng Bộ trưởng
+1591,PER00438,Ông Đỗ Mười (Từ 6-1988 Đến 7-1991),,,Chủ tịch Hội đồng Bộ trưởng
+1592,PER00439,Ông Võ Văn Kiệt (Từ 3-1988 Đến 6-1988),,,Quyền Chủ tịch Hội đồng Bộ trưởng
+1593,PER00440,Ông Võ Văn Kiệt (Từ 6-1987 Đến 8-1991),,,Phó Chủ tịch thứ nhất Hội đồng Bộ trưởng
+1594,PER00441,Ông Phan Văn Khải (Từ 8-1991),,,Phó Chủ tịch thứ nhất Hội đồng Bộ trưởng
+1595,PER00442,Ông Nguyễn Cơ Thạch (Đến 8-1991),,,Phó Chủ tịch Hội đồng Bộ trưởng
+1596,PER00443,Ông Võ Nguyên Giáp (Đến 8-1991),,,Phó Chủ tịch Hội đồng Bộ trưởng
+1597,PER00444,Ông Nguyễn Khánh,,,Phó Thủ tướng
+1598,PER00445,Ông Trần Đức Lương,,,Phó Thủ tướng
+1599,PER00446,Ông Nguyễn Ngọc Trìu (Đến 5-1988),,,Phó Chủ tịch Hội đồng Bộ trưởng
+1600,PER00447,Ông Nguyễn Văn Chính (Chín Cần) (Đến 5-1988),,,Phó Chủ tịch Hội đồng Bộ trưởng
+1601,PER00448,Ông Đoàn Duy Thành (Đến 5-1988),,,Phó Chủ tịch Hội đồng Bộ trưởng
+1602,PER00449,Ông Đồng Sĩ Nguyên (Đến 8-1991),,,Phó Chủ tịch Hội đồng Bộ trưởng
+1603,PER00450,Ông Nguyễn Khánh (Phó Chủ Tịch Hđbt Kiêm Chức),,,Tổng thư ký Hội đồng Bộ trưởng
+1604,PER00451,Ông Lê Đức Anh (Đến 7-1991),,,Bộ trưởng  Bộ Quốc phòng
+1605,PER00452,Ông Đoàn Khuê (Từ 8-1991),,,Bộ trưởng  Bộ Quốc phòng
+1606,PER00453,Ông Nguyễn Cơ Thạch (Phó Chủ Tịch Hđbt Kiêm Chức Đến 7-1991),,,Bộ trưởng   Bộ Ngoại giao
+1607,PER00454,Ông Nguyễn Mạnh Cầm (Từ 8-1991),,,Bộ trưởng   Bộ Ngoại giao
+1608,PER00455,Ông Mai Chí Thọ (Đến 7-1991),,,Bộ trưởng  Bộ Nội vụ
+1609,PER00456,Ông Bùi Thiện Ngộ (Từ 8-1991),,,Bộ trưởng  Bộ Nội vụ
+1610,PER00457,Ông Võ Văn Kiệt (Phó Chủ Tịch Hđbt Kiêm Chức Đến 3-1988),,,Chủ nhiệm  Ủy ban Kế hoạch Nhà nước
+1611,PER00458,Ông Đậu Ngọc Xuân (Từ 3-1988 Đến 3-1989),,,Chủ nhiệm  Ủy ban Kế hoạch Nhà nước
+1612,PER00459,Ông Đỗ Quốc Sam (Từ 8-1991),,,Chủ nhiệm  Ủy ban Kế hoạch Nhà nước
+1613,PER00460,Ông Phan Văn Khải (Từ 3-1989 Đến 8-1991),,,Chủ nhiệm  Ủy ban Kế hoạch Nhà nước
+1614,PER00461,Ông Đậu Ngọc Xuân (Đến 3-1988),,,"Bộ trưởng, Phó Chủ nhiệm thứ nhất   Ủy ban Kế hoạch Nhà nước"
+1615,PER00462,Ông Đậu Ngọc Xuân (Từ 3-1989 Đến 4-1989),,,"Bộ trưởng, Phó Chủ nhiệm   Ủy ban Nhà nước về Hợp tác và Đầu tư"
+1616,PER00463,Ông Đậu Ngọc Xuân (Từ 4-1989),,,"Bộ trưởng, Chủ nhiệm  Ủy ban Nhà nước về Hợp tác và Đầu tư"
+1617,PER00464,"Ông Võ Đông Giang (Đến 3-1988, Khi Sáp Nhập Bộ Ngoại Thương Và Ủy Ban Kinh Tế Đối Ngoại)",,,Chủ nhiệm  Ủy ban Kinh tế Đối ngoại
+1618,PER00465,Ông Đặng Thí (Đến 1-1989 Khi Giải Thể Ủy Ban),,,Chủ nhiệm  Ủy ban Hợp tác Kinh tế Văn hóa với Lào và Campuchia
+1619,PER00466,"Ông Đỗ Quốc Sam (Đến 3-1988, Khi Sáp Nhập Ủy Ban Với Bộ Xây Dựng)",,,Chủ nhiệm  Ủy ban Xây dựng cơ bản Nhà nước
+1620,PER00467,Ông Đặng Hữu (Đến 3-1990 Đổi Là Chủ Nhiệm Ủy Ban Khoa Học),,,Chủ nhiệm  Ủy ban Khoa học và Kỹ thuật Nhà nước
+1621,PER00468,Ông Nguyễn Văn Chính (Chín Cần) (Phó Chủ Tịch Hđbt Kiêm Chức Đến 5-1988),,,Chủ nhiệm  Ủy ban Thanh tra Nhà nước
+1622,PER00469,Ông Huỳnh Công Sổ (Từ 5-1988 Đến 4-1989),,,Chủ nhiệm  Ủy ban Thanh tra Nhà nước
+1623,PER00470,Ông Nguyễn Kỳ Cẩm (Từ 4-1989),,,Tổng Thanh tra  Thanh tra Nhà nước (Ủy ban Thanh tra Nhà nước đổi tên từ 4-1989)
+1624,PER00471,Ông Phan Văn Tiệm,,,Chủ nhiệm  Ủy ban Vật giá Nhà nước
+1625,PER00472,Ông Hoàng Quy (Đến 5-1992),,,Bộ trưởng  Bộ Tài chính
+1626,PER00473,Ông Hồ Tế (Từ 5-1992),,,Bộ trưởng  Bộ Tài chính
+1627,PER00474,Ông Lữ Minh Châu (Đến 4-1989),,,Tổng giám đốc  Ngân hàng Nhà nước (từ 4-1989 đổi là Thống đốc Ngân hàng Nhà nước)
+1628,PER00475,Ông Cao Sỹ Kiêm (Từ 4-1989),,,Tổng giám đốc  Ngân hàng Nhà nước (từ 4-1989 đổi là Thống đốc Ngân hàng Nhà nước)
+1629,PER00476,Ông Hoàng Đức Nghi,,,"Bộ trưởng, Chủ nhiệm  Ủy ban Dân tộc và Miền núi"
+1630,PER00477,Ông Nguyễn Kỳ Cẩm (Đến 4-1989),,,Bộ trưởng  Bộ Lao động - Thương binh và Xã hội
+1631,PER00478,Ông Trần Đình Hoan (Từ 4-1989),,,Bộ trưởng  Bộ Lao động - Thương binh và Xã hội
+1632,PER00479,Ông Phan Ngọc Tường,,,"Bộ trưởng  Bộ Xây dựng (đến 10-1989, khi sáp nhập Bộ Xây dựng với Ủy ban xây dựng cơ bản Nhà nước)"
+1633,PER00480,Ông Ngô Xuân Lộc (Từ 10-1989),,,"Bộ trưởng  Bộ Xây dựng (đến 10-1989, khi sáp nhập Bộ Xây dựng với Ủy ban xây dựng cơ bản Nhà nước)"
+1634,PER00481,Ông Bùi Danh Lưu,,,Bộ trưởng  Bộ Giao thông vận tải (từ 1990 đổi là Bộ Giao thông Vận tải và Bưu điện)
+1635,PER00482,Ông Phan Thanh Liêm (Đến 2-1990),,,Bộ trưởng  Bộ Cơ khí và Luyện kim (từ 3-1990 đổi là Bộ Công nghiệp nặng):
+1636,PER00483,Ông Trần Lum (Từ 2-1990),,,Bộ trưởng  Bộ Cơ khí và Luyện kim (từ 3-1990 đổi là Bộ Công nghiệp nặng):
+1637,PER00484,Ông Hoàng Đức Nghi (Từ 3-1990),,,Bộ trưởng Chuyên trách   Công tác Miền núi và Dân tộc: (sau đổi là Chủ nhiệm Văn phòng Miền núi và D
+1638,PER00485,Ông Vũ Ngọc Hải,,,Bộ trưởng  Bộ Năng lượng
+1639,PER00486,Ông Vũ Tuân (Đến 2-1990),,,Bộ trưởng  Bộ Công nghiệp nhẹ
+1640,PER00487,Ông Đặng Vũ Chư (Từ 2-1990),,,Bộ trưởng  Bộ Công nghiệp nhẹ
+1641,PER00488,Ông Nguyễn Công Tạn,,,Phó Thủ tướng
+1642,PER00489,Ông Hoàng Minh Thắng (Đến 3-1987),,,Bộ trưởng  Bộ Nội thương
+1643,PER00490,Ông Hoàng Minh Thắng (Từ 3-1987 Đến 8-1991),,,"Bộ trưởng  Bộ Thương nghiệp (3-1990 thành lập Bộ Thương nghiệp trên cơ sở Bộ Kinh tế đối ngoại, Bộ N"
+1644,PER00491,Ông Lê Văn Triết (Từ 8-1991),,,"Bộ trưởng  Bộ Thương nghiệp (3-1990 thành lập Bộ Thương nghiệp trên cơ sở Bộ Kinh tế đối ngoại, Bộ N"
+1645,PER00492,Ông Lê Văn Triết,,,Bộ trưởng  Bộ Thương mại
+1646,PER00493,Ông Đoàn Duy Thành (Đến 3-1988),,,Bộ trưởng  Bộ Ngoại thương
+1647,PER00494,Ông Đoàn Duy Thành,,,"Bộ trưởng  Bộ Kinh tế Đối ngoại (từ 3-1988 đến 3-1990, khi Bộ Ngoại thương sáp nhập với ủy ban Kinh "
+1648,PER00495,Ông Trần Văn Phác (Đến 3-1990),,,Bộ trưởng  Bộ Văn hóa
+1649,PER00496,Ông Trần Hoàn (Đến 3-1990),,,Bộ trưởng  Bộ Thông tin
+1650,PER00497,Ông Trần Hoàn,,,"Bộ trưởng  Bộ Văn hóa-Thông tin-Thể thao và Du lịch (từ 3-1990, khi sáp nhập hai Bộ Văn hóa, Thông t"
+1651,PER00498,Ông Đặng Hồi Xuân (Đến 11-1988),,,Bộ trưởng  Bộ Y tế
+1652,PER00499,Ông Phạm Song (Từ 11-1988),,,Bộ trưởng  Bộ Y tế
+1653,PER00500,Ông Phạm Minh Hạc (Đến 3-1990),,,Bộ trưởng  Bộ Giáo dục
+1654,PER00501,Ông Trần Hồng Quân (Đến 3-1990),,,Bộ trưởng  Bộ Đại học và Trung học chuyên nghiệp
+1655,PER00502,Ông Trần Hồng Quân,,,Bộ trưởng  Bộ Giáo dục và Đào tạo
+1656,PER00503,Ông Phan Hiền (Đến 5-1992),,,Bộ trưởng  Bộ Tư pháp
+1657,PER00504,Ông Nguyễn Đình Lộc (Từ 5-1992),,,Bộ trưởng  Bộ Tư pháp
+1658,PER00505,Ông Phan Ngọc Tường (Từ 11-1989),,,Bộ trưởng Chuyên trách   Công tác Tổ chức và cán bộ của Hội đồng Bộ trưởng (từ 1991 đổi là Trưởng Ba
+1659,PER00506,Ông Mai Kỷ (Từ 3-1992),,,Bộ trưởng phụ trách  Công tác Dân số và Kế hoạch hóa gia đình
+1660,PER00507,Ông Võ Văn Kiệt,,,Thủ tướng Chính phủ
+1661,PER00508,Ông Phan Văn Khải,,,Phó Thủ tướng
+1662,PER00509,Ông Đoàn Khuê,,,Bộ trưởng  Bộ Quốc phòng
+1663,PER00510,Ông Bùi Thiện Ngộ (Đến 11-1996),,,Bộ trưởng  Bộ Nội vụ
+1664,PER00511,Ông Lê Minh Hương (Từ 11-1996),,,Bộ trưởng  Bộ Nội vụ
+1665,PER00512,Ông Nguyễn Mạnh Cầm,,,Phó Thủ tướng
+1666,PER00513,Ông Nguyễn Đình Lộc,,,Bộ trưởng  Bộ Tư pháp
+1667,PER00514,Ông Hồ Tế (Đến 11-1996),,,Bộ trưởng  Bộ Tài chính
+1668,PER00515,Nguyễn Sinh Hùng,,,Phó Thủ tướng Thường trực
+1669,PER00516,Ông Đặng Hữu (Đến 11-1996),,,"Bộ trưởng  Bộ Khoa học, Công nghệ và Môi trường"
+1670,PER00517,Phạm Gia Khiêm,,,Bộ trưởng  Bộ Ngoại giao
+1671,PER00518,Ông Trần Đình Hoan,,,Bộ trưởng  Bộ Lao động - Thương binh và Xã hội
+1672,PER00519,Ông Bùi Danh Lưu (Đến 11-1996),,,Bộ trưởng  Bộ Giao thông vận tải
+1673,PER00520,Ông Lê Ngọc Hoàn (Từ 11-1996),,,Quyền Bộ trưởng  Bộ Giao thông vận tải
+1674,PER00521,Ông Ngô Xuân Lộc,,,Bộ trưởng   Bộ Xây dựng
+1675,PER00522,Ông Đặng Vũ Chư (Đến 10-1995 Khi Thành Lập Bộ Công Nghiệp),,,Bộ trưởng  Bộ Công nghiệp nhẹ
+1676,PER00523,Ông Trần Lum (Đến 10-1995 Khi Thành Lập Bộ Công Nghiệp),,,Bộ trưởng  Bộ Công nghiệp nặng
+1677,PER00524,Ông Vũ Ngọc Hải (Đến 9-1992),,,Bộ trưởng  Bộ Năng lượng
+1678,PER00525,Ông Thái Phụng Nê (Từ 10-1993 Đến 10-1995 Khi Thành Lập Bộ Công Nghiệp),,,Bộ trưởng  Bộ Năng lượng
+1679,PER00526,Ông Đặng Vũ Chư (Từ 10-1995 Khi Sáp Nhập Các Bộ Thành Bộ Công Nghiệp),,,Bộ trưởng  Bộ Công nghiệp
+1680,PER00527,Ông Nguyễn Công Tạn (Đến 10-1995 Khi Thành Lập Bộ Nông Nghiệp Và Phát Triển Nông Thôn),,,Bộ trưởng  Bộ Nông nghiệp và Công nghiệp thực phẩm
+1681,PER00528,Ông Nguyễn Quang Hà (Đến 10-1995 Khi Sáp Nhập Bộ),,,Bộ trưởng  Bộ Lâm nghiệp
+1682,PER00529,Ông Nguyễn Cảnh Dinh (Đến 10-1995 Khi Sáp Nhập Bộ),,,Bộ trưởng  Bộ Thủy lợi
+1683,PER00530,"Ông Nguyễn Công Tạn (Từ 10-1995 Khi Sáp Nhập 3 Bộ: Nông Nghiệp Và Công Nghiệp Thực Phẩm, Lâm Nghiệp,",,,Bộ trưởng  Bộ Nông nghiệp và Phát triển nông thôn
+1684,PER00531,Ông Nguyễn Cảnh Dinh (Từ 10-1995),,,"Bộ trưởng, Chủ nhiệm   Ủy ban sông Mê Công của Việt Nam (thành lập 10-1995)"
+1685,PER00532,Ông Nguyễn Tấn Trịnh (Đến 11-1996),,,Bộ trưởng  Bộ Thủy sản
+1686,PER00533,Ông Tạ Quang Ngọc (Từ 11-1996),,,Bộ trưởng  Bộ Thủy sản
+1687,PER00534,Ông Trần Hoàn (Đến 11-1996),,,Bộ trưởng  Bộ Văn hoá - Thông tin
+1688,PER00535,Ông Nguyễn Khoa Điềm (Từ 11-1996),,,Bộ trưởng  Bộ Văn hoá - Thông tin
+1689,PER00536,Ông Phạm Song (Đến 9-1992),,,Bộ trưởng  Bộ Y tế
+1690,PER00537,Ông Nguyễn Trọng Nhân (Từ 9-1992 Đến 10-1995),,,Bộ trưởng  Bộ Y tế
+1691,PER00538,Ông Đỗ Nguyên Phương (Từ 10-1995),,,Bộ trưởng  Bộ Y tế
+1692,PER00539,Ông Đỗ Quốc Sam,,,"Bộ trưởng, Chủ nhiệm  Ủy ban Kế hoạch Nhà nước: (từ 10-1995 đổi là Bộ trưởng Bộ Kế hoạch và Đầu tư)"
+1693,PER00540,Ông Trần Xuân Giá (Từ 11-1996),,,"Bộ trưởng, Chủ nhiệm  Ủy ban Kế hoạch Nhà nước: (từ 10-1995 đổi là Bộ trưởng Bộ Kế hoạch và Đầu tư)"
+1694,PER00541,Ông Đậu Ngọc Xuân (Từ 10-1995 Đến 10-1996),,,Bộ trưởng - Chủ tịch  Hội đồng thẩm định Nhà nước về dự án đầu tư:  (sau 10-1996 đổi là Chủ tịch Hội
+1695,PER00542,Ông Đỗ Quốc Sam (Từ 11-1996),,,Bộ trưởng - Chủ tịch  Hội đồng thẩm định Nhà nước về dự án đầu tư:  (sau 10-1996 đổi là Chủ tịch Hội
+1696,PER00543,Ông Nguyễn Kỳ Cẩm (Đến 10-1995),,,Tổng Thanh tra  Thanh tra Nhà nước
+1697,PER00544,Ông Tạ Hữu Thanh (Từ 10-1995),,,Tổng Thanh tra  Thanh tra Nhà nước
+1698,PER00545,Ông Cao Sỹ Kiêm,,,Thống đốc  Ngân hàng Nhà nước
+1699,PER00546,Ông Phan Ngọc Tường (Đến 11-1996),,,"Bộ trưởng, Trưởng ban   Tổ chức Cán bộ Chính phủ"
+1700,PER00547,Ông Đỗ Quang Trung (Từ 11-1996),,,"Bộ trưởng, Trưởng ban   Tổ chức Cán bộ Chính phủ"
+1701,PER00548,Ông Lê Xuân Trinh (Đến 11-1996),,,"Bộ trưởng, Chủ nhiệm  Văn phòng Chính phủ"
+1702,PER00549,Ông Lại Văn Cử (Từ 11-1996),,,"Bộ trưởng, Chủ nhiệm  Văn phòng Chính phủ"
+1703,PER00550,Ông Mai Kỷ,,,"Bộ trưởng, Chủ nhiệm  Ủy ban quốc gia Dân số và Kế hoạch hóa gia đình"
+1704,PER00551,Bà Trần Thị Thanh Thanh,,,Bộ trưởng phụ trách  Công tác bảo vệ và chăm sóc trẻ em
+1705,PER00552,Ông Phan Văn Tiệm (Đến 11-1996),,,Bộ trưởng phụ trách  Một số công tác của Chính phủ
+1706,PER00553,Ông Hà Quang Dự,,,Bộ trưởng phụ trách  Công tác Thanh niên và Thể dục - Thể thao của Chính phủ
+1707,PER00554,Ông Nguyễn Kỳ Cẩm (Từ 11-1995 Đến 11-1996),,,"Bộ trưởng thường trực   Ban chỉ đạo công tác chống tham nhũng, chống buôn lậu"
+1708,PER00555,Ông Phan Văn Khải,,,Thủ tướng Chính phủ
+1709,PER00556,Nguyễn Tấn Dũng,,Cà Mau,Thủ tướng Chính phủ
+1710,PER00557,Ông Ngô Xuân Lộc (Đến 11-12-1999),,,Phó Thủ tướng
+1711,PER00558,Ông Phạm Văn Trà,,,Bộ trưởng  Bộ Quốc phòng
+1712,PER00559,Ông Lê Minh Hương,,,Bộ trưởng  Bộ Nội vụ (từ 5-1998 đổi là Bộ Công an)
+1713,PER00560,Ông Nguyễn Mạnh Cầm (Phó Thủ Tướng Kiêm Chức Đến 28-1-2000),,,Bộ trưởng  Bộ Ngoại giao
+1714,PER00561,Ông Nguyễn Dy Niên (Từ 28-1-2000),,,Bộ trưởng  Bộ Ngoại giao
+1715,PER00562,Ông Trần Xuân Giá,,,Bộ trưởng  Bộ Kế hoạch và Đầu tư
+1716,PER00563,Ông Trương Đình Tuyển (Đến 28-1-2000),,,Bộ trưởng  Bộ Thương mại
+1717,PER00564,Ông Vũ Khoan (Từ 28-1-2000),,,Bộ trưởng  Bộ Thương mại
+1718,PER00565,Ông Lê Huy Ngọ,,,Bộ trưởng  Bộ Nông nghiệp và Phát triển nông thôn
+1719,PER00566,Ông Lê Ngọc Hoàn,,,Bộ trưởng  Bộ Giao thông vận tải
+1720,PER00567,Ông Nguyễn Mạnh Kiểm,,,Bộ trưởng  Bộ Xây dựng
+1721,PER00568,Ông Đặng Vũ Chư,,,Bộ trưởng  Bộ Công nghiệp
+1722,PER00569,Ông Tạ Quang Ngọc,,,Bộ trưởng  Bộ Thủy sản
+1723,PER00570,Ông Trần Đình Hoan (Đến 12-1997),,,Bộ trưởng  Bộ Lao động Thương binh và Xã hội
+1724,PER00571,Bà Nguyễn Thị Hằng (Từ 1-1998),,,Bộ trưởng  Bộ Lao động Thương binh và Xã hội
+1725,PER00572,Ông Chu Tuấn Nhạ,,,Bộ trưởng  Bộ Khoa học Công nghệ và Môi trường
+1726,PER00573,Ông Phạm Quang Nghị,,,Bộ trưởng  Bộ Văn hoá - Thông tin
+1727,PER00574,Ông Nguyễn Minh Hiển,,,Bộ trưởng  Bộ Giáo dục và Đào tạo
+1728,PER00575,Ông Đỗ Nguyên Phương,,,Bộ trưởng  Bộ Y tế
+1729,PER00576,Ông Đỗ Quang Trung,,,Bộ trưởng  Bộ Nội vụ
+1730,PER00577,Ông Tạ Hữu Thanh,,,Tổng Thanh tra  Thanh tra  Nhà nước
+1731,PER00578,Ông Lại Văn Cử (Đến 3-1999),,,"Bộ trưởng, Chủ nhiệm  Văn phòng Chính phủ"
+1732,PER00579,Ông Đoàn Mạnh Giao (Từ 3-1999),,,"Bộ trưởng, Chủ nhiệm  Văn phòng Chính phủ"
+1733,PER00580,Ông Nguyễn Danh Thái,,,"Bộ trưởng, Chủ nhiệm  Ủy ban Thể dục thể thao"
+1734,PER00581,Bà Trần Thị Trung Chiến,,,Bộ trưởng  Bộ Y tế
+1735,PER00582,Ông Lê Đức Thuý (Từ 11-12-1999),,,Thống đốc  Ngân hàng Nhà nước Việt Nam
+1736,PER00583,Ông Đỗ Quế Lượng (Đến 5-1998),,,Quyền Thống đốc  Ngân hàng Nhà nước Việt Nam
+1737,PER00584,Ông Phan Văn Khải (Đến 27-6-2006),,,Thủ tướng Chính phủ
+1738,PER00585,Trương Vĩnh Trọng,,,Phó Thủ tướng
+1739,PER00586,Ông Vũ Khoan (Đến 6-2006),,,Phó Thủ tướng
+1740,PER00587,Ông Phạm Văn Trà (Đến 6-2006),,,Bộ trưởng  Bộ Quốc phòng
+1741,PER00588,Đại Tướng Phùng Quang Thanh,,,Bộ trưởng  Bộ Quốc phòng
+1742,PER00589,Lê Hồng Anh,,,Bộ trưởng  Bộ Công an
+1743,PER00590,Ông Nguyễn Dy Niên (Đến 6-2006),,,Bộ trưởng  Bộ Ngoại giao
+1744,PER00591,Ông Uông Chu Lưu,,,Bộ trưởng  Bộ Tư pháp
+1745,PER00592,Võ Hồng Phúc,,,Bộ trưởng  Bộ Kế hoạch và Đầu tư
+1746,PER00593,Vũ Văn Ninh,,,Phó Thủ tướng Chính phủ
+1747,PER00594,Ông Trương Đình Tuyển,,,Bộ trưởng  Bộ Thương mại
+1748,PER00595,Ông Lê Huy Ngọ (Đến 6-2004),,,Bộ trưởng  Bộ Nông nghiệp và Phát triển nông thôn
+1749,PER00596,Cao Đức Phát,,,Bộ trưởng  Bộ Nông nghiệp và Phát triển nông thôn
+1750,PER00597,Ông Đào Đình Bình (Đến 6-2006),,,Bộ trưởng  Bộ Giao thông vận tải
+1751,PER00598,Hồ Nghĩa Dũng,,,Bộ trưởng  Bộ Giao thông vận tải
+1752,PER00599,Nguyễn Hồng Quân,,,Bộ trưởng  Bộ Xây dựng
+1753,PER00600,Hoàng Trung Hải,,,Phó Thủ tướng Chính phủ
+1754,PER00601,Bà Nguyễn Thị Hằng,,,Bộ trưởng  Bộ Lao động Thương binh và Xã hội
+1755,PER00602,Hoàng Văn Phong,,,Bộ trưởng  Bộ Khoa học và Công nghệ
+1756,PER00603,Ông Mai Ái Trực,,,Bộ trưởng  Bộ Tài nguyên và Môi trường
+1757,PER00604,Ông Phạm Quang Nghị (Đến 6-2006),,,Bộ trưởng  Bộ Văn hoá - Thông tin
+1758,PER00605,Lê Doãn Hợp,,,Bộ trưởng  Bộ Thông tin và Truyền thông
+1759,PER00606,Ông Nguyễn Minh Hiển (Đến 6-2006),,,Bộ trưởng  Bộ Giáo dục và Đào tạo
+1760,PER00607,Nguyễn Thiện Nhân,,,Phó Thủ tướng Chính phủ
+1761,PER00608,Ông Đỗ Trung Tá,,,Bộ trưởng  Bộ Bưu chính - Viễn thông
+1762,PER00609,Ông Ksor Phước,,,"Bộ trưởng, Chủ nhiệm  Ủy ban Dân tộc"
+1763,PER00610,Ông Quách Lê Thanh (Đến 6-2006),,,Tổng Thanh tra  Thanh tra Chính phủ
+1764,PER00611,Trần Văn Truyền,,,Tổng Thanh tra  Thanh tra Chính phủ
+1765,PER00612,Ông Đoàn Mạnh Giao,,,"Bộ trưởng, Chủ nhiệm  Văn phòng Chính phủ"
+1766,PER00613,Bà Lê Thị Thu,,,"Bộ trưởng, Chủ nhiệm  Ủy ban Gia đình và Trẻ em"
+1767,PER00614,Ông Lê Đức Thuý,,,Thống đốc   Ngân hàng  Nhà nước Việt Nam
+1768,PER00615,Đại Tướng Phùng Quang Thanh,,,Bộ trưởng  Bộ Quốc phòng
+1769,PER00616,Hà Hùng Cường,,,Bộ trưởng  Bộ Tư pháp
+1770,PER00617,Vũ Huy Hoàng,,,Bộ trưởng  Bộ Công Thương
+1771,PER00618,Nguyễn Thị Kim Ngân,,,Bộ trưởng  Bộ Lao động - Thương binh và Xã hội
+1772,PER00619,Phạm Vũ Luận,,,Bộ trưởng  Bộ Giáo dục và Đào tạo
+1773,PER00620,Trần Văn Tuấn,,,Bộ trưởng  Bộ Nội vụ
+1774,PER00621,Nguyễn Quốc Triệu,,,Bộ trưởng  Bộ Y tế
+1775,PER00622,Hoàng Tuấn Anh,,Đà Nẵng,"Bộ trưởng  Bộ Văn hóa, Thể thao và Du lịch"
+1776,PER00623,Phạm Khôi Nguyên,,,Bộ trưởng  Bộ Tài nguyên và Môi trường
+1777,PER00624,Nguyễn Xuân Phúc,20/07/1954,Quảng Nam,Thủ tướng Chính phủ
+1778,PER00625,Nguyễn Văn Giàu,,,Thống đốc  Ngân hàng Nhà nước Việt Nam
+1779,PER00626,Giàng Seo Phử,16/11/1951,,"Bộ trưởng, Chủ nhiệm  Ủy ban Dân tộc"
+1780,PER00627,Trương Hòa Bình,13/4/1955,Long An,Phó Thủ tướng Chính phủ
+1781,PER00628,Phạm Bình Minh,26/3/1959,Nam Định,Phó Thủ tướng Chính phủ
+1782,PER00629,Vương Đình Huệ,15/3/1957,Nghệ An,Phó Thủ tướng Chính phủ
+1783,PER00630,Vũ Đức Đam,03/02/1963,Hải Dương,Phó Thủ tướng Chính phủ
+1784,PER00631,Trịnh Đình Dũng,25/8/1956,Hà Nội,Phó Thủ tướng Chính phủ
+1785,PER00632,Đại Tướng Phùng Quang Thanh,,,Bộ trưởng  Bộ Quốc phòng
+1786,PER00633,Ngô Xuân Lịch,20/4/1954,Hà Nam,Bộ trưởng  Bộ Quốc phòng
+1787,PER00634,Trần Đại Quang,,,Bộ trưởng  Bộ Công an
+1788,PER00635,Tô Lâm,10/7/1957,Hưng Yên,Bộ trưởng  Bộ Công an
+1789,PER00636,Lê Thành Long,23/9/1963,Thanh Hóa,Bộ trưởng  Bộ Tư pháp
+1790,PER00637,Đinh Tiến Dũng,10/5/1961,Ninh Bình,Bộ trưởng  Bộ Tài chính
+1791,PER00638,Trần Tuấn Anh,06/4/1964,Quảng Ngãi,Bộ trưởng  Bộ Công Thương
+1792,PER00639,Phạm Thị Hải Chuyền,,,Bộ trưởng  Bộ Lao động - Thương Binh và Xã hội
+1793,PER00640,Đào Ngọc Dung,06/6/1962,Hà Nam,Bộ trưởng  Bộ Dân tộc và Tôn giáo
+1794,PER00641,Đinh La Thăng,,,Bộ trưởng  Bộ Giao thông vận tải
+1795,PER00642,Trương Quang Nghĩa,19/8/1958,Quảng Nam,Bộ trưởng  Bộ Giao thông vận tải
+1796,PER00643,Phạm Hồng Hà,20/01/1958,Nam Định,Bộ trưởng  Bộ Xây dựng
+1797,PER00644,Nguyễn Bắc Son,,,Bộ trưởng  Bộ Thông tin và Truyền thông
+1798,PER00645,Trương Minh Tuấn,23/9/1960,Lâm Đồng,Bộ trưởng  Bộ Thông tin và Truyền thông
+1799,PER00646,Phùng Xuân Nhạ,03/6/1963,Hưng Yên,Bộ trưởng  Bộ Giáo dục và Đào tạo
+1800,PER00647,Bùi Quang Vinh,,,Bộ trưởng  Bộ Kế hoạch và Đầu tư
+1801,PER00648,Nguyễn Chí Dũng,05/8/1960,Hà Tĩnh,Bộ trưởng  Bộ Kế hoạch và Đầu tư
+1802,PER00649,Nguyễn Thái Bình,,,Bộ trưởng  Bộ Nội vụ
+1803,PER00650,Lê Vĩnh Tân,02/07/,Đồng Tháp,Bộ trưởng  Bộ Nội vụ
+1804,PER00651,Nguyễn Thị Kim Tiến,01/8/1959,Hà Tĩnh,Bộ trưởng  Bộ Y tế
+1805,PER00652,Nguyễn Quân,,,Bộ trưởng  Bộ Khoa học và Công nghệ
+1806,PER00653,Chu Ngọc Anh,17/6/1965,Hà Nội,Bộ trưởng  Bộ Khoa học và Công nghệ
+1807,PER00654,Nguyễn Ngọc Thiện,27/3/1959,Thừa Thiên Huế,"Bộ trưởng  Bộ Văn hóa, Thể thao và Du lịch"
+1808,PER00655,Nguyễn Minh Quang,15/10/1953,,Bộ trưởng  Bộ Tài nguyên và Môi trường
+1809,PER00656,Trần Hồng Hà,19/4/1963,Hà Tĩnh,Phó Thủ tướng Chính phủ
+1810,PER00657,Nguyễn Văn Nên,,,"Bộ trưởng, Chủ nhiệm  Văn phòng Chính phủ"
+1811,PER00658,Mai Tiến Dũng,08/01/1959,Hà Nam,"Bộ trưởng, Chủ nhiệm  Văn phòng Chính phủ"
+1812,PER00659,Huỳnh Phong Tranh,,,Tổng Thanh tra  Thanh tra Chính phủ
+1813,PER00660,Phan Văn Sáu,9/10/1959,Đồng Tháp,Tổng Thanh tra  Thanh tra Chính phủ
+1814,PER00661,Nguyễn Văn Bình,,,Thống đốc  Ngân hàng Nhà nước Việt Nam
+1815,PER00662,Lê Minh Hưng,11/12/1970,Hà Tĩnh,Thống đốc  Ngân hàng Nhà nước Việt Nam
+1816,PER00663,Đỗ Văn Chiến,10/11/1962,Tuyên Quang,"Bộ trưởng, Chủ nhiệm  Ủy ban Dân tộc"
+1817,PER00664,Phạm Minh Chính,10/12/1958,Thanh Hóa,Thủ tướng Chính phủ
+1818,PER00665,Lê Minh Khái,10/12/1964,Bạc Liêu,Phó Thủ tướng Chính phủ
+1819,PER00666,Lê Văn Thành,,Hải Phòng,Phó Thủ tướng Chính phủ
+1820,PER00667,Phan Văn Giang,14/10/1960,Nam Định,Bộ trưởng  Bộ Quốc phòng
+1821,PER00668,Bùi Thanh Sơn,16/10/1962,Hà Nội,Bộ trưởng  Bộ Ngoại giao
+1822,PER00669,Hồ Đức Phớc,,Nghệ An,Bộ trưởng  Bộ Tài chính
+1823,PER00670,Nguyễn Hồng Diên,16/3/1965,Thái Bình,Bộ trưởng  Bộ Công Thương
+1824,PER00671,Nguyễn Văn Thể,27/11/1966,Đồng Tháp,Bộ trưởng  Bộ Giao thông vận tải
+1825,PER00672,Nguyễn Thanh Nghị,12/8/1976,Cà Mau,Bộ trưởng  Bộ Xây dựng
+1826,PER00673,Nguyễn Mạnh Hùng,24/7/1962,Bắc Ninh,Bộ trưởng  Bộ Khoa học và Công nghệ
+1827,PER00674,Nguyễn Kim Sơn,18/11/1966,Hải Phòng,Bộ trưởng  Bộ Giáo dục và Đào tạo
+1828,PER00675,Nguyễn Xuân Cường,14/10/1959,Hà Nội,Bộ trưởng  Bộ Nông nghiệp và Phát triển nông thôn
+1829,PER00676,Lê Minh Hoan,19/01/1961,Đồng Tháp,Bộ trưởng  Bộ Nông nghiệp và Phát triển nông thôn
+1830,PER00677,Phạm Thị Thanh Trà,21/01/1964,Nghệ An,Bộ trưởng  Bộ Nội vụ
+1831,PER00678,Nguyễn Thanh Long,03/9/1966,Nam Định,Bộ trưởng  Bộ Y tế
+1832,PER00679,Huỳnh Thành Đạt,26/8/1962,Bến Tre,Bộ trưởng  Bộ Khoa học và Công nghệ
+1833,PER00680,Nguyễn Văn Hùng,20/4/1961,Quảng Trị,"Bộ trưởng  Bộ Văn hóa, Thể thao và Du lịch"
+1834,PER00681,Trần Văn Sơn,01/12/1961,Nam Định,"Bộ trưởng, Chủ nhiệm  Văn phòng Chính phủ"
+1835,PER00682,Đoàn Hồng Phong,02/01/1963,Nam Định,Tổng Thanh tra  Thanh tra Chính phủ
+1836,PER00683,Nguyễn Thị Hồng,27/3/1968,,Thống đốc  Ngân hàng Nhà nước Việt Nam
+1837,PER00684,Hầu A Lềnh,22/6/1973,Lào Cai,"Bộ trưởng, Chủ nhiệm  Ủy ban Dân tộc"
+1838,PER00685,Nguyễn Hòa Bình,,Quảng Ngãi,Phó Thủ tướng Chính phủ
+1839,PER00686,Trần Lưu Quang,30/8/1967,Tây Ninh,Phó Thủ tướng Chính phủ
+1840,PER00687,Lê Thành Long,23/9/1963,Thanh Hóa,Phó Thủ tướng Chính phủ
+1841,PER00688,Hồ Đức Phớc,,Nghệ An,Phó Thủ tướng Chính phủ
+1842,PER00689,Mai Văn Chính,,Long An,Phó Thủ tướng Chính phủ
+1843,PER00690,Lương Tam Quang,17/10/1965,Hưng Yên,Bộ trưởng  Bộ Công an
+1844,PER00691,Nguyễn Hải Ninh,24/01/1976,Hưng Yên,Bộ trưởng  Bộ Tư pháp
+1845,PER00692,Nguyễn Văn Thắng,12/9/1973,,Bộ trưởng  Bộ Tài chính
+1846,PER00693,Trần Hồng Minh,4/11/1967,Hà Nội,Bộ trưởng  Bộ Xây dựng
+1847,PER00694,Đào Hồng Lan,23/7/1971,Hải Dương,Bộ trưởng  Bộ Y tế
+1848,PER00695,Đỗ Đức Duy,20/5/1970,Thái Bình,Bộ trưởng  Bộ Nông nghiệp và Môi trường
+1849,PER00696,Đặng Quốc Khánh,02/9/1976,Hà Tĩnh,Bộ trưởng  Bộ Tài nguyên và Môi trường
+1850,PER00697,Hồ Đức Phớc,,Nghệ An,Phó Thủ tướng Chính phủ

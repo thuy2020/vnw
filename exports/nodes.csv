@@ -1,0 +1,703 @@
+ID,Label,Type
+org_2,Bộ Tư pháp,organization
+org_3,bo test,organization
+org_7,Truong si quan cong binh 2,organization
+org_9,"higest, keep",organization
+org_10,Child in bo tu phap,organization
+person_1154,Cụ Hồ Chí Minh,person
+person_1155,Ông Võ Nguyên Giáp,person
+person_1156,Ông Trần Huy Liệu,person
+person_1157,Ông Chu Văn Tấn,person
+person_1158,Ông Dương Đức Hiền,person
+person_1159,Ông Nguyễn Mạnh Hà,person
+person_1160,Ông Nguyễn Văn Tố,person
+person_1161,Ông Vũ Trọng Khánh,person
+person_1162,Ông Phạm Ngọc Thạch,person
+person_1163,Ông Đào Trọng Kim,person
+person_1164,Ông Lê Văn Hiến,person
+person_1165,Ông Phạm Văn Đồng,person
+person_1166,Ông Vũ Đình Hoè,person
+person_1167,Ông Cù Huy Cận,person
+person_1168,Ông Nguyễn Văn Xuân,person
+person_1169,Ông Nguyễn Hải Thần,person
+person_1170,Ông Nguyễn Tường Long,person
+person_1171,Ông Trương Đình Tri,person
+person_1172,Ông Nguyễn Tường Tam,person
+person_1173,Ông Huỳnh Thúc Kháng,person
+person_1174,Ông Chu Bá Phượng,person
+person_1175,Ông Phan Anh,person
+person_1176,Ông Đặng Thai Mai,person
+person_1177,Ông Trần Đăng Khoa,person
+person_1178,Ông Huỳnh Thiện Lộc (Từ 4-1946),person
+person_1179,Ông Bồ Xuân Luật (Đến 4-1946),person
+person_1180,Cố Vấn Vĩnh Thụy,person
+person_1181,Ông Huỳnh Thúc Kháng (Đến 21-4-1947 Từ Trần),person
+person_1182,Ông Phan Kế Toại (Từ 11-1947),person
+person_1183,Cụ Hồ Chí Minh (Đến 1947),person
+person_1184,Ông Hoàng Minh Giám (Từ Năm 1947 Đến Tháng 4 – 1954).,person
+person_1185,Ông Phạm Văn Đồng (Từ 4-1954),person
+person_1186,Ông Võ Nguyên Giáp (Đến 1947),person
+person_1187,Ông Tạ Quang Bửu (Từ 1947 Đến 7-1948),person
+person_1188,Ông Võ Nguyên Giáp (Từ 7-1948),person
+person_1189,Ông Phan Anh (Từ 1947),person
+person_1190,Ông Ngô Tấn Nhơn,person
+person_1191,Ông Nguyễn Văn Huyên,person
+person_1192,Ông Nghiêm Xuân Yêm (Từ 3-1954),person
+person_1193,Ông Ngô Tấn Nhơn (Đến 3-1954),person
+person_1194,Ông Nguyễn Văn Tạo,person
+person_1195,Ông Hoàng Tích Trí,person
+person_1196,Ông Nguyễn Văn Tố (Hy Sinh Năm 1947),person
+person_1197,Ông Đặng Văn Hướng (Từ Năm 1947),person
+person_1198,Ông Bồ Xuân Luật,person
+person_1199,Ông Nguyễn Lương Bằng (Từ 5-1951),person
+person_1200,Ông Trần Quốc Hoàn (Từ 6-1953),person
+person_1201,Ông Phạm Văn Đồng (Từ 9-1955),person
+person_1202,Ông Phan Kế Toại (Từ 9-1955),person
+person_1203,Ông Võ Nguyên Giáp (Từ 9-1955),person
+person_1204,Ông Trường Chinh (Từ 4-1958),person
+person_1205,Ông Phạm Hùng (Từ 4-1958),person
+person_1206,Ông Trần Quốc Hoàn,person
+person_1207,Ông Lê Văn Hiến (Đến 6-1958),person
+person_1208,Ông Hoàng Anh (Từ 6-1958),person
+person_1209,Ông Nguyễn Văn Trân (Từ 9-1955),person
+person_1210,Ông Trần Đăng Khoa (Từ 9-1955 Đến 4-1958),person
+person_1211,Ông Trần Đăng Khoa (Từ 4-1958),person
+person_1212,Ông Bùi Quang Tạo (Từ 4-1958),person
+person_1213,Ông Lê Thanh Nghị (Từ 9-1955),person
+person_1214,Ông Phan Anh (Từ 9-1955 Đến 4-1958),person
+person_1215,Ông Đỗ Mười (Từ 4-1958),person
+person_1216,Ông Phan Anh (Từ 4-1958),person
+person_1217,Ông Hoàng Tích Trí (Đến 5-1959),person
+person_1218,Ông Phạm Ngọc Thạch (Từ 5-1959),person
+person_1219,Ông Vũ Đình Hòe,person
+person_1220,Ông Hoàng Minh Giám,person
+person_1221,"Ông Vũ Đình Tụng (Đến 5-1959, Vì Giải Thể)",person
+person_1222,"Ông Nguyễn Xiển (Từ 9-1955 Đến 5-1959, Vì Giải Thể)",person
+person_1223,Ông Nghiêm Xuân Yêm,person
+person_1224,Ông Phạm Hùng (Từ 9-1955 Đến 4-1958),person
+person_1225,Ông Nguyễn Duy Trinh (Từ 4-1958 Đến 12-1958),person
+person_1226,Ông Nguyễn Khang (Từ 5-1959),person
+person_1227,Ông Nguyễn Văn Trân (Từ 4-1958 Đến 12-1958),person
+person_1228,Ông Nguyễn Duy Trinh (Từ 5-1959),person
+person_1229,Ông Lê Văn Hiến (Từ 12-1958),person
+person_1230,Ông Trường Chinh (Phó Thủ Tướng Kiêm Chức Từ 4-1958),person
+person_1231,Ông Phạm Hùng,person
+person_1232,Ông Phan Kế Toại,person
+person_1233,Ông Nguyễn Duy Trinh,person
+person_1234,Ông Lê Thanh Nghị,person
+person_1235,Ông Trần Hữu Dực (Từ Tháng 1-1963),person
+person_1236,Ông Phạm Hùng (Đến Tháng 1-1963),person
+person_1237,Ông Hoàng Anh (Đến Tháng 1-1963),person
+person_1238,Ông Phạm Hùng (Từ Tháng 1-1963),person
+person_1239,Ông Tố Hữu (Đến Tháng 1-1963),person
+person_1240,Ông Lê Liêm (Từ Tháng 1-1963),person
+person_1241,Ông Nguyễn Khang,person
+person_1242,Ông Phan Kế Toại (Đến 30-4-1963),person
+person_1243,Ông Ung Văn Khiêm (Từ 30-4-1963),person
+person_1244,Ông Phạm Văn Đồng (Thủ Tướng Kiêm Chức Đến 2-1961),person
+person_1245,Ông Ung Văn Khiêm (Từ 2-1961 Đến 30-4-1963),person
+person_1246,Ông Xuân Thủy (Từ 30-4-1963),person
+person_1247,Ông Nghiêm Xuân Yêm (Đến 1-1963),person
+person_1248,Ông Dương Quốc Chính (Từ 1-1963),person
+person_1249,Ông Trần Hữu Dực (Đến 1-1963),person
+person_1250,Ông Nghiêm Xuân Yêm (Từ 1-1963),person
+person_1251,Ông Dương Quốc Chính (Đến 1-1963),person
+person_1252,Ông Hà Kế Tấn (Từ 1-1963),person
+person_1253,Ông Nguyễn Văn Trân,person
+person_1254,Ông Kha Vạng Cân,person
+person_1255,Ông Bùi Quang Tạo,person
+person_1256,Ông Phan Trọng Tuệ,person
+person_1257,Ông Hoàng Anh,person
+person_1258,Ông Đỗ Mười (Đến 1-1961),person
+person_1259,Ông Nguyễn Thanh Bình (Từ 2-1961 Là Quyền Bộ Trưởng.Từ 1-1963 Là Bộ Trưởng),person
+person_1260,Ông Võ Nguyên Giáp (Phó Thủ Tướng Kiêm Chức Đến 1-1963),person
+person_1261,Ông Nguyễn Duy Trinh (Phó Thủ Tướng Kiêm Chức Từ 1-1963),person
+person_1262,Ông Lê Quảng Ba,person
+person_1263,Ông Nguyễn Lương Bằng,person
+person_1264,Ông Nguyễn Văn Vịnh,person
+person_1265,Ông Tạ Hoàng Cơ (Quyền Tổng Giám Đốc Từ 1-1963),person
+person_1266,Ông Lê Viết Lượng (Đến 01-1963),person
+person_1267,Ông Nguyễn Côn (Từ 11-1967),person
+person_1268,Ông Đỗ Mười (Từ 12-1969),person
+person_1269,Ông Hoàng Anh (Từ 4-1971),person
+person_1270,Ông Trần Hữu Dực (Đến 4-1965),person
+person_1271,Ông Hoàng Anh (Từ 4-1965 Đến 12-1969),person
+person_1272,Ông Lê Thanh Nghị (Đến 2-1967),person
+person_1273,Ông Trần Danh Tuyên (Từ 1967 Đến 12-1969),person
+person_1274,Ông Phạm Hùng (Phó Thủ Tướng Kiêm Chức Đến 4-1966),person
+person_1275,Ông Nguyễn Thanh Bình (Từ 4-1966 Đến 12-1969),person
+person_1276,Ông Nguyễn Văn Tạo (Từ 10-1965),person
+person_1277,Ông Trần Quốc Hoàn (Đến 10-1965),person
+person_1278,Ông Lê Liêm (Đến 10-1965),person
+person_1279,Ông Trần Quang Huy (Từ 10-1965),person
+person_1280,"Ông Đỗ Mười (Phó Thủ Tướng Kiêm Chức Từ 12-1969, Sau Khi Sáp Nhập Ba Văn Phòng Nông, Công Nghiệp ,",person
+person_1281,Ông Nguyễn Khang (Đến 4-1965),person
+person_1282,Ông Trần Hữu Dực (Từ 4-1965),person
+person_1283,Ông Xuân Thủy (Từ 1968),person
+person_1284,Ông Ung Văn Khiêm,person
+person_1285,Ông Xuân Thủy (Đến 4-1965),person
+person_1286,Ông Nguyễn Duy Trinh (Phó Thủ Tướng Kiêm Chức Từ 4-1965),person
+person_1287,Ông Võ Nguyên Giáp (Phó Thủ Tướng Kiêm Chức),person
+person_1288,Ông Dương Quốc Chính (Đến 4-1965),person
+person_1289,Ông Hoàng Anh (Từ 4-1965 Đến 11-1967),person
+person_1290,Ông Nguyễn Văn Lộc (Từ 11-1967 Đến 4-1971),person
+person_1291,Ông Nghiêm Xuân Yêm (Đến 4-1971),person
+person_1292,Ông Hà Kế Tấn,person
+person_1293,Ông Nguyễn Văn Trân (Đến 2-1967),person
+person_1294,Ông Lê Thanh Nghị (Phó Thủ Tướng Kiêm Chức Từ 2-1967 Đến 11-1967),person
+person_1295,Ông Nguyễn Hữu Mai (Từ 11-1967 Đến 12-1969),person
+person_1296,Ông Nguyễn Văn Tạo (Đến 10-1965),person
+person_1297,Ông Nguyễn Hữu Khiếu (Từ 10-1965),person
+person_1298,Ông Hoàng Anh (Đến 4-1965),person
+person_1299,Ông Đặng Việt Châu (Từ 4-1965),person
+person_1300,Ông Nguyễn Thanh Bình (Đến 10-1966),person
+person_1301,Ông Hoàng Quốc Thịnh (Quyền Bộ Trưởng Từ 10-1966 Đến 11-1967 Là Bộ Trưởng),person
+person_1302,Ông Phạm Ngọc Thạch (Đến 3-1969),person
+person_1303,Ông Nguyễn Văn Hưởng (Từ 3-1969),person
+person_1304,Ông Nguyễn Duy Trinh (Phó Thủ Tướng Kiêm Chức Đến 4-1965),person
+person_1305,Ông Nguyễn Côn (Từ 4-1965),person
+person_1306,Ông Nguyễn Văn Kha (Từ 12-1969),person
+person_1307,Ông Đặng Thí (Từ 12-1969),person
+person_1308,Ông Nguyễn Lam (Từ 12-1969),person
+person_1309,"Ông Nguyễn Duy Trinh (Phó Thủ Tướng Kiêm Chức Đến 10-1965, Sau Khi Ủy Ban Khoa Học Nhà Nước Tách Th",person
+person_1310,Ông Trần Đại Nghĩa (Từ 10-1965),person
+person_1311,Ông Nguyễn Lương Bằng (Đến 9-1969),person
+person_1312,Ông Nguyễn Thanh Bình (Từ 12-1969),person
+person_1313,Ông Trần Đại Nghĩa,person
+person_1314,Ông Tạ Hoàng Cơ,person
+person_1315,"Ông Nguyễn Hữu Mai (Từ 12-1969, Sau Khi Thành Lập Bộ)",person
+person_1316,"Ông Đinh Đức Thiện (Từ 12-1969, Sau Khi Thành Lập Bộ)",person
+person_1317,"Ông Tạ Quang Bửu (Từ 10-1965, Sau Khi Thành Lập Bộ)",person
+person_1318,"Ông Ngô Minh Loan (Từ 12-1969, Sau Khi Thành Lập Bộ)",person
+person_1319,"Ông Trần Danh Tuyên (Từ 12-1969, Sau Khi Thành Lập Bộ)",person
+person_1320,"Ông Phạm Hùng (Phó Thủ Tướng Kiêm Chức Từ 4-1965, Sau Khi Thành Lập Ủy Ban, Đến 10-1966)",person
+person_1321,Ông Nguyễn Thanh Bình (Từ 10-1966 Đến 11-1967),person
+person_1322,Ông Đỗ Mười (Từ 11-1967),person
+person_1323,Ông Nghiêm Xuân Yêm (Đến 4-1971),person
+person_1324,Ông Nguyễn Văn Lộc (Từ 4-1971),person
+person_1325,"Ông Hoàng Anh (Phó Thủ Tướng Kiêm Chức, Sau Khi Thành Lập Ủy Ban, Từ 4-1971)",person
+person_1326,Ông Huỳnh Tấn Phát,person
+person_1327,Ông Phùng Văn Cung,person
+person_1328,Ông Nguyễn Văn Kiết,person
+person_1329,Cụ Nguyễn Đóa,person
+person_1330,Ông Trần Bửu Kiếm,person
+person_1331,Ông Trần Nam Trung,person
+person_1332,Bà Nguyễn Thị Bình,person
+person_1333,Ông Phùng Văn Cung ( Phó Chủ Tịch Kiêm Chức),person
+person_1334,Ông Cao Văn Bổn,person
+person_1335,Ông Lưu Hữu Phước,person
+person_1336,Ông Nguyễn Văn Kiết ( Phó Chủ Tịch Kiêm Chức),person
+person_1337,Bà Dương Quỳnh Hoa,person
+person_1338,Ông Trương Như Tảng,person
+person_1339,Ông Trần Hữu Dực (Từ 3-1974 ),person
+person_1340,Ông Phan Trọng Tuệ (Từ 3-1974 ),person
+person_1341,Ông Đặng Việt Châu (Từ 3-1974),person
+person_1342,Ông Nguyễn Côn,person
+person_1343,Ông Đỗ Mười,person
+person_1344,Ông Võ Nguyên Giáp (Phó Thủ Tướng Kiêm Chức),person
+person_1345,Ông Nguyễn Duy Trinh (Phó Thủ Tướng Kiêm Chức),person
+person_1346,Ông Xuân Thủy,person
+person_1347,Ông Dương Quốc Chính,person
+person_1348,Ông Nguyễn Lam (Từ 6-1973 Đến 3-1974),person
+person_1349,"Ông Nguyễn Côn (Phó Thủ Tướng Kiêm Chức, Đến 6-1973)",person
+person_1350,Ông Lê Thanh Nghị (Phó Thủ Tướng Kiêm Chức Từ 3-1974),person
+person_1351,Ông Nguyễn Lam (Đến 6-1973),person
+person_1352,Ông Nguyễn Văn Kha (Đến 6-1974),person
+person_1353,Ông Đào Thiện Thi (Từ 3-1974),person
+person_1354,Ông Đặng Việt Châu (Đến 3-1974),person
+person_1355,Ông Nguyễn Lam (Đến 3-1974),person
+person_1356,"Ông Đỗ Mười (Phó Thủ Tướng Kiêm Chức, Đến 6-1973)",person
+person_1357,"Ông Hoàng Anh (Phó Thủ Tướng Kiêm Chức, Đến 4-1974)",person
+person_1358,Ông Võ Thúc Đồng (Đến 4-1974),person
+person_1359,Ông Nguyễn Văn Lộc (Đến 3-1974),person
+person_1360,Ông Võ Thúc Đồng (Từ 11 - 1974),person
+person_1361,Ông Hà Kế Tấn (Đến 6-1973),person
+person_1362,Ông Nguyễn Thanh Bình (Từ 6-1973),person
+person_1363,Ông Nguyễn Hữu Mai (Đến 4-1974),person
+person_1364,Ông Nguyễn Chấn (Từ 4-1974),person
+person_1365,Ông Đinh Đức Thiện (Đến 3-1974),person
+person_1366,Ông Nguyễn Côn (Từ 3-1974),person
+person_1367,Ông Ngô Minh Loan,person
+person_1368,Ông Bùi Quang Tạo (Đến 6-1973),person
+person_1369,Ông Phan Trọng Tuệ (Đến 3-1974),person
+person_1370,Ông Dương Bạch Liên (Từ 3-1974),person
+person_1371,Ông Nguyễn Hữu Khiếu (Đến 4-1974),person
+person_1372,Ông Nguyễn Thọ Chân (Từ 4-1974),person
+person_1373,Ông Trần Danh Tuyên,person
+person_1374,Ông Hoàng Quốc Thịnh,person
+person_1375,Ông Tạ Quang Bửu,person
+person_1376,Ông Nguyễn Văn Hưởng (Đến 4-1974),person
+person_1377,Ông Vũ Văn Cẩn (Từ 4-1974),person
+person_1378,Ông Nguyễn Văn Lộc (Từ 3-1974),person
+person_1379,Ông Nguyễn Thanh Bình (Đến 3-1974),person
+person_1380,Ông Trần Hữu Dực,person
+person_1381,Ông Trần Quang Huy,person
+person_1382,Ông Phan Mỹ (Từ 4-1973),person
+person_1383,Ông Đặng Thí (Đến 4-1973),person
+person_1384,"Ông Đỗ Mười (Phó Thủ Tướng Kiêm Chức, Từ 6-1973, Sau Khi Thành Lập Bộ)",person
+person_1385,Ông Hà Kế Tấn (Từ 6-1973),person
+person_1386,Ông Đặng Thí (Từ 3-1974),person
+person_1387,Luật Sư Nguyễn Hữu Thọ,person
+person_1388,Luật Sư Trịnh Đình Thảo,person
+person_1389,Ông Y-Bih Alê-Ô,person
+person_1390,Thượng Tọa Thích Đôn Hậu,person
+person_1391,Ông Huỳnh Cương,person
+person_1392,Sư Thúc Huỳnh Văn Trí,person
+person_1393,Cụ Nguyễn Công Phương,person
+person_1394,Cụ Võ Oanh,person
+person_1395,Giáo Sư Lê Văn Giáp,person
+person_1396,Thiếu Tá Huỳnh Thanh Mừng,person
+person_1397,Ông Luy-Xiêng Phạm Ngọc Hùng,person
+person_1398,Kỹ Sư Lâm Văn Tết,person
+person_1399,Nữ Giáo Sư Nguyễn Đình Chi,person
+person_1400,Ông Đặng Việt Châu,person
+person_1401,Ông Võ Nguyên Giáp ( Phó Thủ Tướng Kiêm Chức ),person
+person_1402,Ông Nguyễn Duy Trinh (Phó Thủ Tướng Kiêm Chức),person
+person_1403,Ông Lê Thanh Nghị (Phó Thủ Tướng Kiêm Chức),person
+person_1404,Ông Nguyễn Hữu Mai,person
+person_1405,Ông Đinh Đức Thiện,person
+person_1406,Ông Nguyễn Chấn,person
+person_1407,Ông Nguyễn Côn ( Phó Thủ Tướng Kiêm Chức),person
+person_1408,Ông Đỗ Mười (Phó Thủ Tướng Kiêm Chức),person
+person_1409,Ông Dương Bạch Liên,person
+person_1410,Ông Vũ Tuân,person
+person_1411,Ông Võ Thúc Đồng,person
+person_1412,Ông Nguyễn Thanh Bình,person
+person_1413,Ông Đào Thiện Thi,person
+person_1414,Ông Đặng Việt Châu (Phó Thủ Tướng Kiêm Chức),person
+person_1415,Ông Nguyễn Thọ Chân,person
+person_1416,Ông Tô Duy,person
+person_1417,Ông Vũ Văn Cẩn,person
+person_1418,Ông Dương Quốc Chính,person
+person_1419,Ông Nguyễn Văn Lộc,person
+person_1420,Ông Đặng Thí,person
+person_1421,Ông Phan Mỹ,person
+person_1422,Ông Trần Hữu Dực (Phó Thủ Tướng Kiêm Chức),person
+person_1423,Ông Nguyễn Duy Trinh (Đến 2-1980),person
+person_1424,Ông Võ Chí Công,person
+person_1425,Ông Tố Hữu (Từ 2-1980),person
+person_1426,Ông Nguyễn Lam (Từ 2-1980),person
+person_1427,Ông Trần Quỳnh (Từ 1-1981),person
+person_1428,Ông Trần Quốc Hoàn (Đến 2-1980),person
+person_1429,Ông Phạm Hùng (Phó Thủ Tướng Kiêm Chức Từ 2-1980),person
+person_1430,Ông Nguyễn Duy Trinh (Phó Thủ Tướng Kiêm Chức Đến 2-1980),person
+person_1431,Ông Nguyễn Cơ Thạch,person
+person_1432,Ông Nguyễn Cơ Thạch (Từ 2-1980),person
+person_1433,Ông Võ Nguyên Giáp (Phó Thủ Tướng Kiêm Chức Đến 2-1980),person
+person_1434,Ông Văn Tiến Dũng (Từ 2-1980),person
+person_1435,Ông Lê Thanh Nghị (Phó Thủ Tướng Kiêm Chức Đến 2-1980),person
+person_1436,Ông Nguyễn Lam (Phó Thủ Tướng Kiêm Chức Từ 2-1980),person
+person_1437,Ông Nguyễn Hữu Mai (Đến 2-1980),person
+person_1438,Ông Trần Quỳnh (Từ 2-1980 Đến 1-1981),person
+person_1439,Ông Trần Phương (Từ 2-1980 Đến 1-1981),person
+person_1440,Ông Vũ Đại (Từ 1-1981),person
+person_1441,Ông Võ Thúc Đồng (Đến 7-1977),person
+person_1442,Ông Võ Chí Công (Phó Thủ Tướng Kiêm Chức Từ 7-1977 Đến 1979),person
+person_1443,Ông Nguyễn Ngọc Trìu (Từ 1979),person
+person_1444,Ông Hoàng Văn Kiểu (Đến 2-1977),person
+person_1445,Ông Trần Kiên (Từ 2-1979 Đến 1-1981),person
+person_1446,Ông Phan Xuân Đợt (Từ 1-1981),person
+person_1447,Ông Nguyễn Thanh Bình (Đến 1-1981),person
+person_1448,Ông Nguyễn Cảnh Dinh (Từ 1-1981),person
+person_1449,Ông Nguyễn Côn (Đến 11-1977),person
+person_1450,Ông Nguyễn Văn Kha (Từ 11-1977),person
+person_1451,"Ông Nguyễn Chấn (Đến 1-1981, Khi Chia Tách Bộ)",person
+person_1452,"Ông Phạm Khai (Từ 1-1981, Khi Thành Lập Bộ)",person
+person_1453,"Ông Nguyễn Chân (Từ 1-1981, Khi Thành Lập Bộ)",person
+person_1454,Ông Đỗ Mười (Phó Thủ Tướng Kiêm Chức Đến 11-1977),person
+person_1455,Ông Đồng Sĩ Nguyên (Từ 11-1977),person
+person_1456,Ông Vũ Tuân (Đến 2-1977),person
+person_1457,Ông Trần Hữu Dư (Từ 2-1977),person
+person_1458,Ông Ngô Minh Loan (Đến 4-1979),person
+person_1459,Ông Hồ Viết Thắng (Từ 4-1979 Đến 1-1981),person
+person_1460,"Ông Vũ Tuân (Từ 1-1981, Khi Thành Lập Bộ)",person
+person_1461,"Ông La Lâm Gia (Từ 1-1981, Khi Thành Lập Bộ)",person
+person_1462,Ông Võ Chí Công (Phó Thủ Tướng Kiêm Chức Đến 2-1977),person
+person_1463,Ông Nguyễn Quang Lâm (Từ 2 Đến 11-1977),person
+person_1464,Ông Đỗ Chính (Từ 11-1977 Đến 1-1981),person
+person_1465,Ông Nguyễn Tấn Trịnh (Từ 1-1981),person
+person_1466,Ông Hoàng Quốc Thịnh (Đến 11-1977),person
+person_1467,Ông Trần Văn Hiển (Từ 11-1977 Đến 1-1981),person
+person_1468,Ông Trần Phương (Từ 1-1981),person
+person_1469,Ông Đặng Việt Châu (Đến 2-1980),person
+person_1470,Ông Lê Khắc (Từ 2-1980),person
+person_1471,Ông Đào Thiện Thi (Đến 2-1977),person
+person_1472,Ông Hoàng Anh (Từ 2-1977),person
+person_1473,Ông Hoàng Anh (Đến 2-1977),person
+person_1474,Ông Trần Dương (Từ 2-1977 Đến 2-1981),person
+person_1475,Ông Nguyễn Duy Gia (Từ 2-1981),person
+person_1476,Ông Tô Duy (Đến 2-1981),person
+person_1477,Ông Đoàn Trọng Truyến (Từ 2-1981),person
+person_1478,Ông Nguyễn Thọ Chân (Đến 2-1981),person
+person_1479,Ông Đào Thiện Thi (Từ 2-1981),person
+person_1480,Ông Trần Sâm,person
+person_1481,Ông Lê Quảng Ba (Đến 2-1977),person
+person_1482,Ông Vũ Lập (Từ 2-1977 Đến 6-1978),person
+person_1483,Ông Trần Đại Nghĩa (Đến 2-1977),person
+person_1484,Ông Trần Quỳnh (Từ 2-1977 Đến 2-1980),person
+person_1485,Ông Lê Khắc (Từ 2-1980),person
+person_1486,Ông Nguyễn Văn Hiếu (Đến 1977),person
+person_1487,Ông Nguyễn Văn Hiếu (Sau Khi Thành Lập Bộ Mới Tiếp Tục Giữ Chức Bộ Trưởng),person
+person_1488,Ông Nguyễn Đình Tứ,person
+person_1489,Ông Dương Quốc Chính,person
+person_1490,Ông Hà Kế Tấn (Đến 5-1978),person
+person_1491,Ông Đặng Thí (Đến 2-1977),person
+person_1492,Ông Vũ Tuân (Từ 2-1977 Đến 1-1981),person
+person_1493,Ông Đặng Việt Châu (Từ 1-1981),person
+person_1494,Ông Trần Quang Huy (Đến 2-1980),person
+person_1495,Ông Trần Đại Nghĩa (Từ 4-1977),person
+person_1496,Ông Trần Quang Huy (Từ 2-1980),person
+person_1497,"Ông Huỳnh Tấn Phát (Phó Thủ Tướng Kiêm Chức Từ 1979, Sau Khi Thành Lập Ủy Ban)",person
+person_1498,Ông Tố Hữu (Đến 6-1986),person
+person_1499,Ông Huỳnh Tấn Phát (Đến 6-1982),person
+person_1500,Ông Võ Chí Công (Đến 4-1982 Và Từ 6-1986),person
+person_1501,Ông Nguyễn Lam (Đến 4-1982),person
+person_1502,Ông Trần Quỳnh (Đến 2-1987),person
+person_1503,Ông Võ Văn Kiệt (Từ 4-1982),person
+person_1504,Ông Đồng Sĩ Nguyên (Từ 4-1982),person
+person_1505,Ông Vũ Đình Liệu (Từ 4-1982 Đến 2-1987),person
+person_1506,Ông Trần Phương (Từ 4-1982 Đến 1-1986),person
+person_1507,Ông Nguyễn Cơ Thạch (Từ 2-1987),person
+person_1508,Ông Nguyễn Ngọc Trìu (Từ 2-1987),person
+person_1509,Ông Trần Đức Lương (Đến 2-1987),person
+person_1510,Ông Nguyễn Khánh (Từ 2-1987),person
+person_1511,Ông Đoàn Duy Thành (Từ 2-1987),person
+person_1512,Ông Nguyễn Văn Chính (Chín Cần) (Từ 2-1987),person
+person_1513,Ông Đặng Thí (Đến 4-1982),person
+person_1514,Ông Nguyễn Hữu Thụ (Từ 4-1982 Đến 5-1984),person
+person_1515,Ông Đoàn Trọng Truyến (Từ 5-1984 Đến 2-1987),person
+person_1516,"Ông Nguyễn Khánh (Phó Chủ Tịch Hđbt Kiêm Chức, Từ 2-1987)",person
+person_1517,Ông Phạm Hùng (Phó Chủ Tịch Hđbt Kiêm Chức Đến 2-1987),person
+person_1518,Ông Mai Chí Thọ (Từ 2-1987),person
+person_1519,Ông Văn Tiến Dũng (Đến 2-1987),person
+person_1520,Ông Lê Đức Anh (Từ 2-1987),person
+person_1521,Ông Võ Đông Giang (Từ 3-1983),person
+person_1522,Ông Nguyễn Lam (Phó Chủ Tịch Hđbt Kiêm Chức Đến 4-1982),person
+person_1523,Ông Võ Văn Kiệt (Phó Chủ Tịch Hđbt Kiêm Chức Từ 4-1982),person
+person_1524,Ông Vũ Đại,person
+person_1525,Ông Hoàng Quy (Từ 10-1983 Đến 2-1987),person
+person_1526,Ông Đậu Ngọc Xuân (Từ 2-1987),person
+person_1527,"Ông Huỳnh Tấn Phát (Phó Chủ Tịch Hđbt Kiêm Chức, Đến 6-1982)",person
+person_1528,Ông Đỗ Quốc Sam (Đến 10-1982),person
+person_1529,Ông Lê Khắc (Đến 4-1982),person
+person_1530,Ông Đặng Hữu (Từ 4-1982),person
+person_1531,Ông Trần Nam Trung (Đến 4-1982),person
+person_1532,Ông Bùi Quang Tạo (Từ 4-1982 Đến 2-1987),person
+person_1533,"Ông Nguyễn Văn Chính (Chín Cần) (Phó Chủ Tịch Hđbt Kiêm Chức, Từ 2-1987)",person
+person_1534,"Ông Hoàng Văn Kiểu (Đến 2-1987, Khi Giải Thể Uỷ Ban)",person
+person_1535,Ông Đoàn Trọng Truyến (Đến 5-1984),person
+person_1536,"Ông Phan Văn Tiệm (Từ 5-1984 Là Quyền Chủ Nhiệm, Từ 2-1987 Là Chủ Nhiệm)",person
+person_1537,Ông Hoàng Anh (Đến 4-1982),person
+person_1538,Ông Chu Tam Thức (Từ 4-1982 Đến 6-1986),person
+person_1539,Ông Vũ Tuân (Từ 6-1986 Đến 2-1987),person
+person_1540,Ông Hoàng Quy (Từ 2-1987),person
+person_1541,Ông Lữ Minh Châu (Từ 6-1986),person
+person_1542,Ông Nguyễn Duy Gia (Đến 6-1986),person
+person_1543,Ông Trần Sâm (Đến 4-1982),person
+person_1544,Ông Hoàng Đức Nghi (Từ 4-1982),person
+person_1545,"Ông Đào Thiện Thi (Đến 2-1987, Khi Sát Nhập Bộ Lao Động Và Bộ Thương Binh Xã Hội Thành Bộ Mới)",person
+person_1546,Ông Đồng Sĩ Nguyên (Đến 4-1982),person
+person_1547,Ông Phan Ngọc Tường (Từ 4-1982),person
+person_1548,Ông Đinh Đức Thiện (Đến 4-1982),person
+person_1549,"Ông Đồng Sĩ Nguyên (Phó Chủ Tịch Hđbt Kiêm Chức, Từ 4-1982 Đến 6-1986)",person
+person_1550,Ông Bùi Danh Lưu (Từ 6-1986),person
+person_1551,Ông Nguyễn Văn Kha (Đến 2-1987),person
+person_1552,Ông Phan Thanh Liêm (Từ 2-1987),person
+person_1553,Ông Nguyễn Trân (Đến 6-1986),person
+person_1554,Ông Phạm Khai (Từ 2-1987),person
+person_1555,Ông Trần Hữu Dư (Đến 4-1982),person
+person_1556,Ông Nguyễn Chí Vu (Từ 4-1982 Đến 2-1987),person
+person_1557,Ông Vũ Tuân (Từ 2-1987),person
+person_1558,Ông Vũ Tuân (Đến 6-1982),person
+person_1559,Ông Nguyễn Ngọc Trìu (Từ 2-1987 Là Phó Chủ Tịch Hđbt Kiêm Chức),person
+person_1560,Ông Phan Xuân Đợt,person
+person_1561,Ông Nguyễn Cảnh Dinh,person
+person_1562,Ông Nguyễn Tấn Trịnh,person
+person_1563,Ông Nguyễn Văn Chính (Chín Cần) (Từ 6-1984 Đến 2-1987),person
+person_1564,Ông La Lâm Gia (Đến 6-1984),person
+person_1565,Ông Trần Phương (Đến 4-1982),person
+person_1566,Ông Lê Đức Thịnh (Từ 4-1982 Đến 6-1986),person
+person_1567,Ông Hoàng Minh Thắng (Từ 6-1986),person
+person_1568,Ông Lê Khắc (Đến 6-1986),person
+person_1569,Ông Đoàn Duy Thành (Từ 6-1986),person
+person_1570,Ông Nguyễn Văn Hiếu (Đến 6-1986),person
+person_1571,Ông Trần Văn Phác (Đến 2-1987),person
+person_1572,Ông Vũ Văn Cẩn (Đến 4-1982),person
+person_1573,Ông Đặng Hồi Xuân (Từ 4-1982),person
+person_1574,Bà Nguyễn Thị Bình (Đến 2-1987),person
+person_1575,Ông Phạm Minh Hạc (Từ 2-1987),person
+person_1576,Ông Nguyễn Đình Tứ (Đến 2-1987),person
+person_1577,Ông Trần Hồng Quân (Từ 2-1987),person
+person_1578,Ông Dương Quốc Chính (Đến 4-1982),person
+person_1579,Ông Song Hào (Từ 4-1982 Đến 2-1987),person
+person_1580,Ông Phan Hiền,person
+person_1581,Ông Đặng Thí (Đến 4-1982),person
+person_1582,Ông Nguyễn Hữu Thụ (Từ 4-1982 Đến 5-1984),person
+person_1583,Ông Đoàn Trọng Truyến (Từ 5-1984 Đến 2-1987),person
+person_1584,Ông Hồ Ngọc Nhường (Từ 4-1987),person
+person_1585,"Ông Trần Hoàn (Từ 2-1987, Khi Giải Thể Ủy Ban Phát Thanh Và Truyền Hình, Thành Lập Bộ Thông Tin)",person
+person_1586,"Ông Nguyễn Công Tạn (Từ 2-1987, Khi Sáp Nhập 3 Bộ Nông Nghiệp, Công Nghiệp Thực Phẩm Và Lương Thực,",person
+person_1587,"Ông Vũ Ngọc Hải ( Từ 2-1987, Khi Sáp Nhập 2 Bộ: Bộ Điện Lực, Mỏ Than, Thành Lập Bộ Mới )",person
+person_1588,"Ông Nguyễn Kỳ Cẩm (Từ 2-1987, Khi Sáp Nhập 2 Bộ: Bộ Lao Động Và Bộ Thương Binh Xã Hội, Thành Lập Bộ",person
+person_1589,Ông Phạm Hùng (Đến 10-3-1988 Vì Từ Trần),person
+person_1590,Ông Võ Văn Kiệt (Từ 8-1991),person
+person_1591,Ông Đỗ Mười (Từ 6-1988 Đến 7-1991),person
+person_1592,Ông Võ Văn Kiệt (Từ 3-1988 Đến 6-1988),person
+person_1593,Ông Võ Văn Kiệt (Từ 6-1987 Đến 8-1991),person
+person_1594,Ông Phan Văn Khải (Từ 8-1991),person
+person_1595,Ông Nguyễn Cơ Thạch (Đến 8-1991),person
+person_1596,Ông Võ Nguyên Giáp (Đến 8-1991),person
+person_1597,Ông Nguyễn Khánh,person
+person_1598,Ông Trần Đức Lương,person
+person_1599,Ông Nguyễn Ngọc Trìu (Đến 5-1988),person
+person_1600,Ông Nguyễn Văn Chính (Chín Cần) (Đến 5-1988),person
+person_1601,Ông Đoàn Duy Thành (Đến 5-1988),person
+person_1602,Ông Đồng Sĩ Nguyên (Đến 8-1991),person
+person_1603,Ông Nguyễn Khánh (Phó Chủ Tịch Hđbt Kiêm Chức),person
+person_1604,Ông Lê Đức Anh (Đến 7-1991),person
+person_1605,Ông Đoàn Khuê (Từ 8-1991),person
+person_1606,Ông Nguyễn Cơ Thạch (Phó Chủ Tịch Hđbt Kiêm Chức Đến 7-1991),person
+person_1607,Ông Nguyễn Mạnh Cầm (Từ 8-1991),person
+person_1608,Ông Mai Chí Thọ (Đến 7-1991),person
+person_1609,Ông Bùi Thiện Ngộ (Từ 8-1991),person
+person_1610,Ông Võ Văn Kiệt (Phó Chủ Tịch Hđbt Kiêm Chức Đến 3-1988),person
+person_1611,Ông Đậu Ngọc Xuân (Từ 3-1988 Đến 3-1989),person
+person_1612,Ông Đỗ Quốc Sam (Từ 8-1991),person
+person_1613,Ông Phan Văn Khải (Từ 3-1989 Đến 8-1991),person
+person_1614,Ông Đậu Ngọc Xuân (Đến 3-1988),person
+person_1615,Ông Đậu Ngọc Xuân (Từ 3-1989 Đến 4-1989),person
+person_1616,Ông Đậu Ngọc Xuân (Từ 4-1989),person
+person_1617,"Ông Võ Đông Giang (Đến 3-1988, Khi Sáp Nhập Bộ Ngoại Thương Và Ủy Ban Kinh Tế Đối Ngoại)",person
+person_1618,Ông Đặng Thí (Đến 1-1989 Khi Giải Thể Ủy Ban),person
+person_1619,"Ông Đỗ Quốc Sam (Đến 3-1988, Khi Sáp Nhập Ủy Ban Với Bộ Xây Dựng)",person
+person_1620,Ông Đặng Hữu (Đến 3-1990 Đổi Là Chủ Nhiệm Ủy Ban Khoa Học),person
+person_1621,Ông Nguyễn Văn Chính (Chín Cần) (Phó Chủ Tịch Hđbt Kiêm Chức Đến 5-1988),person
+person_1622,Ông Huỳnh Công Sổ (Từ 5-1988 Đến 4-1989),person
+person_1623,Ông Nguyễn Kỳ Cẩm (Từ 4-1989),person
+person_1624,Ông Phan Văn Tiệm,person
+person_1625,Ông Hoàng Quy (Đến 5-1992),person
+person_1626,Ông Hồ Tế (Từ 5-1992),person
+person_1627,Ông Lữ Minh Châu (Đến 4-1989),person
+person_1628,Ông Cao Sỹ Kiêm (Từ 4-1989),person
+person_1629,Ông Hoàng Đức Nghi,person
+person_1630,Ông Nguyễn Kỳ Cẩm (Đến 4-1989),person
+person_1631,Ông Trần Đình Hoan (Từ 4-1989),person
+person_1632,Ông Phan Ngọc Tường,person
+person_1633,Ông Ngô Xuân Lộc (Từ 10-1989),person
+person_1634,Ông Bùi Danh Lưu,person
+person_1635,Ông Phan Thanh Liêm (Đến 2-1990),person
+person_1636,Ông Trần Lum (Từ 2-1990),person
+person_1637,Ông Hoàng Đức Nghi (Từ 3-1990),person
+person_1638,Ông Vũ Ngọc Hải,person
+person_1639,Ông Vũ Tuân (Đến 2-1990),person
+person_1640,Ông Đặng Vũ Chư (Từ 2-1990),person
+person_1641,Ông Nguyễn Công Tạn,person
+person_1642,Ông Hoàng Minh Thắng (Đến 3-1987),person
+person_1643,Ông Hoàng Minh Thắng (Từ 3-1987 Đến 8-1991),person
+person_1644,Ông Lê Văn Triết (Từ 8-1991),person
+person_1645,Ông Lê Văn Triết,person
+person_1646,Ông Đoàn Duy Thành (Đến 3-1988),person
+person_1647,Ông Đoàn Duy Thành,person
+person_1648,Ông Trần Văn Phác (Đến 3-1990),person
+person_1649,Ông Trần Hoàn (Đến 3-1990),person
+person_1650,Ông Trần Hoàn,person
+person_1651,Ông Đặng Hồi Xuân (Đến 11-1988),person
+person_1652,Ông Phạm Song (Từ 11-1988),person
+person_1653,Ông Phạm Minh Hạc (Đến 3-1990),person
+person_1654,Ông Trần Hồng Quân (Đến 3-1990),person
+person_1655,Ông Trần Hồng Quân,person
+person_1656,Ông Phan Hiền (Đến 5-1992),person
+person_1657,Ông Nguyễn Đình Lộc (Từ 5-1992),person
+person_1658,Ông Phan Ngọc Tường (Từ 11-1989),person
+person_1659,Ông Mai Kỷ (Từ 3-1992),person
+person_1660,Ông Võ Văn Kiệt,person
+person_1661,Ông Phan Văn Khải,person
+person_1662,Ông Đoàn Khuê,person
+person_1663,Ông Bùi Thiện Ngộ (Đến 11-1996),person
+person_1664,Ông Lê Minh Hương (Từ 11-1996),person
+person_1665,Ông Nguyễn Mạnh Cầm,person
+person_1666,Ông Nguyễn Đình Lộc,person
+person_1667,Ông Hồ Tế (Đến 11-1996),person
+person_1668,Nguyễn Sinh Hùng,person
+person_1669,Ông Đặng Hữu (Đến 11-1996),person
+person_1670,Phạm Gia Khiêm,person
+person_1671,Ông Trần Đình Hoan,person
+person_1672,Ông Bùi Danh Lưu (Đến 11-1996),person
+person_1673,Ông Lê Ngọc Hoàn (Từ 11-1996),person
+person_1674,Ông Ngô Xuân Lộc,person
+person_1675,Ông Đặng Vũ Chư (Đến 10-1995 Khi Thành Lập Bộ Công Nghiệp),person
+person_1676,Ông Trần Lum (Đến 10-1995 Khi Thành Lập Bộ Công Nghiệp),person
+person_1677,Ông Vũ Ngọc Hải (Đến 9-1992),person
+person_1678,Ông Thái Phụng Nê (Từ 10-1993 Đến 10-1995 Khi Thành Lập Bộ Công Nghiệp),person
+person_1679,Ông Đặng Vũ Chư (Từ 10-1995 Khi Sáp Nhập Các Bộ Thành Bộ Công Nghiệp),person
+person_1680,Ông Nguyễn Công Tạn (Đến 10-1995 Khi Thành Lập Bộ Nông Nghiệp Và Phát Triển Nông Thôn),person
+person_1681,Ông Nguyễn Quang Hà (Đến 10-1995 Khi Sáp Nhập Bộ),person
+person_1682,Ông Nguyễn Cảnh Dinh (Đến 10-1995 Khi Sáp Nhập Bộ),person
+person_1683,"Ông Nguyễn Công Tạn (Từ 10-1995 Khi Sáp Nhập 3 Bộ: Nông Nghiệp Và Công Nghiệp Thực Phẩm, Lâm Nghiệp,",person
+person_1684,Ông Nguyễn Cảnh Dinh (Từ 10-1995),person
+person_1685,Ông Nguyễn Tấn Trịnh (Đến 11-1996),person
+person_1686,Ông Tạ Quang Ngọc (Từ 11-1996),person
+person_1687,Ông Trần Hoàn (Đến 11-1996),person
+person_1688,Ông Nguyễn Khoa Điềm (Từ 11-1996),person
+person_1689,Ông Phạm Song (Đến 9-1992),person
+person_1690,Ông Nguyễn Trọng Nhân (Từ 9-1992 Đến 10-1995),person
+person_1691,Ông Đỗ Nguyên Phương (Từ 10-1995),person
+person_1692,Ông Đỗ Quốc Sam,person
+person_1693,Ông Trần Xuân Giá (Từ 11-1996),person
+person_1694,Ông Đậu Ngọc Xuân (Từ 10-1995 Đến 10-1996),person
+person_1695,Ông Đỗ Quốc Sam (Từ 11-1996),person
+person_1696,Ông Nguyễn Kỳ Cẩm (Đến 10-1995),person
+person_1697,Ông Tạ Hữu Thanh (Từ 10-1995),person
+person_1698,Ông Cao Sỹ Kiêm,person
+person_1699,Ông Phan Ngọc Tường (Đến 11-1996),person
+person_1700,Ông Đỗ Quang Trung (Từ 11-1996),person
+person_1701,Ông Lê Xuân Trinh (Đến 11-1996),person
+person_1702,Ông Lại Văn Cử (Từ 11-1996),person
+person_1703,Ông Mai Kỷ,person
+person_1704,Bà Trần Thị Thanh Thanh,person
+person_1705,Ông Phan Văn Tiệm (Đến 11-1996),person
+person_1706,Ông Hà Quang Dự,person
+person_1707,Ông Nguyễn Kỳ Cẩm (Từ 11-1995 Đến 11-1996),person
+person_1708,Ông Phan Văn Khải,person
+person_1709,Nguyễn Tấn Dũng,person
+person_1710,Ông Ngô Xuân Lộc (Đến 11-12-1999),person
+person_1711,Ông Phạm Văn Trà,person
+person_1712,Ông Lê Minh Hương,person
+person_1713,Ông Nguyễn Mạnh Cầm (Phó Thủ Tướng Kiêm Chức Đến 28-1-2000),person
+person_1714,Ông Nguyễn Dy Niên (Từ 28-1-2000),person
+person_1715,Ông Trần Xuân Giá,person
+person_1716,Ông Trương Đình Tuyển (Đến 28-1-2000),person
+person_1717,Ông Vũ Khoan (Từ 28-1-2000),person
+person_1718,Ông Lê Huy Ngọ,person
+person_1719,Ông Lê Ngọc Hoàn,person
+person_1720,Ông Nguyễn Mạnh Kiểm,person
+person_1721,Ông Đặng Vũ Chư,person
+person_1722,Ông Tạ Quang Ngọc,person
+person_1723,Ông Trần Đình Hoan (Đến 12-1997),person
+person_1724,Bà Nguyễn Thị Hằng (Từ 1-1998),person
+person_1725,Ông Chu Tuấn Nhạ,person
+person_1726,Ông Phạm Quang Nghị,person
+person_1727,Ông Nguyễn Minh Hiển,person
+person_1728,Ông Đỗ Nguyên Phương,person
+person_1729,Ông Đỗ Quang Trung,person
+person_1730,Ông Tạ Hữu Thanh,person
+person_1731,Ông Lại Văn Cử (Đến 3-1999),person
+person_1732,Ông Đoàn Mạnh Giao (Từ 3-1999),person
+person_1733,Ông Nguyễn Danh Thái,person
+person_1734,Bà Trần Thị Trung Chiến,person
+person_1735,Ông Lê Đức Thuý (Từ 11-12-1999),person
+person_1736,Ông Đỗ Quế Lượng (Đến 5-1998),person
+person_1737,Ông Phan Văn Khải (Đến 27-6-2006),person
+person_1738,Trương Vĩnh Trọng,person
+person_1739,Ông Vũ Khoan (Đến 6-2006),person
+person_1740,Ông Phạm Văn Trà (Đến 6-2006),person
+person_1741,Đại Tướng Phùng Quang Thanh,person
+person_1742,Lê Hồng Anh,person
+person_1743,Ông Nguyễn Dy Niên (Đến 6-2006),person
+person_1744,Ông Uông Chu Lưu,person
+person_1745,Võ Hồng Phúc,person
+person_1746,Vũ Văn Ninh,person
+person_1747,Ông Trương Đình Tuyển,person
+person_1748,Ông Lê Huy Ngọ (Đến 6-2004),person
+person_1749,Cao Đức Phát,person
+person_1750,Ông Đào Đình Bình (Đến 6-2006),person
+person_1751,Hồ Nghĩa Dũng,person
+person_1752,Nguyễn Hồng Quân,person
+person_1753,Hoàng Trung Hải,person
+person_1754,Bà Nguyễn Thị Hằng,person
+person_1755,Hoàng Văn Phong,person
+person_1756,Ông Mai Ái Trực,person
+person_1757,Ông Phạm Quang Nghị (Đến 6-2006),person
+person_1758,Lê Doãn Hợp,person
+person_1759,Ông Nguyễn Minh Hiển (Đến 6-2006),person
+person_1760,Nguyễn Thiện Nhân,person
+person_1761,Ông Đỗ Trung Tá,person
+person_1762,Ông Ksor Phước,person
+person_1763,Ông Quách Lê Thanh (Đến 6-2006),person
+person_1764,Trần Văn Truyền,person
+person_1765,Ông Đoàn Mạnh Giao,person
+person_1766,Bà Lê Thị Thu,person
+person_1767,Ông Lê Đức Thuý,person
+person_1768,Đại Tướng Phùng Quang Thanh,person
+person_1769,Hà Hùng Cường,person
+person_1770,Vũ Huy Hoàng,person
+person_1771,Nguyễn Thị Kim Ngân,person
+person_1772,Phạm Vũ Luận,person
+person_1773,Trần Văn Tuấn,person
+person_1774,Nguyễn Quốc Triệu,person
+person_1775,Hoàng Tuấn Anh,person
+person_1776,Phạm Khôi Nguyên,person
+person_1777,Nguyễn Xuân Phúc,person
+person_1778,Nguyễn Văn Giàu,person
+person_1779,Giàng Seo Phử,person
+person_1780,Trương Hòa Bình,person
+person_1781,Phạm Bình Minh,person
+person_1782,Vương Đình Huệ,person
+person_1783,Vũ Đức Đam,person
+person_1784,Trịnh Đình Dũng,person
+person_1785,Đại Tướng Phùng Quang Thanh,person
+person_1786,Ngô Xuân Lịch,person
+person_1787,Trần Đại Quang,person
+person_1788,Tô Lâm,person
+person_1789,Lê Thành Long,person
+person_1790,Đinh Tiến Dũng,person
+person_1791,Trần Tuấn Anh,person
+person_1792,Phạm Thị Hải Chuyền,person
+person_1793,Đào Ngọc Dung,person
+person_1794,Đinh La Thăng,person
+person_1795,Trương Quang Nghĩa,person
+person_1796,Phạm Hồng Hà,person
+person_1797,Nguyễn Bắc Son,person
+person_1798,Trương Minh Tuấn,person
+person_1799,Phùng Xuân Nhạ,person
+person_1800,Bùi Quang Vinh,person
+person_1801,Nguyễn Chí Dũng,person
+person_1802,Nguyễn Thái Bình,person
+person_1803,Lê Vĩnh Tân,person
+person_1804,Nguyễn Thị Kim Tiến,person
+person_1805,Nguyễn Quân,person
+person_1806,Chu Ngọc Anh,person
+person_1807,Nguyễn Ngọc Thiện,person
+person_1808,Nguyễn Minh Quang,person
+person_1809,Trần Hồng Hà,person
+person_1810,Nguyễn Văn Nên,person
+person_1811,Mai Tiến Dũng,person
+person_1812,Huỳnh Phong Tranh,person
+person_1813,Phan Văn Sáu,person
+person_1814,Nguyễn Văn Bình,person
+person_1815,Lê Minh Hưng,person
+person_1816,Đỗ Văn Chiến,person
+person_1817,Phạm Minh Chính,person
+person_1818,Lê Minh Khái,person
+person_1819,Lê Văn Thành,person
+person_1820,Phan Văn Giang,person
+person_1821,Bùi Thanh Sơn,person
+person_1822,Hồ Đức Phớc,person
+person_1823,Nguyễn Hồng Diên,person
+person_1824,Nguyễn Văn Thể,person
+person_1825,Nguyễn Thanh Nghị,person
+person_1826,Nguyễn Mạnh Hùng,person
+person_1827,Nguyễn Kim Sơn,person
+person_1828,Nguyễn Xuân Cường,person
+person_1829,Lê Minh Hoan,person
+person_1830,Phạm Thị Thanh Trà,person
+person_1831,Nguyễn Thanh Long,person
+person_1832,Huỳnh Thành Đạt,person
+person_1833,Nguyễn Văn Hùng,person
+person_1834,Trần Văn Sơn,person
+person_1835,Đoàn Hồng Phong,person
+person_1836,Nguyễn Thị Hồng,person
+person_1837,Hầu A Lềnh,person
+person_1838,Nguyễn Hòa Bình,person
+person_1839,Trần Lưu Quang,person
+person_1840,Lê Thành Long,person
+person_1841,Hồ Đức Phớc,person
+person_1842,Mai Văn Chính,person
+person_1843,Lương Tam Quang,person
+person_1844,Nguyễn Hải Ninh,person
+person_1845,Nguyễn Văn Thắng,person
+person_1846,Trần Hồng Minh,person
+person_1847,Đào Hồng Lan,person
+person_1848,Đỗ Đức Duy,person
+person_1849,Đặng Quốc Khánh,person
+person_1850,Hồ Đức Phớc,person
