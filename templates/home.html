@@ -7,13 +7,13 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            background-color: #f4f4f4;
+            background-color:  #003366;
         }
         h1 {
-            color: #333;
+            color: #fff;
         }
         p {
-            color: #666;
+            color: #fff;
         }
         .button {
             display: inline-block;
@@ -21,7 +21,7 @@
             margin-top: 20px;
             font-size: 16px;
             color: #fff;
-            background-color: #007bff;
+            background-color:  #570808;
             border: none;
             border-radius: 5px;
             text-decoration: none;
@@ -36,9 +36,8 @@
     <p>This is the homepage of the project.</p>
     <img src="{% static 'images/my_photo.jpg' %}" alt="My Photo">
     <div>
-        <a href="{% url 'add_person' %}" class="button">Add Person</a>
+
         <a href="{% url 'admin:index' %}" class="button">Admin Page</a>
-        <a href="{% url 'add_organization_unit' %}" class="button">Add Organization Unit</a>
         <a href="http://vietnamwatch.net" class="button">Go to Project Website</a>
         <a href="{% url 'organization_chart' %}" class="button">View Organization Tree</a>
 
