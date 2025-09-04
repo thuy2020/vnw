@@ -34,8 +34,9 @@ def import_organizations_from_excel(filepath):
         remaining = []
         for row in pending:
             name = row.get("name")
-            if not name:
+            if pd.isna(name):
                 continue
+            name = str(name).strip()
 
             parent = None
             parent_name_raw = row.get("parent_name")
@@ -54,12 +55,17 @@ def import_organizations_from_excel(filepath):
             normalized_name = normalize_vietnamese_name(name)
             org = existing_orgs.get(normalized_name)
 
+            # Clean level field
+            level = row.get("level")
+            if pd.isna(level) or not str(level).strip():
+                level = None
+
             org = get_or_create_existing_organization(
                 name=name.strip(),
                 abbreviation=row.get("abbreviation"),
                 name_en=row.get("name_en"),
-                level=row.get("level"),
-                org_type=org_type,
+                level=level,
+                type=org_type,
                 parent=parent,
                 function=row.get("function"),
                 start_date=parse_date(row.get("start_date")),

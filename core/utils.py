@@ -7,6 +7,6 @@ def get_or_create_existing_organization(name, **defaults):
         return None
 
     normalized_name = normalize_vietnamese_name(name)
-    existing = Organization.objects.filter(normalized_name_ascii__iexact=normalized_name).first()
+    existing = Organization.objects.filter(name_ascii__iexact=normalized_name).first()
 
     return existing or Organization.objects.create(name=name, name_ascii=normalized_name, **defaults)

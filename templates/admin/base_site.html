@@ -1,12 +1,22 @@
 {% extends "admin/base.html" %}
-
+{% load i18n %}
 {% block branding %}
-  <h1 id="site-name">
-    <a href="/admin/">
-      <img src="/static/img/logo.png" style="height:40px; vertical-align:middle; margin-right:10px;">
-      <span>Vietnam Watch Admin</span>
-    </a>
-  </h1>
+<h1 id="site-name"><a href="{% url 'admin:index' %}">Vietnam Watch Admin</a></h1>
 {% endblock %}
 
-{% block title %}Vietnam Watch Admin{% endblock %}
+{% block usertools %}
+{% if has_permission %}
+    <div id="user-tools">
+        {% block welcome-msg %}
+        {% trans 'Welcome,' %} <strong>{{ user.get_username }}</strong>.
+        {% endblock %}
+        {% block userlinks %}
+        {% if site_url %}
+            <a href="{{ site_url }}" target="_blank">{% trans 'HOME' %}</a> /
+        {% endif %}
+        <a href="{% url 'admin:password_change' %}">{% trans 'Change password' %}</a> /
+        <a href="{% url 'admin:logout' %}">{% trans 'Log out' %}</a>
+        {% endblock %}
+    </div>
+{% endif %}
+{% endblock %}

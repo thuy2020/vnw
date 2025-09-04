@@ -6,6 +6,7 @@ import pandas as pd
 from django.contrib import messages
 from django.core.files.storage import FileSystemStorage
 from core.utils import get_or_create_existing_organization
+import json
 
 def organization_list(request):
     units = Organization.objects.all().order_by('type','name')
@@ -87,28 +88,34 @@ def view_relationships(request, unit_id):
         'children': children,
         'equivalents': equivalents
     })
+
 def organization_chart(request):
-
     orgs = Organization.objects.select_related('parent', 'type').all()
-    chart_data = []
 
-    for org in orgs:
-        level = org.level or ''
-        if level == "central":
-            color = 'red'
-        elif level == "provincial":
-            color = 'blue'
-        else:
-            color = 'gray'
+    def build_tree(org, is_root=False):
+        children = [build_tree(child) for child in org.children.all()]
+        node = {
+            'text': {'name': org.name},
+            'HTMLclass': 'org-node',
+            'link': {'href': f"/admin/organizations/organization/{org.id}/change/"}
+        }
+        if children:
+            node['children'] = children
+            if not is_root:
+                node['collapsed'] = True
+        return node
 
-        chart_data.append({
-            'name': org.name,
-            'parent': org.parent.name if org.parent else '',
-            'type': org.type.name if org.type else '',
-            'level': org.level if org.level else '',
-            'id': org.id,
-        })
+    top_level_orgs = orgs.filter(parent__isnull=True)
+    top_level_nodes = [build_tree(org, is_root=True) for org in top_level_orgs]
+
+    chart_data = {
+        'text': {'name': 'All Organizations'},
+        'HTMLclass': 'root-node',
+        'children': top_level_nodes,
+        'collapsed': False
+    }
 
     return render(request, 'organizations/org_chart.html', {
-        'chart_data': chart_data
+        'chart_data_json': json.dumps(chart_data)
+
     })

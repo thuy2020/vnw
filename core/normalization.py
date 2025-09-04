@@ -9,7 +9,7 @@ def normalize_vietnamese_name(name: str) -> str:
     - Removing excessive whitespace
     - Capitalizing each word (title case)
     """
-    if not name:
+    if not isinstance(name, str) or not name.strip():
         return ""
 
     # Remove leading/trailing and normalize internal spaces

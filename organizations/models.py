@@ -74,7 +74,7 @@ class Organization(BaseEntity):
 
     description = models.TextField(blank=True, null=True)
     normalized_name = models.CharField(max_length=255, editable=False, db_index=True, unique=True, null=True, blank=True)
-
+    name_ascii = models.CharField(max_length=255, blank=True, null=True)
     class Meta:
         verbose_name = "Organization"
         verbose_name_plural = "Organizations"
