@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import PersonPosition, Person, Cabinet
+from .models import PersonPosition, Person, Cabinet, PersonRelationship
 from django.urls import reverse
 from django.utils.html import format_html
 import unicodedata
@@ -12,6 +12,21 @@ class PersonPositionInline(admin.TabularInline):
     max_num = None
     autocomplete_fields = ["organization"]
 
+class PersonRelationshipInline(admin.TabularInline):
+    model = PersonRelationship
+    fk_name = 'from_person'
+    autocomplete_fields = ['to_person']
+    extra = 1
+
+class PersonRelationshipReverseInline(admin.TabularInline):
+    model = PersonRelationship
+    fk_name = 'to_person'
+    autocomplete_fields = ['from_person']
+    extra = 0
+    verbose_name = "Related From"
+    verbose_name_plural = "Related From"
+    can_delete = False
+    readonly_fields = ['from_person', 'relationship_type']
 
 @admin.register(Person)
 class PersonAdmin(admin.ModelAdmin):
@@ -35,7 +50,7 @@ class PersonAdmin(admin.ModelAdmin):
     fields = ("name", "hometown", "hometown_province", "date_of_birth", "date_of_death", "gender",
               "foreign_language", "political_theory", "education",
               "position_process", "cabinets")
-    inlines = [PersonPositionInline]
+    inlines = [PersonRelationshipInline, PersonRelationshipReverseInline, PersonPositionInline]
 
     def get_search_results(self, request, queryset, search_term):
         normalized_term = unicodedata.normalize('NFKD', search_term).encode('ASCII', 'ignore').decode('utf-8').lower()

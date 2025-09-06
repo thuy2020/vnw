@@ -83,3 +83,27 @@ class PersonPosition(models.Model):
     class Meta:
         verbose_name = "Person Position"
         verbose_name_plural = "Person Positions"
+
+
+# Person-to-person relationship model
+class PersonRelationship(models.Model):
+    RELATIONSHIP_TYPES = [
+        ('parent', 'Parent'),
+        ('child', 'Child'),
+        ('spouse', 'Spouse'),
+        ('mentor', 'Mentor'),
+        ('mentee', 'Mentee'),
+        ('sibling', 'Sibling'),
+    ]
+
+    from_person = models.ForeignKey(Person, on_delete=models.CASCADE, related_name='relationships_from')
+    to_person = models.ForeignKey(Person, on_delete=models.CASCADE, related_name='relationships_to')
+    relationship_type = models.CharField(max_length=20, choices=RELATIONSHIP_TYPES)
+
+    class Meta:
+        unique_together = ('from_person', 'to_person', 'relationship_type')
+        verbose_name = "Person Relationship"
+        verbose_name_plural = "Person Relationships"
+
+    def __str__(self):
+        return f"{self.from_person} - {self.relationship_type} → {self.to_person}"
