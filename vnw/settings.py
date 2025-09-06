@@ -12,7 +12,8 @@ SECRET_KEY = "django-insecure-l^*om3e76$p$#1m=!=$!bf1b0r_3v)xc)#@!y9zg_+%p^%66wy
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'vietnamwatch-2d7dc91a6fdb.herokuapp.com']
+ALLOWED_HOSTS = ['*', '127.0.0.1', 'localhost', 'vietnamwatch-2d7dc91a6fdb.herokuapp.com',
+                 'vnw-1.onrender.com',]
 
 
 # Application definition
