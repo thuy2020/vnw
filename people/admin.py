@@ -1,9 +1,13 @@
 from django.contrib import admin
+from django.http import HttpResponse
+
 from .models import PersonPosition, Person, Cabinet, PersonRelationship
 from django.urls import reverse
 from django.utils.html import format_html
 import unicodedata
 from django.db.models.functions import Lower
+from django.core.serializers import serialize
+import json
 
 
 class PersonPositionInline(admin.TabularInline):
@@ -64,6 +68,25 @@ class PersonAdmin(admin.ModelAdmin):
                     matching_ids.add(obj.id)
 
         return queryset.filter(id__in=matching_ids), False
+
+    actions = ['export_selected_people']
+    def export_selected_people(self, request, queryset):
+        data = []
+        for person in queryset:
+            person_dict = {
+                "person": json.loads(serialize('json', [person]))[0],
+                "hometown_province": person.hometown_province,
+                "positions": json.loads(serialize('json', person.positions.all())),
+                "relationships_from": json.loads(serialize('json', person.relationships_from.all())),
+                "relationships_to": json.loads(serialize('json', person.relationships_to.all())),
+                #"cabinets": json.loads(serialize('json', person.cabinets.all())),
+            }
+            data.append(person_dict)
+        response = HttpResponse(json.dumps(data, indent=2), content_type="application/json")
+        response['Content-Disposition'] = 'attachment; filename=selected_people.json'
+        return response
+
+    export_selected_people.short_description = "Export selected people"
 
 class CabinetMemberInline(admin.TabularInline):
     model = Person.cabinets.through
